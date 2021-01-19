@@ -22,8 +22,8 @@ title: Content Assist
 email: your-email@example.com
 description: >- # this means to ignore newlines until "baseurl:"
   A sidekick for creating great content.
-baseurl: "/posty" # the subpath of your site, e.g. /blog
-url: "http://davidpots.com" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "http://posty.siteleaf.net/" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb
 github_username:  jekyll
 
