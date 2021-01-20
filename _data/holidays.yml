@@ -1,0 +1,35 @@
+- date: Jan 24
+  day: Sunday
+  name: Belly Laugh Day
+  description:
+  url:
+
+- date: Feb 2
+  day: Tuesday
+  name: Groundhog Day
+  description:
+  url:
+
+- date: Feb 12
+  day: Friday
+  name: Lincoln's Birthday
+  description:
+  url:
+
+- date: Feb 14
+  day: Sunday
+  name: Valentine's Day
+  description:
+  url:
+
+- date: Feb 15
+  day: Monday
+  name: President's Day
+  description: also Washington's Birthday
+  url:
+
+- date: Feb 16
+  day: Tuesday
+  name: Mardi Gras Carnival
+  description: New Orleans
+  url:
