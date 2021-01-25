@@ -1,8 +1,7 @@
 ---
+permalink: "/2"
 layout: home
-permalink: /2
 ---
-
 
 <h2>Upcoming topics</h2>
 
