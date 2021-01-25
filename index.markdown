@@ -2,7 +2,6 @@
 layout: home_v1
 ---
 
-
 <h2>Trending this week</h2>
 
 <h3>Hashtags</h3>
