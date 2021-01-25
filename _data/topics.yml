@@ -1,12 +1,58 @@
-- name: Dolly Parton
-  description: January 19th - Dolly Parton celebrates her 75th birthday
+- name: The Super Bowl
+  description: This year marks the 55th Super Bowl in history. It will be held at Raymond James Stadium in Tampa, Florida. The halftime show is will feature The Weeknd.
+  emoji: 🏈
+  hashtags: [nfl, playoffs, nflplayoffs, football, sundayfootball, SBLV, SB55]
+  day: Sunday
+  date: February 7
+
+- name: National Pizza Day
+  description: National Pizza Day celebrates one of America’s all-time favorite foods. Whether thin crust, Chicago-style, deep dish or anything in between, pizza is an American favorite.
+  emoji: 🍕
+  hashtags: [NationalPizzaDay]
+  day: Tuesday
+  date: February 9
+
+- name: Chinese New Year
+  description: Chinese New Year, also referred to as the Lunar New Year or Spring Festival, celebrates the beginning of a new year on the traditional Chinese calendar. It's one of many Lunar New Years in Asia, but it's the most widely celebrated in other parts of the world, like the U.S.
+  emoji: 🎇
+  hashtags: [chinesenewyear, lunarnewyear, HappyChineseNewYear, yearofthesheep]
+  day: Friday
+  date: February 12
+
+- name: Valentine’s Day
+  description: Valentine's Day is a holiday dedicated to celebrating love and romance. Many people use the day or surrounding weekends to go on a date with a significant other and exchange gifts like flowers, chocolate, or jewelry.
+  emoji: 💘
+  hashtags: [LoveIsAllYouNeed, BeMine, ValentinesDay, HugsAndKisses]
+  day: Friday
+  date: February 14
+
+- name: Random Acts Of Kindness Day
+  description: We are upholding this annual tradition of celebrating kindness because we know everyone can use more kindness in their lives.
+  emoji: 🤗
+  hashtags: [RandomActsofKindnessDay, ExploreTheGood, MakeKindnessTheNorm]
+  day: Wednesday
+  date: February 17
+
+- name: Love Your Pet Day
+  description: This holiday focuses on giving extra attention to our pets.  The day encourages pampering our pets and focusing on the special relationship pets hold in our lives.
+  emoji: 🐶
+  hashtags: [LoveYourPetDay]
+  day: Saturday
+  date: February 20
+
+- name: Golden Globe Awards
+  description: The 78th Golden Globe Awards will honor the best in film and American television of 2020, as chosen by the Hollywood Foreign Press Association.
+  emoji: 🏆
+  hashtags: [GoldenGlobes]
+  day: Sunday
+  date: February 28
 
 
-- name: National Hot Sauce Day
-  description: January 22nd - good to promote for mexican restaurants!
 
-- name: National Pie Day
-  description: January 23rd - good to promote for bakeries and diners
-
-- name: NFL Playoffs
-  description: It's down to 4 teams. Buffalo Bills vs. Kansas City Chiefs, and Tampa Bay Buccaneers vs. Green Bay Packers. The winner of these two games (Sunday, January 24) will meet in the Super Bowl (Sunday, February 7).
+# - name: _____
+#   description: _____
+#   emoji: _____
+#   hashtags: [_____]
+#   day: _____
+#   date: _____
+#

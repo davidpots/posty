@@ -13,9 +13,9 @@
 /*-- Type --*/
 
 body {
-  font-family: 'Lato', sans-serif;
-  font-size: 16px;
-  line-height: 1.5;
+  font-family: 'Courier Prime', monospace;
+  font-size: 18px;
+  line-height: 140%;
 }
 
 a, a:visited {
@@ -41,8 +41,9 @@ a, a:visited {
 }
 
 h2 {
-  font-weight: 900;
-  font-size: 64px;
+  font-weight: bold;
+  border-bottom: 4px solid black;
+  padding-bottom: 12px;
   margin-bottom: 24px;
   margin-top: 96px;
 }
@@ -91,8 +92,7 @@ td {
     float: left;
     width: 298px;
     margin-right: 21px;
-    margin-bottom: 64px;
-    min-height: 420px;
+    margin-bottom: 48px;
 }
 
 .post-gallery li img {
@@ -102,39 +102,4 @@ td {
 .post-gallery .caption {
   font-size: 14px;
   line-height: 125%;
-}
-
-/* V2 Topic Design */
-
-
-
-.topic_emoji {
-  font-size: 48px;
-  position: absolute;
-  left: -2px;
-}
-
-.topic_list li {
-  padding-left: 68px;
-  position: relative;
-  margin-bottom: 32px;
-  max-width: 640px;
-}
-
-.topic_date {
-  margin-bottom: 5px;
-}
-.topic_date,
-.topic_hashtags {
-  color: #999;
-}
-
-.topic_name {
-  font-weight: 900;
-  font-size: 21px;
-}
-
-.topic_desc {
-  margin-top: 5px;
-  margin-bottom: 5px;
 }
