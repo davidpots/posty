@@ -23,9 +23,11 @@ layout: home
 {% for post in site.data.posts %}
   <li>
     <img src="{{post.media}}" />
+    <div>
     <p class="gallery_customer"><a target="_blank" href="https://passport.mainstreethub.com/location/{{post.location}}">Customer {{post.location}}</a></p>
     <p class="caption">{{post.caption}}</p>
     <p class="post_type">{{post.vertical}} • {{post.category}}</p>
+    </div>
   </li>
 {% endfor %}
 </ul>

@@ -32,62 +32,26 @@
 #   caption: "There's a beautiful \"after\" photo coming soon."
 #   customer:
 #   url:
-- location: 61146
-  media: https://media.mainstreethub.com/media/a73e74d9-e3b3-4094-8fa4-1759376c0a3a
-  caption: Experienced hands lead to excellent results.
-  vertical: Automotive
-  category: About
-- location: 61146
-  media: https://media.mainstreethub.com/media/f699b979-6529-46f1-8c73-07af115d71f6
-  caption: 'There''s a beautiful "after" photo coming soon. '
-  vertical: Automotive
-  category: About
-- location: 79575
-  media: https://media.mainstreethub.com/media/c68091f7-2dd2-441c-8718-b9e61d6cc3fe
-  caption: The best thing About choosing local is knowing you're getting service from
-    a neighbor who cares.
-  vertical: Automotive
-  category: About
-- location: 75601
-  media: https://media.mainstreethub.com/media/75b844ec-cdd5-4077-aa25-728e34cdbca3
-  caption: 'The best investment you can make is taking care of your daily-driving
-    vehicle. Give us a call at (602) 214-8900, and we''ll help bring it back to life. '
-  vertical: Automotive
+- location: 77841
+  media: https://media.mainstreethub.com/media/4b1b2bc3-53ef-4c73-aba2-62cd9d9db629
+  caption: Looking for an obedient dog? While training depends on the human, we can find you a breed that fits your needs, lifestyle, and temperament desires.
+  vertical: Pets
+  category: Participation
+- location: 47188
+  media: https://media.mainstreethub.com/media/4afd112f-f2d8-4941-8d9f-887046389627
+  caption: What do you love most about this historic building? For us, it's the rich history and charm!
+  vertical: Hotel
+  category: Participation
+- location: 60443
+  media: https://media.mainstreethub.com/media/5daa594d-53ec-4c5a-9a7f-16b97c9fad4f
+  caption: 'We service customers all over the Cincinnati area, so we''re curious: If you''ve used our inspection services, how did you find us? Share your story in the comments below!'
+  vertical: Home Services
+  category: Participation
+- location: 50914
+  media: https://media.mainstreethub.com/media/b980cd59-a213-4f7c-9c3b-915df3d4c2e7
+  caption: 'You may think having the perfect kitchen is a far-fetched dream, but our affordable, expert work will make it a reality. Visit our website for more details: http://hammellhomes.com. #hammellhomes #remodelingpros #evanston #construction #remodeling'
+  vertical: Home Services
   category: Product or Service
-- location: 79575
-  media: https://media.mainstreethub.com/media/cf73c10b-7cd8-4608-9db6-b36d855595e7
-  caption: 'The best investment you can make is taking care of your daily-driving
-    vehicle. Give us a call at (602) 214-8900, and we''ll help bring it back to life. '
-  vertical: Automotive
-  category: About
-- location: 61146
-  media: https://media.mainstreethub.com/media/a73e74d9-e3b3-4094-8fa4-1759376c0a3a
-  caption: Experienced hands lead to excellent results.
-  vertical: Automotive
-  category: About
-- location: 61146
-  media: https://media.mainstreethub.com/media/f699b979-6529-46f1-8c73-07af115d71f6
-  caption: 'There''s a beautiful "after" photo coming soon. '
-  vertical: Automotive
-  category: About
-- location: 79575
-  media: https://media.mainstreethub.com/media/c68091f7-2dd2-441c-8718-b9e61d6cc3fe
-  caption: The best thing About choosing local is knowing you're getting service from
-    a neighbor who cares.
-  vertical: Automotive
-  category: About
-- location: 75601
-  media: https://media.mainstreethub.com/media/75b844ec-cdd5-4077-aa25-728e34cdbca3
-  caption: 'The best investment you can make is taking care of your daily-driving
-    vehicle. Give us a call at (602) 214-8900, and we''ll help bring it back to life. '
-  vertical: Automotive
-  category: Product or Service
-- location: 79575
-  media: https://media.mainstreethub.com/media/cf73c10b-7cd8-4608-9db6-b36d855595e7
-  caption: 'The best investment you can make is taking care of your daily-driving
-    vehicle. Give us a call at (602) 214-8900, and we''ll help bring it back to life. '
-  vertical: Automotive
-  category: About
 - location: 61146
   media: https://media.mainstreethub.com/media/a73e74d9-e3b3-4094-8fa4-1759376c0a3a
   caption: Experienced hands lead to excellent results.
