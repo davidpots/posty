@@ -3,13 +3,6 @@ permalink: "/posts"
 layout: home
 ---
 
-
-
-
-
-
-
-
 <h1><a href="/2">« back to home</a></h1>
 
 <h3>Browse by vertical:</h3>
