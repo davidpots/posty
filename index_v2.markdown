@@ -20,7 +20,7 @@ layout: home
 <h2>Post Inspiration</h2>
 
 <ul class="post-gallery-linear">
-{% for post in site.data.posts limit:100 %}
+{% for post in site.data.posts limit:8 %}
   <li>
     <img src="{{post.media}}" />
     <div>

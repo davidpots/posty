@@ -1,7 +1,53 @@
 ---
----
-
----
+- location: 47188
+  media: https://media.mainstreethub.com/media/4afd112f-f2d8-4941-8d9f-887046389627
+  caption: What do you love most About this historic building? For us, it's the rich
+    history and charm!
+  vertical: Hotel
+  category: Participation
+- location: 73168
+  media: https://media.mainstreethub.com/media/e1c3f7d5-5e3b-4465-86e5-ed12fe61ecfb
+  caption: 'Want to hear a heartwarming story to start your week off right? The vets
+    wanted to put Jennie down immediately because of advanced cancer. With almost
+    no hope, Jennie''s owners turned to Vibrant Pets for help. In less than three
+    days Jennie''s health turned around, and she was able to overcome the ravages
+    of cancer and continue to live a happy and active life. Vibrant Pets does not
+    cure cancer but instead helps boost the pet''s immune system, so the pet can overcome
+    the effects of cancer. See the beautiful video About Jenni by clicking the link
+    below. Link: thttps://youtu.be/QLMKThmMycg'
+  vertical: Pets
+  category: Product or Service
+- location: 55726
+  media: https://media.mainstreethub.com/media/71a5b6a0-3918-4e4f-b1a4-2d90e6dbcb5d
+  caption: No matter what your go-to brew is, we've got your fill here at Mully's
+    Irish!
+  vertical: Nightlife
+  category: Product or Service
+- location: 79204
+  media: https://media.mainstreethub.com/media/bc975675-e2a8-4e51-ba84-7eeef68e4e12
+  caption: Take a look at the Naples area market from December 2020! Ready to start
+    a real estate journey of your own? Give me a call at (239) 776-5616.
+  vertical: Professional Services
+  category: Educational
+- location: 77841
+  media: https://media.mainstreethub.com/media/3306ac50-d66f-4080-bd4b-14e4da7f88ce
+  caption: We're the folks who keep yards poop-free daily! Should we add your home
+    to our daily route around Charlotte?
+  vertical: Pets
+  category: Participation
+- location: 59455
+  media: https://media.mainstreethub.com/media/527e1f81-3b04-4e2a-bdf7-f8c71b485fe5
+  caption: 'Our friendly and knowledgeable team are ready to welcome you to our 20,000
+    square foot showroom with a wide range of new and pre-owned inventory. #oystercoveboatworks
+    #yourdealer #weworkforyou #customerserviceisnumberone #getonthewater #lifeisshortbuytheboat
+    #goboating'
+  vertical: Other
+  category: Product or Service
+- location: 54576
+  media: https://media.mainstreethub.com/media/db80fe01-f9a5-4322-a62e-6770e8074485
+  caption: 'Our products will help you keep that post-appointment glow going. '
+  vertical: Spas and Salons
+  category: Product or Service
 - location: 61146
   media: https://media.mainstreethub.com/media/a73e74d9-e3b3-4094-8fa4-1759376c0a3a
   caption: Experienced hands lead to excellent results.
@@ -223,11 +269,6 @@
 - location: 60371
   media: https://media.mainstreethub.com/media/e97904bd-4c6d-4f5a-80e2-86a2e6c7aa2c
   caption: 'The right tools make all the difference. '
-  vertical: Spas and Salons
-  category: Product or Service
-- location: 54576
-  media: https://media.mainstreethub.com/media/db80fe01-f9a5-4322-a62e-6770e8074485
-  caption: 'Our products will help you keep that post-appointment glow going. '
   vertical: Spas and Salons
   category: Product or Service
 - location: 76068
@@ -418,12 +459,6 @@
     find you a breed that fits your needs, lifestyle, and temperament desires.
   vertical: Pets
   category: Participation
-- location: 77841
-  media: https://media.mainstreethub.com/media/3306ac50-d66f-4080-bd4b-14e4da7f88ce
-  caption: We're the folks who keep yards poop-free daily! Should we add your home
-    to our daily route around Charlotte?
-  vertical: Pets
-  category: Participation
 - location: 80212
   media: https://media.mainstreethub.com/media/c7b14e78-7917-4eae-8d58-0e91db22a484
   caption: 'Want to hear a heartwarming story to start your week off right? The vets
@@ -438,6 +473,42 @@
   category: Product or Service
 - location: 73168
   media: https://media.mainstreethub.com/media/e1c3f7d5-5e3b-4465-86e5-ed12fe61ecfb
+  caption: 'Want to hear a heartwarming story to start your week off right? The vets
+    wanted to put Jennie down immediately because of advanced cancer. With almost
+    no hope, Jennie''s owners turned to Vibrant Pets for help. In less than three
+    days Jennie''s health turned around, and she was able to overcome the ravages
+    of cancer and continue to live a happy and active life. Vibrant Pets does not
+    cure cancer but instead helps boost the pet''s immune system, so the pet can overcome
+    the effects of cancer. See the beautiful video About Jenni by clicking the link
+    below. Link: thttps://youtu.be/QLMKThmMycg'
+  vertical: Pets
+  category: Product or Service
+- location: 28791
+  media: https://media.mainstreethub.com/media/752ced64-f426-4701-8368-d91432fa3ff1
+  caption: Looking for an obedient dog? While training depends on the human, we can
+    find you a breed that fits your needs, lifestyle, and temperament desires.
+  vertical: Pets
+  category: Product or Service
+- location: 28791
+  media: https://media.mainstreethub.com/media/752ced64-f426-4701-8368-d91432fa3ff1
+  caption: Looking for an obedient dog? While training depends on the human, we can
+    find you a breed that fits your needs, lifestyle, and temperament desires.
+  vertical: Pets
+  category: Product or Service
+- location: 77841
+  media: https://media.mainstreethub.com/media/4b1b2bc3-53ef-4c73-aba2-62cd9d9db629
+  caption: Looking for an obedient dog? While training depends on the human, we can
+    find you a breed that fits your needs, lifestyle, and temperament desires.
+  vertical: Pets
+  category: Participation
+- location: 77841
+  media: https://media.mainstreethub.com/media/3306ac50-d66f-4080-bd4b-14e4da7f88ce
+  caption: We're the folks who keep yards poop-free daily! Should we add your home
+    to our daily route around Charlotte?
+  vertical: Pets
+  category: Participation
+- location: 80212
+  media: https://media.mainstreethub.com/media/c7b14e78-7917-4eae-8d58-0e91db22a484
   caption: 'Want to hear a heartwarming story to start your week off right? The vets
     wanted to put Jennie down immediately because of advanced cancer. With almost
     no hope, Jennie''s owners turned to Vibrant Pets for help. In less than three
@@ -592,54 +663,6 @@
     below. Link: thttps://youtu.be/QLMKThmMycg'
   vertical: Pets
   category: Product or Service
-- location: 28791
-  media: https://media.mainstreethub.com/media/752ced64-f426-4701-8368-d91432fa3ff1
-  caption: Looking for an obedient dog? While training depends on the human, we can
-    find you a breed that fits your needs, lifestyle, and temperament desires.
-  vertical: Pets
-  category: Product or Service
-- location: 28791
-  media: https://media.mainstreethub.com/media/752ced64-f426-4701-8368-d91432fa3ff1
-  caption: Looking for an obedient dog? While training depends on the human, we can
-    find you a breed that fits your needs, lifestyle, and temperament desires.
-  vertical: Pets
-  category: Product or Service
-- location: 77841
-  media: https://media.mainstreethub.com/media/4b1b2bc3-53ef-4c73-aba2-62cd9d9db629
-  caption: Looking for an obedient dog? While training depends on the human, we can
-    find you a breed that fits your needs, lifestyle, and temperament desires.
-  vertical: Pets
-  category: Participation
-- location: 77841
-  media: https://media.mainstreethub.com/media/3306ac50-d66f-4080-bd4b-14e4da7f88ce
-  caption: We're the folks who keep yards poop-free daily! Should we add your home
-    to our daily route around Charlotte?
-  vertical: Pets
-  category: Participation
-- location: 80212
-  media: https://media.mainstreethub.com/media/c7b14e78-7917-4eae-8d58-0e91db22a484
-  caption: 'Want to hear a heartwarming story to start your week off right? The vets
-    wanted to put Jennie down immediately because of advanced cancer. With almost
-    no hope, Jennie''s owners turned to Vibrant Pets for help. In less than three
-    days Jennie''s health turned around, and she was able to overcome the ravages
-    of cancer and continue to live a happy and active life. Vibrant Pets does not
-    cure cancer but instead helps boost the pet''s immune system, so the pet can overcome
-    the effects of cancer. See the beautiful video About Jenni by clicking the link
-    below. Link: thttps://youtu.be/QLMKThmMycg'
-  vertical: Pets
-  category: Product or Service
-- location: 73168
-  media: https://media.mainstreethub.com/media/e1c3f7d5-5e3b-4465-86e5-ed12fe61ecfb
-  caption: 'Want to hear a heartwarming story to start your week off right? The vets
-    wanted to put Jennie down immediately because of advanced cancer. With almost
-    no hope, Jennie''s owners turned to Vibrant Pets for help. In less than three
-    days Jennie''s health turned around, and she was able to overcome the ravages
-    of cancer and continue to live a happy and active life. Vibrant Pets does not
-    cure cancer but instead helps boost the pet''s immune system, so the pet can overcome
-    the effects of cancer. See the beautiful video About Jenni by clicking the link
-    below. Link: thttps://youtu.be/QLMKThmMycg'
-  vertical: Pets
-  category: Product or Service
 - location: 55632
   media: https://media.mainstreethub.com/media/2f745528-8866-4b40-bc6c-fbc6f4bf34f9
   vertical: Hotel
@@ -683,12 +706,6 @@
     have to do is call!
   vertical: Hotel
   category: Product or Service
-- location: 47188
-  media: https://media.mainstreethub.com/media/4afd112f-f2d8-4941-8d9f-887046389627
-  caption: What do you love most About this historic building? For us, it's the rich
-    history and charm!
-  vertical: Hotel
-  category: Participation
 - location: 31487
   media: https://media.mainstreethub.com/media/34f987a8-43b2-41dd-bd5e-cf39a22cff7a
   caption: We never get tired of saying it! Come on in, locals and visitors of New
@@ -1981,12 +1998,6 @@
     Irish!
   vertical: Nightlife
   category: Product or Service
-- location: 55726
-  media: https://media.mainstreethub.com/media/71a5b6a0-3918-4e4f-b1a4-2d90e6dbcb5d
-  caption: No matter what your go-to brew is, we've got your fill here at Mully's
-    Irish!
-  vertical: Nightlife
-  category: Product or Service
 - location: 64257
   media: https://media.mainstreethub.com/media/38260b71-d18d-41b4-9b1b-c90d494b93e9
   caption: Natural light and open concepts are some of the most sought after traits
@@ -2369,12 +2380,6 @@
     #NorCalRealEstate #gilroyCA #SanMartinCA #CaliHomes #CAinvesting #SanJoseCA #SiliconValley'
   vertical: Professional Services
   category: Participation
-- location: 79204
-  media: https://media.mainstreethub.com/media/bc975675-e2a8-4e51-ba84-7eeef68e4e12
-  caption: Take a look at the Naples area market from December 2020! Ready to start
-    a real estate journey of your own? Give me a call at (239) 776-5616.
-  vertical: Professional Services
-  category: Educational
 - location: 79204
   media: https://media.mainstreethub.com/media/bc975675-e2a8-4e51-ba84-7eeef68e4e12
   caption: Take a look at the Naples area market from December 2020! Ready to start
@@ -2643,20 +2648,5 @@
     square foot showroom with a wide range of new and pre-owned inventory. #oystercoveboatworks
     #yourdealer #weworkforyou #customerserviceisnumberone #getonthewater #lifeisshortbuytheboat
     #goboating'
-  vertical: Other
-  category: Product or Service
-- location: 59455
-  media: https://media.mainstreethub.com/media/527e1f81-3b04-4e2a-bdf7-f8c71b485fe5
-  caption: 'Our friendly and knowledgeable team are ready to welcome you to our 20,000
-    square foot showroom with a wide range of new and pre-owned inventory. #oystercoveboatworks
-    #yourdealer #weworkforyou #customerserviceisnumberone #getonthewater #lifeisshortbuytheboat
-    #goboating'
-  vertical: Other
-  category: Product or Service
-- location: 59455
-  media: https://media.mainstreethub.com/media/c61d388b-d7b2-4aa5-b413-b1a68043d133
-  caption: 'Unsatisfied with your current boat? It''s time to shift gears and get
-    you at a new helm. #oystercoveboatworks #yourdealer #weworkforyou #customerserviceisnumberone
-    #getonthewater #lifeisshortbuytheboat #goboating #cobia #cobiaboats #pickacobiaandgo'
   vertical: Other
   category: Product or Service
