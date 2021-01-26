@@ -26,7 +26,7 @@ layout: home_v1
 <h2>Post Inspiration</h2>
 
 <ul class="post-gallery">
-{% for post in site.data.posts %}
+{% for post in site.data.posts limit:10 %}
   <li>
     <img src="{{post.media}}" />
     <p class="caption">{{post.caption}}</p>

@@ -20,13 +20,13 @@ layout: home
 <h2>Post Inspiration</h2>
 
 <ul class="post-gallery-linear">
-{% for post in site.data.posts %}
+{% for post in site.data.posts limit:100 %}
   <li>
     <img src="{{post.media}}" />
     <div>
     <p class="gallery_customer"><a target="_blank" href="https://passport.mainstreethub.com/location/{{post.location}}">Customer {{post.location}}</a></p>
     <p class="caption">{{post.caption}}</p>
-    <p class="post_type">{{post.vertical}} • {{post.category}}</p>
+    <p class="post_type"><a href="/posts#{{post.vertical}}">{{post.vertical}}</a> • {{post.category}}</p>
     </div>
   </li>
 {% endfor %}
