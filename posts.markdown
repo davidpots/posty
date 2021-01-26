@@ -96,6 +96,26 @@ layout: home
 
 <!-- * * * * * * * * -->
 
+<h2 id="Activities & Events">Activities & Events</h2>
+
+<ul class="post-gallery-linear">
+{% for post in site.data.posts %}
+  {% if post.vertical == "Activities & Events" %}
+    <li>
+      <img src="{{post.media}}" />
+      <div>
+      <p class="gallery_customer"><a target="_blank" href="https://passport.mainstreethub.com/location/{{post.location}}">Customer {{post.location}}</a></p>
+      <p class="caption">{{post.caption}}</p>
+      <p class="post_type">{{post.category}}</p>
+      </div>
+    </li>
+  {% endif %}
+{% endfor %}
+</ul>
+<p><a href="#">Back to top</a></p>
+
+<!-- * * * * * * * * -->
+
 <h2 id="Health & Wellness">Health & Wellness</h2>
 
 <ul class="post-gallery-linear">

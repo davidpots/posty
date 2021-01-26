@@ -18,6 +18,19 @@ layout: home
 </ul>
 
 <h2>Post Inspiration</h2>
+<p>
+  <strong>Browse by vertical:</strong><br />
+  <a href="/posts#Automotive">Automotive</a> |
+  <a href="/posts#Home Services">Home Services</a> |
+  <a href="/posts#Activities & Events">Activities & Events</a> |
+  <a href="/posts#Pets">Pets</a> |
+  <a href="/posts#Health & Wellness">Health & Wellness</a> |
+  <a href="/posts#Nightlife">Nightlife</a> |
+  <a href="/posts#Professional Services">Professional Services</a> |
+  <a href="/posts#Other">Other</a> |
+  <a href="/posts#Spas and Salons">Spas and Salons</a> |
+  <a href="/posts#Hotel">Hotel</a>
+</p>
 
 <ul class="post-gallery-linear">
 {% for post in site.data.posts limit:8 %}
