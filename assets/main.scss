@@ -1,13 +1,21 @@
 ---
 ---
 
+/* apply a natural box layout model to all elements, but allowing components to change */
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
 // @import "minima";
 
 /* -- Layout -- */
 
 .wrapper {
-  max-width: 960px;
-  margin: 0 auto 96px;
+  max-width: 1300px;
+  margin: 0 0 96px 48px;
 }
 
 /*-- Type --*/
@@ -104,6 +112,18 @@ td {
   line-height: 125%;
 }
 
+.post-gallery .gallery_customer {
+  font-size: 12px;
+  color: #aaa;
+  margin: 0 0 4px 0;
+}
+
+.post-gallery .post_type {
+  font-size: 12px;
+  color: #aaa;
+  margin: 0 0 4px 0;
+}
+
 /* V2 Post Gallery */
 
 .post-gallery-linear {
@@ -183,4 +203,23 @@ td {
 .topic_desc {
   margin-top: 5px;
   margin-bottom: 5px;
+}
+
+/* Layout sidebar etc */
+
+.sidebar {
+  background: yellow;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  width: 300px;
+  padding: 32px;
+  position: fixed;
+}
+
+.mainbar {
+  position: relative;
+  left: 300px;
 }
