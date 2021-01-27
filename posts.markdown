@@ -12,7 +12,7 @@ layout: home
       <img src="{{post.media}}" />
       <div>
       <p class="caption">{{post.caption}}</p>
-      <p class="post_type"><a target="_blank" href="https://passport.mainstreethub.com/location/{{post.location}}">Customer {{post.location}}</a> • <a href="/post-category#{{post.category}}">{{post.category}}</a></p>">{{post.category}}</a></p>
+      <p class="post_type"><a target="_blank" href="https://passport.mainstreethub.com/location/{{post.location}}">Customer {{post.location}}</a> • <a href="/post-category#{{post.category}}">{{post.category}}</a></p>
       </div>
     </li>
   {% endif %}
