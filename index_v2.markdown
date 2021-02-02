@@ -3,7 +3,6 @@ permalink: "/2"
 layout: home
 ---
 
-
 <div class="tileWrapper" id="hashtags">
   <div class="tile">
     <div class="tile-heading">
