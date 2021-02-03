@@ -1,58 +1,89 @@
 ---
-permalink: "/1"
-layout: home_v1
+layout: home
 ---
 
-<h2>Trending this week</h2>
-
-<h3>Hashtags</h3>
-<ul>
-{% for hashtag in site.data.hashtags %}
-  <li>
-    <strong class="highlighted">#{{ hashtag.name }}</strong> - {{ hashtag.description }} <span class="light small">( <a class="light underline" href="https://www.instagram.com/explore/tags/{{hashtag.name}}/" target="_blank">Instagram</a> | <a class="light underline" href="https://twitter.com/search?q=%23{{hashtag.name}}" target="_blank">Twitter</a> )</span><br /><br />
-  </li>
-{% endfor %}
-</ul>
-
-<h3>Topics</h3>
-
-<ul>
-{% for topic in site.data.topics %}
-  <li>
-    <strong class="highlighted">{{ topic.name }}</strong> - {{ topic.description }}<br /><br />
-  </li>
-{% endfor %}
-</ul>
-
-<h2>Post Inspiration</h2>
-
-<ul class="post-gallery">
-{% for post in site.data.posts limit:8 %}
-  <li>
-    <img src="{{post.media}}" />
-    <p class="caption">{{post.caption}}</p>
-  </li>
-{% endfor %}
-</ul>
+<div class="tileWrapper" id="hashtags">
+  <div class="tile">
+    <div class="tile-heading">
+      <h2 class="tile-title">Hashtags</h2>
+      <p class="tile-lastUpdated">Last updated Jan 31</p>
+    </div>
+    <div class="tile-body">
+      {% for hashtag in site.data.hashtags %}
+        <div class="tile-item tile-item--hashtag">
+          <span class="tile-socialLinks"><a href="https://www.instagram.com/explore/tags/{{hashtag.name}}/" target="_blank">{% include icon-instagram.svg %}</a><a href="https://twitter.com/search?q=%23{{hashtag.name}}" target="_blank">{% include icon-twitter.svg %}</a></span>
+          <h3>{{ hashtag.name }}</h3>
+          <p>{{ hashtag.description }}</p>
+        </div>
+      {% endfor %}
+    </div>
+  </div>
+</div>
 
 
 
 
-<h2>Upcoming Holidays</h2>
 
-<table>
-<tr>
-  <th>Holiday</th>
-  <th>Date</th>
-  <th>Day</th>
-  <th>Notes</th>
-</tr>
-{% for holiday in site.data.holidays %}
-  <tr>
-    <td><strong class="highlighted">{{ holiday.name }}</strong></td>
-    <td>{{ holiday.date }}</td>
-    <td>{{ holiday.day }}</td>
-    <td>{{ holiday.description }}</td>
-  </tr>
-{% endfor %}
-</table>
+
+<div class="tileWrapper" id="topics">
+  <div class="tile">
+    <div class="tile-heading">
+      <h2 class="tile-title">Upcoming Topics</h2>
+      <p class="tile-lastUpdated">Last updated Jan 26</p>
+    </div>
+    <div class="tile-body">
+      {% for topic in site.data.topics %}
+        <div class="tile-item tile-item--topic">
+          <span class="tile-emoji">{{ topic.emoji }}</span>
+          <span class="tile-date"><strong>{{ topic.day }}</strong><small>{{ topic.date }}</small></span>
+          <h3>{{ topic.name }}</h3>
+          <p>{{ topic.description }}</p>
+        </div>
+      {% endfor %}
+    </div>
+  </div>
+</div>
+
+<div class="tileWrapper" id="holidays">
+  <div class="tile">
+    <div class="tile-heading">
+      <h2 class="tile-title">Holidays</h2>
+      <p class="tile-lastUpdated">Last updated Jan 21</p>
+    </div>
+    <div class="tile-body">
+      <div class="tile-item"><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /></div>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+
+
+
+<div class="tileWrapper" id="posts">
+  <div class="tile">
+    <div class="tile-heading">
+      <h2 class="tile-title">Post Gallery</h2>
+      <p class="tile-lastUpdated">Last updated Feb 1</p>
+    </div>
+    <div class="tile-body">
+      {% for post in site.data.posts limit:8 %}
+        <div class="tile-item tile-item--post">
+          <div class="tile-item--post-image">
+            <a target="_blank" href="https://passport.mainstreethub.com/location/{{post.location}}"><img src="{{post.media}}" /></a>
+          </div>
+          <div class="tile-item--post-text">
+            <p class="tile-postCaption">{{post.caption}}</p>
+            <p class="tile-postMeta">{{post.vertical}} • {{post.category}}</p>
+          </div>
+        </div>
+      {% endfor %}
+    </div>
+  </div>
+</div>
+
+<br /><br /><br /><br /><br />
