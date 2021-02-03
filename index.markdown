@@ -1,4 +1,5 @@
 ---
+permalink: "/1"
 layout: home_v1
 ---
 
