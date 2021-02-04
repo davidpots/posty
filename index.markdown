@@ -2,6 +2,8 @@
 layout: home
 ---
 
+<img class="page-logo" src="/assets/images/logo.svg" />
+
 <div class="tileWrapper" id="hashtags">
   <div class="tile">
     <div class="tile-heading">

@@ -16,11 +16,24 @@ html {
 
     body {
       /* Gradient Background */
-      background: rgb(29,91,148);
-      background: linear-gradient(180deg, rgba(29,91,148,1) 0%, rgba(176,229,253,1) 100%);
+      background: rgb(20,95,169);
+      background: linear-gradient(180deg, rgba(131,62,163,1) 0%, rgba(20,95,169,1) 100%);
       background-attachment: fixed;
       margin: 0;
       padding: 0;
+    }
+
+    .page-content::before {
+      content: "";
+      background-image: url(/assets/images/bricks.png);
+      background-repeat: no-repeat;
+      background-size: cover;
+      opacity: 0.05;
+      position: fixed;
+top: 0px;
+right: 0px;
+bottom: 0px;
+left: 0px;
     }
 
     .container {
@@ -39,12 +52,18 @@ html {
       width: 668px;
     }
 
+    .page-logo {
+      position: relative;
+      left: -8px;
+      padding-top: 16px;
+    }
+
 /* -- Sidebar -- */
 
     .nav {
       list-style: none;
       margin: 0;
-      padding: 40px 0 0 0;
+      padding: 156px 0 0 0;
       position: fixed;
     }
     .nav .nav_title {
@@ -71,7 +90,7 @@ html {
 /*-- Type --*/
 
     body {
-      font-family: 'Lato', sans-serif;
+      font-family: 'Barlow', sans-serif;
       font-size: 16px;
       line-height: 1.4;
       color: white;
@@ -80,7 +99,7 @@ html {
 /*-- Components --*/
 
     .tileWrapper {
-      padding-top: 40px;
+      padding-bottom: 40px;
     }
     .tile {
       background: #303030;
@@ -93,9 +112,13 @@ html {
     }
     .tile-heading .tile-title {
       margin: 0;
-      font-size: 28px;
+      font-size: 32px;
       line-height: 1;
       display: inline-block;
+      font-family: 'Barlow Condensed', sans-serif;
+      text-transform: uppercase;
+      color: #FFC83A;
+      text-shadow: 0px 1px 1px rgba(0,0,0,1);
     }
     .tile-heading .tile-lastUpdated {
       display: inline-block;
@@ -119,7 +142,35 @@ html {
       &:last-child {
         margin-bottom: 0;
       }
+
+      /* trying this out */
+      opacity: 0;
+      animation: fadeIn 150ms ease-in both;
     }
+
+    .tile-body .tile-item:nth-child(2) { animation-delay: 150ms; }
+    .tile-body .tile-item:nth-child(3) { animation-delay: 300ms; }
+    .tile-body .tile-item:nth-child(4) { animation-delay: 450ms; }
+    .tile-body .tile-item:nth-child(5) { animation-delay: 600ms; }
+    .tile-body .tile-item:nth-child(6) { animation-delay: 750ms; }
+    .tile-body .tile-item:nth-child(7) { animation-delay: 900ms; }
+    .tile-body .tile-item:nth-child(8) { animation-delay: 1050ms; }
+    .tile-body .tile-item:nth-child(9) { animation-delay: 1200ms; }
+    .tile-body .tile-item:nth-child(10) { animation-delay: 1350ms; }
+    .tile-body .tile-item:nth-child(11) { animation-delay: 1500ms; }
+
+    @keyframes fadeIn {
+	from {
+		opacity: 0;
+		transform: translate3d(0, -5%, 0);
+	}
+	to {
+		opacity: 1;
+		transform: translate3d(0, 0, 0);
+	}
+}
+
+
     .tile-body .tile-item.tile-item--hashtag {
       background: #222 url('/assets/images/icon-hashtag.svg') no-repeat 16px 20px;
       padding-left: 60px;
@@ -207,12 +258,12 @@ html {
     .tile-body .tile-item--post .tile-postMeta {
       font-size: 14px;
       font-weight: 400;
-      color: #FFC83A;
+      color: #666;
     }
 
 
     .tile-body .tile-item h3 {
-      color: #FFC83A;
+      color: #ddd;
       font-size: 18px;
       margin: 0 0 2px 0;
     }
