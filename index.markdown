@@ -2,7 +2,7 @@
 layout: home
 ---
 
-<img class="page-logo" src="/assets/images/logo.svg" />
+<p style="margin: 16px 0 0 0;"><img class="page-logo" src="/assets/images/logo.svg" /></p>
 
 <div class="tileWrapper" id="hashtags">
   <div class="tile">
