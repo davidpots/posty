@@ -1,35 +1,27 @@
-- date: Jan 24
-  day: Sunday
-  name: Belly Laugh Day
-  description:
-  url:
-
-- date: Feb 2
-  day: Tuesday
-  name: Groundhog Day
-  description:
-  url:
-
 - date: Feb 12
   day: Friday
-  name: Lincoln's Birthday
-  description:
-  url:
+  name: Chinese/Lunar New Year 2021
+  emoji: 🧧
+  description: Chinese New Year, also referred to as the Lunar New Year or Spring Festival, celebrates the beginning of a new year on the traditional Chinese calendar. 2021 marks the Year of the Ox. Families typically share a reunion meal together before the new year and clean their homes to sweep away any ill-fortune and to make way for incoming good luck.
+  url: https://msh-success.atlassian.net/wiki/spaces/KnowledgeBase/pages/1774616752/Chinese+Lunar+New+Year+2021
 
 - date: Feb 14
   day: Sunday
   name: Valentine's Day
-  description:
-  url:
+  emoji: 💘
+  description: Valentine's Day is a holiday dedicated to celebrating love and romance. Many people use the day or surrounding weekends to go on a date with a significant other and exchange gifts like flowers, chocolate, or jewelry. Cupid is a major symbol of the holiday as well – those who are hit by his arrow fall deeply in love.
+  url: https://msh-success.atlassian.net/wiki/spaces/KnowledgeBase/pages/1816920172/Valentine+s+Day+2021
 
 - date: Feb 15
   day: Monday
   name: President's Day
-  description: also Washington's Birthday
-  url:
+  emoji: 🇺🇸
+  description: Presidents Day, which traditionally falls on the third Monday of February, was initially established to commemorate George Washington’s birthday. Today, observance of the holiday varies greatly from state to state.
+  url: https://msh-success.atlassian.net/wiki/spaces/KnowledgeBase/pages/1774846009/Presidents+Day+2021
 
 - date: Feb 16
   day: Tuesday
-  name: Mardi Gras Carnival
-  description: New Orleans
-  url:
+  name: Mardis Gras
+  emoji: 🎉
+  description: Mardi Gras is an annual celebration closely linked to the Christian season of Lent. It always falls on the Tuesday before Ash Wednesday but is typically celebrated in the weeks leading up to the holiday.
+  url: https://msh-success.atlassian.net/wiki/spaces/KnowledgeBase/pages/1774649461/Mardi+Gras+2021

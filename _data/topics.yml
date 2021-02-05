@@ -1,59 +1,41 @@
-- name: The Super Bowl
-  description: This year marks the 55th Super Bowl in history. It will be held at Raymond James Stadium in Tampa, Florida. The halftime show is will feature The Weeknd.
+- name: Black History Month
+  description: Black History Month is an annually observed holiday celebrating and discussing Black history, culture, communities, achievements, and more. Today, Black History Month is celebrated and discussed online and in communities around the world – many cities and educational institutions host local events to celebrate, such as museum exhibitions, online activism and articles, reading series and lectures, and much more.
+  emoji: ✊🏾
+  hashtags: [BHM, BlackHistoryMonth]
+  day: Entire Month
+  date: Febuary
+
+- name: Fix It February
+  description: Many use february to jumpstart home renovation projects, refresh wardrobes, or focus on general home improvement tasks before spring arrives.
+  emoji: 🔨
+  hashtags: [FixItFebruary]
+  day: Entire Month
+  date: February
+
+- name: Super Bowl Sunday
+  description: The Super Bowl, the annual championship game of the National Football League (NFL), is arguably the biggest sporting event of the entire year. The game is the culmination of a regular season that began in September 2020. This year marks the 55th Super Bowl in history. It will be held at Raymond James Stadium in Tampa, Florida. The halftime show is known to boast well-known artists. This year, The Weeknd will be performing.
   emoji: 🏈
-  hashtags: [nfl, playoffs, nflplayoffs, football, sundayfootball, SBLV, SB55]
+  hashtags: [SBLIV, SB55, SuperBowlLV]
   day: Sunday
-  date: February 7
-  learnmore: https://msh-success.atlassian.net/wiki/spaces/KnowledgeBase/pages/1774649595/Super+Bowl+2021
+  date: Feb 7
 
-- name: National Pizza Day
-  description: National Pizza Day celebrates one of America’s all-time favorite foods. Whether thin crust, Chicago-style, deep dish or anything in between, pizza is an American favorite.
-  emoji: 🍕
-  hashtags: [NationalPizzaDay]
-  day: Tuesday
-  date: February 9
-
-- name: Chinese New Year
-  description: Chinese New Year, also referred to as the Lunar New Year or Spring Festival, celebrates the beginning of a new year on the traditional Chinese calendar. It's one of many Lunar New Years in Asia, but it's the most widely celebrated in other parts of the world, like the U.S.
-  emoji: 🎇
-  hashtags: [chinesenewyear, lunarnewyear, HappyChineseNewYear, yearofthesheep]
-  day: Friday
-  date: February 12
-
-- name: Valentine’s Day
-  description: Valentine's Day is a holiday dedicated to celebrating love and romance. Many people use the day or surrounding weekends to go on a date with a significant other and exchange gifts like flowers, chocolate, or jewelry.
-  emoji: 💘
-  hashtags: [LoveIsAllYouNeed, BeMine, ValentinesDay, HugsAndKisses]
-  day: Friday
-  date: February 14
-
-- name: Random Acts Of Kindness Day
-  description: We are upholding this annual tradition of celebrating kindness because we know everyone can use more kindness in their lives.
-  emoji: 🤗
-  hashtags: [RandomActsofKindnessDay, ExploreTheGood, MakeKindnessTheNorm]
-  day: Wednesday
-  date: February 17
-
-- name: Love Your Pet Day
-  description: This holiday focuses on giving extra attention to our pets.  The day encourages pampering our pets and focusing on the special relationship pets hold in our lives.
-  emoji: 🐶
-  hashtags: [LoveYourPetDay]
+- name: Galentines Day
+  description: Some celebrate Galentine's Day on the 13th to cherish the female friendships in their life.
+  emoji: 💕
+  hashtags: [GalentinesDay]
   day: Saturday
-  date: February 20
+  date: Feb 13
 
-- name: Golden Globe Awards
-  description: The 78th Golden Globe Awards will honor the best in film and American television of 2020, as chosen by the Hollywood Foreign Press Association.
+- name: National Margarita Day
+  description: Every February 22, we come together for National Margarita Day to pay homage to our favorite celebratory cocktail.
+  emoji: 🍹
+  hashtags: [NationalMargaritaDay, MargaritaMonday]
+  day: Monday
+  date: Feb 22
+
+- name: Golden Globes
+  description: The 78th Golden Globe Awards will honor the best in film and American television of 2020, as chosen by the Hollywood Foreign Press Association. The ceremony will take place on February 28, 2021, nearly two months later than normal, due to the impact of the COVID-19 pandemic on cinema and on television.
   emoji: 🏆
   hashtags: [GoldenGlobes]
   day: Sunday
-  date: February 28
-
-
-
-# - name: _____
-#   description: _____
-#   emoji: _____
-#   hashtags: [_____]
-#   day: _____
-#   date: _____
-#
+  date: Feb 28

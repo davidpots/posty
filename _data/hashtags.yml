@@ -1,23 +1,17 @@
-- name: BidenHarrisAdministration
-  description: Biden and Harris to be inaugurated on Wednesday
+- name: FixItFebruary
+  description: Used in content about home renovaitons, thrift flips, general home improvement projects
 
-- name: whole30
-  description: this is a popular diet/cleanse that many people are doing January to reset for the New Year
+- name: GoldenGlobes
+  description: The 78th Golden Globe Awards will honor the best in film and American television of 2020, as chosen by the Hollywood Foreign Press Association
 
-- name: footballsunday
-  description: Used with posts about big football games (good one to use for the games this weekend!)
+- name: SuperBowlLV
+  description: "Used in content about the Super Bowl. Related hashtags include: #SB55 #SBLIV"
 
-- name: valentines
-  description: starting to gain traction as businesses promote Valentine's Day goodies and products/services
+- name: LoveYourPetDay
+  description: Perfect for pet content on Febraury 20
 
-- name: mustlovedogs
-  description: For dog lovers, obviously.
-  
-- name: nationalhuggingday
-  description: But who needs an excuse to hug their furry friends?
-  
-- name: wednesdayaddams
-  description: She is my favorite of the Addams Family clan.
+- name: MardiGras
+  description: Great to use for businesses celebrating the holiday. Many New Orleans bars have been closed for the final days of Mardi Gras, so be aware when creating content for these cutstomers.
 
-- name: groundhogday
-  description: It's Groundhog Day. Again.
+- name: YardiGras
+  description: Due to many closures and bans on celebrations in the French Quarter, many residents are decorating their yards and homes for Mardis Gras

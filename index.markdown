@@ -8,7 +8,7 @@ layout: home
   <div class="tile">
     <div class="tile-heading">
       <h2 class="tile-title">Hashtags</h2>
-      <p class="tile-lastUpdated">Last updated Jan 31</p>
+      <p class="tile-lastUpdated">Last updated Feb 5</p>
     </div>
     <div class="tile-body">
       {% for hashtag in site.data.hashtags %}
@@ -31,7 +31,7 @@ layout: home
   <div class="tile">
     <div class="tile-heading">
       <h2 class="tile-title">Upcoming Topics</h2>
-      <p class="tile-lastUpdated">Last updated Jan 26</p>
+      <p class="tile-lastUpdated">Last updated Feb 5</p>
     </div>
     <div class="tile-body">
       {% for topic in site.data.topics %}
@@ -50,10 +50,17 @@ layout: home
   <div class="tile">
     <div class="tile-heading">
       <h2 class="tile-title">Holidays</h2>
-      <p class="tile-lastUpdated">Last updated Jan 21</p>
+      <p class="tile-lastUpdated">Last updated Feb 5</p>
     </div>
     <div class="tile-body">
-      <div class="tile-item"><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /></div>
+    {% for holiday in site.data.holidays %}
+      <div class="tile-item tile-item--topic">
+        <span class="tile-emoji">{{ holiday.emoji }}</span>
+        <span class="tile-date"><strong>{{ holiday.day }}</strong><small>{{ holiday.date }}</small></span>
+        <h3>{{ holiday.name }}</h3>
+        <p>{{ holiday.description }}</p>
+      </div>
+    {% endfor %}
     </div>
   </div>
 </div>
@@ -70,10 +77,10 @@ layout: home
   <div class="tile">
     <div class="tile-heading">
       <h2 class="tile-title">Post Gallery</h2>
-      <p class="tile-lastUpdated">Last updated Feb 1</p>
+      <p class="tile-lastUpdated">Last updated Feb 5</p>
     </div>
     <div class="tile-body">
-      {% for post in site.data.posts limit:8 %}
+      {% for post in site.data.posts %}
         <div class="tile-item tile-item--post">
           <div class="tile-item--post-image">
             <a target="_blank" href="https://passport.mainstreethub.com/location/{{post.location}}"><img src="{{post.media}}" /></a>
