@@ -87,7 +87,7 @@ layout: home
           </div>
           <div class="tile-item--post-text">
             <p class="tile-postCaption">{{post.caption}}</p>
-            <p class="tile-postMeta">{{post.vertical}} • {{post.category}}</p>
+            <p class="tile-postMeta">{{post.vertical}} • {{post.category}} • by {{post.author}}</p>
           </div>
         </div>
       {% endfor %}
