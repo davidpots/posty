@@ -11,6 +11,19 @@ html {
   scroll-behavior: smooth;
 }
 
+/*-- Type --*/
+
+    body {
+      font-family: 'Barlow', sans-serif;
+      font-size: 16px;
+      line-height: 1.4;
+      color: white;
+    }
+
+    .underline {
+      text-decoration: underline;
+    }
+
 
 /* -- Layout -- */
 
@@ -30,10 +43,10 @@ html {
       background-size: cover;
       opacity: 0.05;
       position: fixed;
-top: 0px;
-right: 0px;
-bottom: 0px;
-left: 0px;
+      top: 0px;
+      right: 0px;
+      bottom: 0px;
+      left: 0px;
     }
 
     .container {
@@ -91,14 +104,6 @@ left: 0px;
       transition: opacity .15s ease-in-out;
     }
 
-/*-- Type --*/
-
-    body {
-      font-family: 'Barlow', sans-serif;
-      font-size: 16px;
-      line-height: 1.4;
-      color: white;
-    }
 
 /*-- Components --*/
 
@@ -168,16 +173,45 @@ left: 0px;
     .tile-body .tile-item:nth-child(11) { animation-delay: 1500ms; }
 
     @keyframes fadeIn {
-	from {
-		opacity: 0;
-		// transform: translate3d(0, -5%, 0);
-	}
-	to {
-		opacity: 1;
-		// transform: translate3d(0, 0, 0);
-	}
-}
+    	from {
+    		opacity: 0;
+    		// transform: translate3d(0, -5%, 0);
+    	}
+    	to {
+    		opacity: 1;
+    		// transform: translate3d(0, 0, 0);
+    	}
+    }
 
+
+/* -- Copy button -- */
+
+  .copy-button {
+    font-size: 11px;
+    padding: 4px 6px;
+    background: #282828;
+    text-decoration: none;
+    text-transform: uppercase;
+    display: inline-block;
+    border-radius: 2px;
+    position: relative;
+    left: 6px;
+    top: -2px;
+    color: #666;
+  }
+  .copy-button:hover {
+    color: #fafafa;
+    background: #444;
+  }
+  .copy-button.copy-copied {
+    background: #12838B;
+    color: #fff;
+    transition: background-color 100ms ease-in-out;
+  }
+
+
+
+/* -- Tile Component -- */
 
     .tile-body .tile-item.tile-item--hashtag {
       background: #222 url('/assets/images/icon-hashtag.svg') no-repeat 16px 20px;
@@ -293,13 +327,7 @@ left: 0px;
 
 
 
-a, a:visited {
-  color: inherit;
-}
 
-.underline {
-  text-decoration: underline;
-}
 
 .light {
   color: #aaa;

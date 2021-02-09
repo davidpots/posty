@@ -2,6 +2,8 @@
 layout: home
 ---
 
+
+
 <p style="margin: 16px 0 0 0;"><img class="page-logo" src="/assets/images/logo.svg" /></p>
 
 <div class="tileWrapper" id="hashtags">
@@ -14,7 +16,7 @@ layout: home
       {% for hashtag in site.data.hashtags %}
         <div class="tile-item tile-item--hashtag">
           <span class="tile-socialLinks"><a href="https://www.instagram.com/explore/tags/{{hashtag.name}}/" target="_blank">{% include icon-instagram.svg %}</a><a href="https://twitter.com/search?q=%23{{hashtag.name}}" target="_blank">{% include icon-twitter.svg %}</a></span>
-          <h3>{{ hashtag.name }}</h3>
+          <h3>{{ hashtag.name }}<a data-hashtag="#{{ hashtag.name }}" class="copy-button copy-hashtag" href="#">copy</a></h3>
           <p>{{ hashtag.description }}</p>
         </div>
       {% endfor %}
