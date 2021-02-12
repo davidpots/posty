@@ -4,14 +4,8 @@
 - name: GoldenGlobes
   description: The 78th Golden Globe Awards will honor the best in film and American television of 2020, as chosen by the Hollywood Foreign Press Association
 
-- name: SuperBowlLV
-  description: "Used in content about the Super Bowl. Related hashtags include: #SB55 #SBLIV"
-
 - name: LoveYourPetDay
   description: Perfect for pet content on Febraury 20
 
-- name: MardiGras
-  description: Great to use for businesses celebrating the holiday. Many New Orleans bars have been closed for the final days of Mardi Gras, so be aware when creating content for these cutstomers.
-
-- name: YardiGras
-  description: Due to many closures and bans on celebrations in the French Quarter, many residents are decorating their yards and homes for Mardis Gras
+- name: ChooseToChallenge
+  description: "These can be used for International Women's Day content. Related hashtag: #IWD2021"

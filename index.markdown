@@ -10,7 +10,7 @@ layout: home
   <div class="tile">
     <div class="tile-heading">
       <h2 class="tile-title">Hashtags</h2>
-      <p class="tile-lastUpdated">Last updated Feb 5</p>
+      <p class="tile-lastUpdated">Last updated Feb 12</p>
     </div>
     <div class="tile-body">
       {% for hashtag in site.data.hashtags %}
@@ -33,7 +33,7 @@ layout: home
   <div class="tile">
     <div class="tile-heading">
       <h2 class="tile-title">Upcoming Topics</h2>
-      <p class="tile-lastUpdated">Last updated Feb 5</p>
+      <p class="tile-lastUpdated">Last updated Feb 12</p>
     </div>
     <div class="tile-body">
       {% for topic in site.data.topics %}
@@ -42,6 +42,13 @@ layout: home
           <span class="tile-date"><strong>{{ topic.day }}</strong><small>{{ topic.date }}</small></span>
           <h3>{{ topic.name }}</h3>
           <p>{{ topic.description }}</p>
+          {% if topic.hashtags %}
+            <p class="tile-item--footer">
+            {% for ht in topic.hashtags %}
+              #{{ ht }}&nbsp;
+            {% endfor %}
+            </p>
+          {% endif %}
         </div>
       {% endfor %}
     </div>
@@ -52,7 +59,7 @@ layout: home
   <div class="tile">
     <div class="tile-heading">
       <h2 class="tile-title">Holidays</h2>
-      <p class="tile-lastUpdated">Last updated Feb 5</p>
+      <p class="tile-lastUpdated">Last updated Feb 12</p>
     </div>
     <div class="tile-body">
     {% for holiday in site.data.holidays %}
@@ -61,6 +68,7 @@ layout: home
         <span class="tile-date"><strong>{{ holiday.day }}</strong><small>{{ holiday.date }}</small></span>
         <h3>{{ holiday.name }}</h3>
         <p>{{ holiday.description }}</p>
+        <p class="tile-item--link"><a href="{{ holiday.url }}" target="_blank">Learn more »</a></p>
       </div>
     {% endfor %}
     </div>
@@ -79,7 +87,7 @@ layout: home
   <div class="tile">
     <div class="tile-heading">
       <h2 class="tile-title">Post Gallery</h2>
-      <p class="tile-lastUpdated">Last updated Feb 5</p>
+      <p class="tile-lastUpdated">Last updated Feb 12</p>
     </div>
     <div class="tile-body">
       {% for post in site.data.posts %}

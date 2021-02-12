@@ -12,20 +12,6 @@
   day: Entire Month
   date: February
 
-- name: Super Bowl Sunday
-  description: The Super Bowl, the annual championship game of the National Football League (NFL), is arguably the biggest sporting event of the entire year. The game is the culmination of a regular season that began in September 2020. This year marks the 55th Super Bowl in history. It will be held at Raymond James Stadium in Tampa, Florida. The halftime show is known to boast well-known artists. This year, The Weeknd will be performing.
-  emoji: 🏈
-  hashtags: [SBLIV, SB55, SuperBowlLV]
-  day: Sunday
-  date: Feb 7
-
-- name: Galentines Day
-  description: Some celebrate Galentine's Day on the 13th to cherish the female friendships in their life.
-  emoji: 💕
-  hashtags: [GalentinesDay]
-  day: Saturday
-  date: Feb 13
-
 - name: National Margarita Day
   description: Every February 22, we come together for National Margarita Day to pay homage to our favorite celebratory cocktail.
   emoji: 🍹
@@ -39,3 +25,27 @@
   hashtags: [GoldenGlobes]
   day: Sunday
   date: Feb 28
+
+- name: Daylight Saving Time
+  description: We're technically losing an hour, but many businesses take advantage of the extra daylight hours (ex. more time for patio dining).
+  emoji: ⏰
+  day: Sunday
+  date: Mar 21
+
+- name: Spring Cleaning
+  description: Starting in March, get a little extra help with spring cleaning both interior spaces and external ones like gutters, siding, driveways, or walkways.
+  emoji: 🧼
+  day: Entire Month
+  date: March
+
+- name: Backyard Projects
+  description: Spring is the best time to start backyard projects like pool installations or new landscaping before summer.
+  emoji: 🌷
+  day: Entire Month
+  date: March
+
+- name: Spring Housing Market
+  description: "Spring is typically the best time to prep for the busy real estate marekt ahead (March - June). A few things folks do to prepare: renovate the backyard, tackle spring cleaning and decluttering (the first step to staging a home), explore areas for potential rental properties."
+  emoji: 🏡
+  day: Entire Month
+  date: March & April
