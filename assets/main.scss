@@ -6,6 +6,12 @@
 html { box-sizing: border-box; }
 *, *:before, *:after { box-sizing: inherit; }
 
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
 
 html {
   scroll-behavior: smooth;
@@ -51,7 +57,7 @@ html {
 
     .container {
       width: 868px;
-      margin: 0 auto;
+      margin: 0 0 0 24px;
       position: relative;
     }
 
@@ -155,34 +161,35 @@ html {
       &:last-child {
         margin-bottom: 0;
       }
-
-      /* trying this out */
+    }
+    .tile-item--post-comment {
       opacity: 0;
-      animation: fadeIn 100ms ease-in both;
+      position: absolute;
+      background: #eee;
+      width: 368px;
+      padding: 16px;
+      right: -378px;
+      color: #222;
+      top: 50%;
+      transform: translateY(-50%);
+      border-radius: 4px;
+      box-shadow: 0px 4px 12px rgba(0,0,0,0.2);
+      &::after {
+        content: "";
+        display: block;
+        width: 20px;
+        height: 20px;
+        background: #eee;
+        position: absolute;
+        left: -7px;
+        top: 50%;
+        transform: translateY(-50%) rotate(45deg);
+      }
     }
-
-    .tile-body .tile-item:nth-child(2) { animation-delay: 150ms; }
-    .tile-body .tile-item:nth-child(3) { animation-delay: 300ms; }
-    .tile-body .tile-item:nth-child(4) { animation-delay: 450ms; }
-    .tile-body .tile-item:nth-child(5) { animation-delay: 600ms; }
-    .tile-body .tile-item:nth-child(6) { animation-delay: 750ms; }
-    .tile-body .tile-item:nth-child(7) { animation-delay: 900ms; }
-    .tile-body .tile-item:nth-child(8) { animation-delay: 1050ms; }
-    .tile-body .tile-item:nth-child(9) { animation-delay: 1200ms; }
-    .tile-body .tile-item:nth-child(10) { animation-delay: 1350ms; }
-    .tile-body .tile-item:nth-child(11) { animation-delay: 1500ms; }
-
-    @keyframes fadeIn {
-    	from {
-    		opacity: 0;
-    		// transform: translate3d(0, -5%, 0);
-    	}
-    	to {
-    		opacity: 1;
-    		// transform: translate3d(0, 0, 0);
-    	}
+    .tile-item--post:hover .tile-item--post-comment {
+      opacity: 1;
+      transition: opacity 125ms ease-in-out;
     }
-
 
 /* -- Copy button -- */
 
@@ -274,8 +281,8 @@ html {
     .tile-body .tile-item.tile-item--post {
       // background: #222 url('/assets/images/icon-caption.svg') no-repeat 16px 20px;
       // padding-left: 60px;
-      overflow: hidden;
-      width: auto;
+      // overflow: auto;
+      // width: auto;
       img {
         box-shadow: 0 2px 7px rgba(0,0,0,0.15);
       }
@@ -293,15 +300,27 @@ html {
       width: 444px;
     }
     .tile-body .tile-item--post .tile-postCaption {
-      font-size: 19px;
+      font-size: 18px;
       color: #eee;
-      margin-bottom: 8px;
+      margin-bottom: 6px;
       font-weight: 500;
     }
     .tile-body .tile-item--post .tile-postMeta {
       font-size: 14px;
       font-weight: 400;
       color: #666;
+      margin-bottom: 4px;
+      background-repeat: no-repeat;
+      background-position: 2px 4px;
+      background-size: 12px 12px;
+      padding-left: 21px;
+      a {
+        color: #666;
+        text-decoration: none;
+        &:hover {
+          border-bottom: 1px solid #666;
+        }
+      }
     }
 
 

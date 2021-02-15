@@ -91,13 +91,15 @@ layout: home
     </div>
     <div class="tile-body">
       {% for post in site.data.posts %}
-        <div class="tile-item tile-item--post">
+        <div class="tile-item tile-item--post clearfix">
           <div class="tile-item--post-image">
             <a target="_blank" href="https://passport.mainstreethub.com/location/{{post.location}}"><img src="{{post.media}}" /></a>
           </div>
           <div class="tile-item--post-text">
             <p class="tile-postCaption">{{post.caption}}</p>
-            <p class="tile-postMeta">{{post.vertical}} • {{post.category}} • by {{post.author}}</p>
+            <p class="tile-postMeta" style="background-image: url(/assets/images/icon-tag.svg);">{{post.vertical}} • {{post.category}}</p>
+            <p class="tile-postMeta" style="background-image: url(/assets/images/icon-author.svg);"><a target="_blank"  href="{{post.passport_link}}">{{post.author}}</a></p>
+            <div class="tile-item--post-comment">{{post.comment}}</div>
           </div>
         </div>
       {% endfor %}
