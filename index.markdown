@@ -10,7 +10,7 @@ layout: home
   <div class="tile">
     <div class="tile-heading">
       <h2 class="tile-title">Hashtags</h2>
-      <p class="tile-lastUpdated">Last updated Feb 12</p>
+      <p class="tile-lastUpdated">Last updated Feb 22</p>
     </div>
     <div class="tile-body">
       {% for hashtag in site.data.hashtags %}
