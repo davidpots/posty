@@ -1,30 +1,8 @@
-- name: Black History Month
-  description: Black History Month is an annually observed holiday celebrating and discussing Black history, culture, communities, achievements, and more. Today, Black History Month is celebrated and discussed online and in communities around the world – many cities and educational institutions host local events to celebrate, such as museum exhibitions, online activism and articles, reading series and lectures, and much more.
-  emoji: ✊🏾
-  hashtags: [BHM, BlackHistoryMonth]
-  day: Entire Month
-  date: Febuary
-
-- name: Fix It February
-  description: Many use february to jumpstart home renovation projects, refresh wardrobes, or focus on general home improvement tasks before spring arrives.
-  emoji: 🔨
-  hashtags: [FixItFebruary]
-  day: Entire Month
-  date: February
-
-- name: National Margarita Day
-  description: Every February 22, we come together for National Margarita Day to pay homage to our favorite celebratory cocktail.
-  emoji: 🍹
-  hashtags: [NationalMargaritaDay, MargaritaMonday]
-  day: Monday
-  date: Feb 22
-
-- name: Golden Globes
-  description: The 78th Golden Globe Awards will honor the best in film and American television of 2020, as chosen by the Hollywood Foreign Press Association. The ceremony will take place on February 28, 2021, nearly two months later than normal, due to the impact of the COVID-19 pandemic on cinema and on television.
-  emoji: 🏆
-  hashtags: [GoldenGlobes]
-  day: Sunday
-  date: Feb 28
+- name: March Madness 2021
+  description: March Madness is a 68-team college basketball tournament that takes place throughout the month of March. Check our guidelines for copyrighted words and phrases. This topic is relevent for sports bars or sports-centric customers.
+  emoji: 🏀
+  day: Thursday
+  date: March 18
 
 - name: Daylight Saving Time
   description: We're technically losing an hour, but many businesses take advantage of the extra daylight hours (ex. more time for patio dining).
