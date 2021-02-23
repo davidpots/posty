@@ -30,6 +30,12 @@ html {
       text-decoration: underline;
     }
 
+    h1 {
+      font-size: 64px;
+      font-family: 'Barlow Condensed', sans-serif;
+      margin-top: 0;
+      margin-bottom: 4px;
+    }
 
 /* -- Layout -- */
 
@@ -96,6 +102,12 @@ html {
       font-weight: 700;
       letter-spacing: 0.5px;
       margin-bottom: 8px;
+    }
+    .nav .nav_title:first-child {
+      margin-top: 0;
+    }
+    .nav .nav_title {
+      margin-top: 48px;
     }
     .nav a {
       text-decoration: none;
