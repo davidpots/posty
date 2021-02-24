@@ -203,6 +203,25 @@ html {
       transition: opacity 125ms ease-in-out;
     }
 
+    .tile-post-filters {
+      margin-bottom: 0;
+    }
+    .tile-post-filters a {
+      color: #eee;
+      background: #2B2B2B;
+      display: inline-block;
+      padding: 4px 12px 6px;
+      border-radius: 1459384px;
+      margin-right: 2px;
+      text-decoration: none;
+      font-size: 13px;
+      border: 2px solid #2b2b2b;
+    }
+    .tile-post-filters a.filter-item--active {
+      border-color: #FFC83A;
+      color: #FFC83A;
+    }
+
 /* -- Copy button -- */
 
   .copy-button {

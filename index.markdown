@@ -88,10 +88,17 @@ layout: home
     <div class="tile-heading">
       <h2 class="tile-title">Post Gallery</h2>
       <p class="tile-lastUpdated">Last updated Feb 22</p>
+      <p class="tile-post-filters filter-item-wrapper filter-links--category">
+        <a class="filter-item filter-item--all filter-item--active" data-filterName="All Categories" href="">All Categories</a>
+        <a class="filter-item" data-filterName="Product/Service" href="">Product/Service</a>
+        <a class="filter-item" data-filterName="Educational" href="">Educational</a>
+        <a class="filter-item" data-filterName="About the Business" href="">About</a>
+        <a class="filter-item" data-filterName="Audience Participation" href="">Participation</a>
+      </p>
     </div>
-    <div class="tile-body">
+    <div class="tile-body filter-items--category">
       {% for post in site.data.posts %}
-        <div class="tile-item tile-item--post clearfix">
+        <div class="tile-item tile-item--post clearfix" data-category="{{post.category}}">
           <div class="tile-item--post-image">
             <a target="_blank" href="https://passport.mainstreethub.com/location/{{post.location}}"><img src="{{post.media}}" /></a>
           </div>
