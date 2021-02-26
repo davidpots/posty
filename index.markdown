@@ -59,7 +59,7 @@ layout: home
   <div class="tile">
     <div class="tile-heading">
       <h2 class="tile-title">Holidays</h2>
-      <p class="tile-lastUpdated">Last updated Feb 22</p>
+      <p class="tile-lastUpdated">Last updated Feb 26</p>
     </div>
     <div class="tile-body">
     {% for holiday in site.data.holidays %}
@@ -87,7 +87,7 @@ layout: home
   <div class="tile">
     <div class="tile-heading">
       <h2 class="tile-title">Post Gallery</h2>
-      <p class="tile-lastUpdated">Last updated Feb 22</p>
+      <p class="tile-lastUpdated">Last updated Feb 26</p>
       <p class="tile-post-filters filter-item-wrapper filter-links--category">
         <a class="filter-item filter-item--all filter-item--active" data-filterName="All Categories" href="">All Categories</a>
         <a class="filter-item" data-filterName="Product/Service" href="">Product/Service</a>
