@@ -81,6 +81,13 @@ permalink: /verticals/professional-services
         </div>
 
         <div class="tile-item tile-item--topic">
+          <span class="tile-emoji">⏰</span>
+          <span class="tile-date"><strong>Seasonal</strong></span>
+          <h3>Daylight Saving Time</h3>
+          <p>Daylight Saving Time	Many home owners need to remember to set their clocks forward an hour (think microwave, oven, cars, and analog clocks around the home) REMINDER: Arizona and Hawaii do not observe daylight saving time.</p>
+        </div>
+
+        <div class="tile-item tile-item--topic">
           <span class="tile-emoji">🥣</span>
           <span class="tile-date"><strong>Trending</strong></span>
           <h3>Organization as a viral trend</h3>
@@ -110,6 +117,7 @@ permalink: /verticals/professional-services
           <p>People are looking for ways to create a little personal space within their homes. Room dividers, using shelving to break up open space, creating at-home offices in unique ways, the open floor plan doesn't provide the privacy we need when spending more time at home.</p>
           <p class="tile-item--footer">#openconceptliving</p>
         </div>
+
 
     </div>
   </div>
