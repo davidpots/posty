@@ -1,3 +1,15 @@
+- name: National Potato Chip Day
+  description: "National Potato Chip Day on March 14th celebrates America’s #1 snack food. Millions will enjoy their favorite chip this holiday. Recommended content: restaurants with chips on the menu – try asking followers their favorite flavor or even if they prefer chips over fries. #NationalPotatoChipDay"
+  emoji: 🥔
+  day: Sunday
+  date: Mar 14
+
+- name: National Napping Day
+  description: "Each year, National Napping Day recognizes our need the day following the return of daylight saving time. Not only does the observance encourage a nap, it reminds us that there’s no shame in taking one either. Pet content is actaully very popular surrounding this day/hashtag. Recommended content: Pet customers, mattress retailers, some health and wellness businesses. #NationalNappingDay"
+  emoji: 😴
+  day: Monday
+  date: Mar 15
+
 - name: March Madness 2021
   description: March Madness is a 68-team college basketball tournament that takes place throughout the month of March. Check our guidelines for copyrighted words and phrases. This topic is relevent for sports bars or sports-centric customers.
   emoji: 🏀
@@ -19,6 +31,12 @@
 - name: Backyard Projects
   description: Spring is the best time to start backyard projects like pool installations or new landscaping before summer.
   emoji: 🌷
+  day: Entire Month
+  date: March
+
+- name: National Crafting Month
+  description: "During National Craft Month, crafters get creative with their supplies. Artisans set to work on a design, and different craftspeople put their skills together to bring an idea to life. Content recommended for: craft stores, fabric stores, events and activites customers that invove crafting (like painting or pottery), listing agents (try asking followers if they're crafting anything for their new home). #NationalCraftingMonth"
+  emoji: 🧶
   day: Entire Month
   date: March
 

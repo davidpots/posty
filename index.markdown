@@ -33,7 +33,7 @@ layout: home
   <div class="tile">
     <div class="tile-heading">
       <h2 class="tile-title">Upcoming Topics</h2>
-      <p class="tile-lastUpdated">Last updated Feb 22</p>
+      <p class="tile-lastUpdated">Last updated Feb 26</p>
     </div>
     <div class="tile-body">
       {% for topic in site.data.topics %}
