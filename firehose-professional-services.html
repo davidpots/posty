@@ -1,10 +1,12 @@
 ---
 permalink: "/firehose-professional-services"
+title: Professional Services | Firehose
 layout: home
 ---
 
-<script src="/assets/js/postsMarch3_professionalServices.js"></script>
+{% assign professional_services = site.data.postsMarch3 | where: "business_type", "professional_services" %}
 
+{% include firehose_nav.html %}
 
 <div class="tileWrapper" id="posts">
   <div class="tile">
@@ -24,7 +26,7 @@ layout: home
       </p>
     </div>
     <div class="tile-body filter-items--category">
-      {% for post in site.data.postsMarch3ProfessionalServices %}
+      {% for post in professional_services %}
         <div class="tile-item tile-item--post clearfix" data-category="{{post.content_type}}">
           <div class="tile-item--post-image">
             <a target="_blank" href="https://passport.mainstreethub.com/location/{{post.location_id}}"><img src="https://media.mainstreethub.com/media/{{post.media_id}}?width=150" /></a>

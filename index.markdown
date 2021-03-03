@@ -100,7 +100,7 @@ layout: home
       {% for post in site.data.posts %}
         <div class="tile-item tile-item--post clearfix" data-category="{{post.category}}">
           <div class="tile-item--post-image">
-            <a target="_blank" href="https://passport.mainstreethub.com/location/{{post.location}}"><img src="{{post.media}}" /></a>
+            <a target="_blank" href="https://passport.mainstreethub.com/location/{{post.location}}"><img src="{{post.media}}?width=150" /></a>
           </div>
           <div class="tile-item--post-text">
             <p class="tile-postCaption">{{post.caption}}</p>
