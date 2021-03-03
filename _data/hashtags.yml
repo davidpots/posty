@@ -1,5 +1,8 @@
 - name: ChooseToChallenge
   description: "These can be used for International Women's Day content. Related hashtag: #IWD2021"
+  featured: true
+  verticals: [Professional Services]
+  subverticals: [Contractors, HVAC, Construction Engineering]
 
 - name: womenshistorymonth
   description: Can be used for Women's History Month content
