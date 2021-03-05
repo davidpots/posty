@@ -16,6 +16,12 @@
   day: Thursday
   date: March 18
 
+- name: First Day of Spring
+  description: "Spring is a time of renewal and the welcoming of warmer weather. With this, comes new ways for businesses to seasonally market to their followers. Consider consumer needs in the spring. Do restaurants have to-go orders that could be enjoyed outside? Do home and garden shops have new spring flowers? Do car wash companies offer a wash that helps treat salt-covered vehicles coming out of winter?"
+  emoji: 🌱
+  day: Saturday
+  date: Mar 20
+
 - name: Daylight Saving Time
   description: We're technically losing an hour, but many businesses take advantage of the extra daylight hours (ex. more time for patio dining).
   emoji: ⏰
