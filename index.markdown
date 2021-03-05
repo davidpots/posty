@@ -59,7 +59,7 @@ layout: home
   <div class="tile">
     <div class="tile-heading">
       <h2 class="tile-title">Holidays</h2>
-      <p class="tile-lastUpdated">Last updated Feb 26</p>
+      <p class="tile-lastUpdated">Last updated Mar 5</p>
     </div>
     <div class="tile-body">
     {% for holiday in site.data.holidays %}
