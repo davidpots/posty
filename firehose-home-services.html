@@ -1,0 +1,45 @@
+---
+permalink: "/firehose-home-services"
+title: Home Services | Firehose
+layout: home
+---
+
+{% assign home_services = site.data.postsMarch3 | where: "business_type", "home_services" %}
+
+{% include firehose_nav.html %}
+
+<div class="tileWrapper" id="posts">
+  <div class="tile">
+    <div class="tile-heading">
+      <h2 class="tile-title">Home Services</h2>
+      <p class="tile-lastUpdated">Last updated March 3</p>
+      <p class="tile-post-filters filter-item-wrapper filter-links--category">
+        <a class="filter-item filter-item--all filter-item--active" data-filterName="All Categories" href="">All Categories</a>
+        <a class="filter-item" data-filterName="ABOUT" href="">About</a>
+        <a class="filter-item" data-filterName="BUSINESS_OPERATIONS" href="">Business Ops</a>
+        <a class="filter-item" data-filterName="EDUCATIONAL" href="">Educational</a>
+        <a class="filter-item" data-filterName="EVENT_SPECIAL" href="">Event/Special</a>
+        <a class="filter-item" data-filterName="PARTICIPATION" href="">Participation</a>
+        <a class="filter-item" data-filterName="PRODUCT_OR_SERVICE" href="">Product/Service</a>
+        <a class="filter-item" data-filterName="TESTIMONIAL" href="">Testimonial</a>
+        <a class="filter-item" data-filterName="HOLIDAY" href="">Holiday</a>
+      </p>
+    </div>
+    <div class="tile-body filter-items--category">
+      {% for post in home_services %}
+        <div class="tile-item tile-item--post clearfix" data-category="{{post.content_type}}">
+          <div class="tile-item--post-image">
+            <a target="_blank" href="https://passport.mainstreethub.com/location/{{post.location_id}}"><img src="https://media.mainstreethub.com/media/{{post.media_id}}?width=150" /></a>
+          </div>
+          <div class="tile-item--post-text">
+            <p class="tile-postCaption">{{post.text}}</p>
+            <p class="tile-postMeta" style="background-image: url(/assets/images/icon-tag.svg);">{{post.content_type}}</p>
+            <p class="tile-postMeta" style="background-image: url(/assets/images/icon-author.svg);"><a target="_blank"  href="https://passport.mainstreethub.com/location/{{post.location_id}}/content/{{post.media_id}}">{{post.author_name}}</a></p>
+            <p class="tile-postMeta">{{post.media_id}}</p>
+            <div class="tile-item--post-comment">{{post.comment}}</div>
+          </div>
+        </div>
+      {% endfor %}
+    </div>
+  </div>
+</div>

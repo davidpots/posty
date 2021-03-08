@@ -10,7 +10,7 @@ layout: home
   <div class="tile">
     <div class="tile-heading">
       <h2 class="tile-title">Hashtags</h2>
-      <p class="tile-lastUpdated">Last updated Feb 26</p>
+      <p class="tile-lastUpdated">Last updated Mar 5</p>
     </div>
     <div class="tile-body">
       {% for hashtag in site.data.hashtags %}
@@ -33,7 +33,7 @@ layout: home
   <div class="tile">
     <div class="tile-heading">
       <h2 class="tile-title">Upcoming Topics</h2>
-      <p class="tile-lastUpdated">Last updated Feb 26</p>
+      <p class="tile-lastUpdated">Last updated Mar 5</p>
     </div>
     <div class="tile-body">
       {% for topic in site.data.topics %}
@@ -59,7 +59,7 @@ layout: home
   <div class="tile">
     <div class="tile-heading">
       <h2 class="tile-title">Holidays</h2>
-      <p class="tile-lastUpdated">Last updated Feb 26</p>
+      <p class="tile-lastUpdated">Last updated Mar 5</p>
     </div>
     <div class="tile-body">
     {% for holiday in site.data.holidays %}
@@ -87,7 +87,7 @@ layout: home
   <div class="tile">
     <div class="tile-heading">
       <h2 class="tile-title">Post Gallery</h2>
-      <p class="tile-lastUpdated">Last updated Feb 26</p>
+      <p class="tile-lastUpdated">Last updated Mar 5</p>
       <p class="tile-post-filters filter-item-wrapper filter-links--category">
         <a class="filter-item filter-item--all filter-item--active" data-filterName="All Categories" href="">All Categories</a>
         <a class="filter-item" data-filterName="Product/Service" href="">Product/Service</a>
@@ -97,10 +97,10 @@ layout: home
       </p>
     </div>
     <div class="tile-body filter-items--category">
-      {% for post in site.data.posts %}
+      {% for post in site.data.posts limit: 20 %}
         <div class="tile-item tile-item--post clearfix" data-category="{{post.category}}">
           <div class="tile-item--post-image">
-            <a target="_blank" href="https://passport.mainstreethub.com/location/{{post.location}}"><img src="{{post.media}}" /></a>
+            <a target="_blank" href="https://passport.mainstreethub.com/location/{{post.location}}"><img src="{{post.media}}?width=150" /></a>
           </div>
           <div class="tile-item--post-text">
             <p class="tile-postCaption">{{post.caption}}</p>
