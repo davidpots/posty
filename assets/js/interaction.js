@@ -2,15 +2,15 @@ $(window).scroll(function(){
 
   // Calculate the distance of an element from the top of the browser window
   var scrollTop     = $(window).scrollTop(),
-      elementOffset = $('.nav').offset().top,
+      elementOffset = $('#right-side-nav').offset().top,
       distance      = (elementOffset - scrollTop);
 
   console.log(scrollTop);
 
-  if ( scrollTop > 120 ) {
-    $('.nav').addClass('fixed');
+  if ( scrollTop > 150 ) {
+    $('#right-side-nav').addClass('fixed');
   } else {
-    $('.nav').removeClass('fixed');
+    $('#right-side-nav').removeClass('fixed');
   }
 
  });

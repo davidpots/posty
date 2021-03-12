@@ -1,17 +1,31 @@
-<<<<<<< HEAD
-- name: ChooseToChallenge
-  description: "These can be used for International Women's Day content. Related hashtag: #IWD2021"
-  featured: true
-  verticals: [Professional Services]
-  subverticals: [Contractors, HVAC, Construction Engineering]
-
-=======
->>>>>>> main
 - name: womenshistorymonth
   description: Can be used for Women's History Month content
+  vertical: General
 
 - name: nationalnappingday
   description: Can be used for National Potato Chip Day content
+  vertical: General
 
 - name: NationalCraftingMonth
   description: Can be used for National Crafting Month content
+  vertical: General
+
+- name: homereno
+  description: Perfect for before/after posts, or tips for home renovation
+  vertical: Professional Services
+
+- name: interiordesign
+  description: Can be used on posts about trends in the industry
+  vertical: Professional Services
+
+- name: homegoals
+  description: Can be used on posts about trends in the industry
+  vertical: Professional Services
+
+- name: decorgoals
+  description: Can be used on posts about trends in the industry
+  vertical: Professional Services
+
+- name: househunting
+  description: For posts that center on buying a home
+  vertical: Professional Services

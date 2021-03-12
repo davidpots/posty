@@ -1,53 +1,300 @@
-- name: National Potato Chip Day
-  description: "National Potato Chip Day on March 14th celebrates America’s #1 snack food. Millions will enjoy their favorite chip this holiday. Recommended content: restaurants with chips on the menu – try asking followers their favorite flavor or even if they prefer chips over fries. #NationalPotatoChipDay"
-  emoji: 🥔
-  day: Sunday
-  date: Mar 14
+- name: Spring housing market
+  description: "Spring is typically the best time to prep for the busy real estate marekt ahead (March - June). A few things folks do to prepare: renovate the backyard, tackle spring cleaning and decluttering (the first step to staging a home), explore areas for potential rental properties."
+  emoji: 🏡
+  day: Seasonal
+  vertical: Professional Services
 
-- name: National Napping Day
-  description: "Each year, National Napping Day recognizes our need the day following the return of daylight saving time. Not only does the observance encourage a nap, it reminds us that there’s no shame in taking one either. Pet content is actaully very popular surrounding this day/hashtag. Recommended content: Pet customers, mattress retailers, some health and wellness businesses. #NationalNappingDay"
-  emoji: 😴
-  day: Monday
-  date: Mar 15
+- name: Backyard Projects
+  description: "Spring is the best time to start backyard projects like pool installations or new landscaping before summer. #backyardreno"
+  emoji: 🌳
+  day: Seasonal
+  vertical: Professional Services
+
+- name: Spring Cleaning
+  description: "Starting in March, get a little extra help with spring cleaning both interior spaces and external ones like gutters, siding, driveways, or walkways."
+  emoji: 🧼
+  posting_recommendation: "Be sure to avoid mentions of Covid, viruses, or other terms related to the pandemic."
+  day: Seasonal
+  vertical: Professional Services
+
+- name: Thoughtful organization of decor
+  description: "We're seeing a shift away from minimalism folks spending more time in their homes. They're realizing rather than being tucked away in a drawer or closet, having the things they need within arms reach is important. This leads to careful curation of how these items are displayed: think curio cabinets or shelfing with glass doors and carefully curated shelves in kitchens, offices, and living spaces. #shelfie"
+  emoji: 🖼
+  posting_recommendation: "Useful for customers who offer staging as a part of their realty service or in educaitonal posts about interior design trends."
+  day: Trending
+  vertical: Professional Services
+
+- name: Shifts to neutrals and warm colors
+  description: "Warm nuetrals are on the rise. Cool tones aren't completely going away, but tones that are inviting and cozy are certainly making an entrace. Think natural feeling spaces over sleek and minimal."
+  emoji: 🛍
+  posting_recommendation: "Useful for customers who offer staging as a part of their realty service, educaitonal posts about interior design trends, audience participation posts about color palettes in the home"
+  day: Trending
+  vertical: Professional Services
+
+- name: Open-concept floorplans may be on the decline
+  description: "People are looking for ways to create a little personal space within their homes. Room dividers, using shelving to break up open space, creating at-home offices in unique ways, the open floor plan doesn't provide the privacy we need when spending more time at home. #openconceptliving"
+  emoji: 👩‍💻
+  posting_recommendation: "This content would work best for customers looking to explore trends in this industry or give tips on how to define spaces with furniture in an open-concept living space."
+  day: Trending
+  vertical: Professional Services
+
+- name: Organization as a viral trend
+  description: "Pairing nicely with seasonal spring cleaning, projects that include organizing drawers, shelves, cabinets, and closets are making the rounds. Folks love the gratification of a clean and tidy space. More examples include: pantries, offices, bookshelves, garages, and bathrooms. #organized, #pantrymakeover, #declutter, #homeorganization"
+  emoji: 🥣
+  posting_recommendation: "This content compliments posts about de-cluttering and improving the appeal of a home before it goes on the market."
+  day: Trending
 
 - name: March Madness 2021
   description: March Madness is a 68-team college basketball tournament that takes place throughout the month of March. Check our guidelines for copyrighted words and phrases. This topic is relevent for sports bars or sports-centric customers.
   emoji: 🏀
   day: Thursday
   date: March 18
-
-- name: First Day of Spring
-  description: "Spring is a time of renewal and the welcoming of warmer weather. With this, comes new ways for businesses to seasonally market to their followers. Consider consumer needs in the spring. Do restaurants have to-go orders that could be enjoyed outside? Do home and garden shops have new spring flowers? Do car wash companies offer a wash that helps treat salt-covered vehicles coming out of winter?"
-  emoji: 🌱
-  day: Saturday
-  date: Mar 20
-
-- name: Daylight Saving Time
-  description: We're technically losing an hour, but many businesses take advantage of the extra daylight hours (ex. more time for patio dining).
-  emoji: ⏰
-  day: Sunday
-  date: Mar 21
+  vertical: General
 
 - name: Spring Cleaning
   description: Starting in March, get a little extra help with spring cleaning both interior spaces and external ones like gutters, siding, driveways, or walkways.
   emoji: 🧼
   day: Entire Month
   date: March
+  vertical: General
 
 - name: Backyard Projects
   description: Spring is the best time to start backyard projects like pool installations or new landscaping before summer.
   emoji: 🌷
   day: Entire Month
   date: March
+  vertical: General
 
 - name: National Crafting Month
   description: "During National Craft Month, crafters get creative with their supplies. Artisans set to work on a design, and different craftspeople put their skills together to bring an idea to life. Content recommended for: craft stores, fabric stores, events and activites customers that invove crafting (like painting or pottery), listing agents (try asking followers if they're crafting anything for their new home). #NationalCraftingMonth"
   emoji: 🧶
   day: Entire Month
   date: March
+  vertical: General
 
 - name: Spring Housing Market
   description: "Spring is typically the best time to prep for the busy real estate marekt ahead (March - June). A few things folks do to prepare: renovate the backyard, tackle spring cleaning and decluttering (the first step to staging a home), explore areas for potential rental properties."
   emoji: 🏡
   day: Entire Month
   date: March & April
+  vertical: General
+
+- name: Spring Maintenance
+  description: "For many, A/C systems will click on for the first time since last summer. Scheduling routine maintence can prevent pricey fixes down the road. Tasks often include: testing and cleaning the blower fan, checking the level of coolant in the cooling system, and testing the system’s thermostat and operation."
+  emoji: 🔧
+  posting_recommendation: "Try creating content about tips on signs of A/C trouble or promoting routine maintenance checks."
+  day: Seasonal
+  vertical: Home Services
+  subvertical: HVAC
+  url: https://msh-success.atlassian.net/wiki/spaces/KnowledgeBase/pages/499351835/HVAC+Heating+Ventilation+and+Air+Conditioning#HVAC(Heating,Ventilation,andAirConditioning)-TypicalServicesProvided
+
+- name: HVAC Installation
+  description: "The spring housing market means folks are getting units installed into new builds or upgrading systems in just-purchased older homes."
+  emoji: 🆒
+  posting_recommendation: "Some new installations come with warranties. Check to see if your cusotmers offer this when promoting new installs."
+  day: Seasonal
+  vertical: Home Services
+  subvertical: HVAC
+  url: https://msh-success.atlassian.net/wiki/spaces/KnowledgeBase/pages/499351835/HVAC+Heating+Ventilation+and+Air+Conditioning#HVAC(Heating,Ventilation,andAirConditioning)-TypicalServicesProvided
+
+- name: Summer Prep
+  description: "Many home and business owners are looking for ways to make their HVAC systems more energy-efficient. Many HVAC customers provide energy-efficient alternatives."
+  emoji: 🌞
+  posting_recommendation: "Check to see if your customer offers discounts on swapping to a more energy-efficient or newer model."
+  day: Seasonal
+  vertical: Home Services
+  subvertical: HVAC
+  url: https://msh-success.atlassian.net/wiki/spaces/KnowledgeBase/pages/499351835/HVAC+Heating+Ventilation+and+Air+Conditioning#HVAC(Heating,Ventilation,andAirConditioning)-TypicalServicesProvided
+
+- name: Leak Repair
+  description: "Springtime has the habit of bringing turbulent weather. Many homeowners struggle with leaky pipes and drains."
+  emoji: 💦
+  posting_recommendation: "Check to see if your customer offers any spring specials or new customer discounts for first-time repairs."
+  day: Seasonal
+  vertical: Home Services
+  subvertical: Plumbing
+  url: https://msh-success.atlassian.net/wiki/spaces/KnowledgeBase/pages/499057101/Plumbers
+
+- name: New construction plumbing
+  description: "The spring houseing market means an influx of new homes needing plumbing installation or updates/repairs to older plumbing in a newly-purchased home."
+  emoji: 🚰
+  posting_recommendation: "Does your customer offer new installation warranties or discounts?"
+  day: Seasonal
+  vertical: Home Services
+  subvertical: Plumbing
+  url: https://msh-success.atlassian.net/wiki/spaces/KnowledgeBase/pages/499057101/Plumbers
+
+- name: Spring Floods
+  description: "Springtime showers can mean trouble for those located in floodzones. Flooded homes, basements, garages, etc. can mean a quick call for emergency plumbing services."
+  emoji: 🌧
+  posting_recommendation: "Look to see if your customer offers emergency plubming services or if they have a special phone number for 24/7 service."
+  day: Seasonal
+  vertical: Home Services
+  subvertical: Plumbing
+  url: https://msh-success.atlassian.net/wiki/spaces/KnowledgeBase/pages/499057101/Plumbers
+
+- name: Remodeling Projects
+  description: "Lots of people jump into remodel-mode in the spring once the weather warms up."
+  emoji: 👷‍♀️
+  posting_recommendation: "Contractors are needed to help plan new contstruction or larger remodeling projects to make sure all the right people get brought and to help estimate cost."
+  day: Seasonal
+  vertical: Home Services
+  subvertical: Contractors
+
+- name: Tile Installation
+  description: "Tiling contractors are great to cal in for these spring home renos. They usually get discounts from tile stores and ensure spaces like showers and tubs are properly sealed to prevent future damage."
+  emoji: 🛀
+  posting_recommendation: "Spring renovations on kitchens or bathrooms are a great opportunity to call a tiling contractor."
+  day: Seasonal
+  vertical: Home Services
+  subvertical: Contractors
+
+- name: Spring Home Refresh
+  description: "Hiring a painting contractor is often needed for renovation projects that cover large parts of the home, high ceilings, or even where drywall has been repaired to match paint."
+  emoji: 🖼
+  posting_recommendation: "Does your customer offer special services for repairs, or have specialty like cabinetry or exterior wall paint?"
+  day: Seasonal
+  vertical: Home Services
+  subvertical: Contractors
+
+- name: Home Reno
+  description: "Whether it's installing a pool in preparation of summer or smoothing out damaged parts of the property from fallen trees and debris, if there's dirt to be moved, Excavation Contractors are here to help."
+  emoji: 🚜
+  posting_recommendation: "Spring is the perfect time to install a swimming pool. Check to see if your cusotmer has any specializations or specialty equipment that could help."
+  day: Seasonal
+  vertical: Home Services
+  subvertical: Construction Engineering
+  url: https://msh-success.atlassian.net/wiki/spaces/KnowledgeBase/pages/654148382/Excavation
+
+- name: Home Rescue
+  description: "Flooding often happens this time of the year. When homes are damaged and flooded, damage restoration crews are the folks to call."
+  emoji: 🆘
+  posting_recommendation: "Does your customer offer warranties on their services?"
+  day: Seasonal
+  vertical: Home Services
+  subvertical: Construction Engineering
+  url: https://msh-success.atlassian.net/wiki/spaces/KnowledgeBase/pages/499155575/Damage+Restoration
+
+- name: Pavement and Driveways
+  description: "Folks who are building homes this spring may have the opportunity to look into customizing their driveway."
+  emoji: 🚗
+  day: Seasonal
+  vertical: Home Services
+  subvertical: Construction Engineering
+  url: https://msh-success.atlassian.net/wiki/spaces/KnowledgeBase/pages/499123763/Pavement+and+Driveways
+
+- name: Warm Weather Weeds
+  description: "As weather gets warmer this spring, weeds of all shapes and sizes begin to bloom."
+  emoji: 🌾
+  posting_recommendation: "Some customers may offer reocurring yard maintenance to keep yards looking great all spring and summer."
+  day: Seasonal
+  vertical: Home Services
+  subvertical: Gardening Landscaping
+  url: https://msh-success.atlassian.net/wiki/spaces/KnowledgeBase/pages/499024735/Landscaping
+
+- name: Outdoor Living Upgrade
+  description: "Getting ready for poolside dinners and days spent outside is the perfect opportunity to refresh outdoor living spaces — that's where our outdoor lighting customers come in. Pool lighting, advanced lighting system in gardens and yards, and professionally lit gazeebos are all on the top of mind over othe next few months."
+  emoji: 🏖
+  day: Seasonal
+  vertical: Home Services
+  subvertical: Gardening Landscaping
+  url: https://msh-success.atlassian.net/wiki/spaces/KnowledgeBase/pages/499287083/Outdoor+Lighting
+
+- name: Tricky Trees
+  description: "After a season of winter weather and storms, folks begin to realize problem areas in their own back yard. Trees leaning dangerously close to the house, trees that have fallen over the last few months, or tree that need to be trimmed to keep residents safe are all top mind for new and tenured home owners."
+  emoji: 🌴
+  day: Seasonal
+  vertical: Home Services
+  subvertical: Gardening Landscaping
+  url: https://msh-success.atlassian.net/wiki/spaces/KnowledgeBase/pages/499188478/Tree+Care
+
+- name: Carpet Cleaning
+  description: "Staging a home can drastically improve the rate at which it sells. It's important to keep in mind those carpets that have been walked on for over a decade or the rug under the dining table that doesn't get a deep clean all the time. Carpet cleaning is a great way to remove dust, dirt, build-up, and improve the air quality in a home."
+  emoji: 🧹
+  posting_recommendation: "Some companies offer free estimates which is great for home owners working on a budget."
+  day: Seasonal
+  vertical: Home Services
+  subvertical: Cleaning Services
+  url: https://msh-success.atlassian.net/wiki/spaces/KnowledgeBase/pages/499287218/Carpet+Cleaning
+
+- name: Power and Pressure Washing
+  description: "Curb appeal is a big deal when it comes to selling your home. Hiring a company to pressure wash the driveway and sidewalks of a home before it gets put on the market is an easy way to elevate the look and feel without doing any major renovation."
+  emoji: 💧
+  day: Seasonal
+  vertical: Home Services
+  subvertical: Cleaning Services
+  url: https://msh-success.atlassian.net/wiki/spaces/KnowledgeBase/pages/499025787/Power+and+Pressure+Washing
+
+- name: Chimney Sweeping
+  description: "Older homes have their charm, but also can come with unseen issues. Depending on the age of the property, the chimney might be outdated compared to the rest of the home. An expert will know techniques to repair older and newer chimneys."
+  emoji: 💨
+  day: Seasonal
+  vertical: Home Services
+  subvertical: Cleaning Services
+  url: https://msh-success.atlassian.net/wiki/spaces/KnowledgeBase/pages/499025787/Power+and+Pressure+Washing
+
+- name: A Helpful Hand
+  description: "Some small fixes are often neeed before you close on a house. From switching light fixutres to ficing a leaky toilet, a handyman is perfect to call when there are multiple small fixes that need to get done quickly rather than calling multiple contractors."
+  emoji: 🤝
+  day: Seasonal
+  vertical: Home Services
+  subvertical: Handyman
+
+- name: Energy Conscious
+  description: "Over the years, using solar energy in the home has not only become more popular, but more affordable. Installing solar panels in the spring is a great way to prepare for the sunny summer months."
+  emoji: ⚡️
+  day: Seasonal
+  vertical: Home Services
+  subvertical: Electrician
+
+- name: Renovations
+  description: "Smaller renovation and remodel projects may be doable on your own, but when trying to move or replace light fixutres it's important to have a professional to avoid costly mistakes."
+  emoji: 🛠
+  day: Seasonal
+  vertical: Home Services
+  subvertical: Electrician
+  url: https://msh-success.atlassian.net/wiki/spaces/KnowledgeBase/pages/499123067/Electricians
+
+#
+# - name: Renovations
+#   description: "Kitchens and Bathrooms are two of the most frequently remodeled rooms before homes are put on the market. Electricians are often needed to move or install new outlets in the room."
+#   emoji: 🛠
+#   day: Seasonal
+#   vertical: Home Services
+#   subvertical: Electrician
+
+- name: Spring Pest Control
+  description: "As snow and ice melts in different parts of the country, it leaves plenty of still water  that draws mosquitos and ants begin their search for food. Preventative pest control is a great investment before summer arrives."
+  emoji: 🐛
+  day: Seasonal
+  vertical: Home Services
+  subvertical: Pest Control
+
+- name: Moving Season
+  description: "Moving home from college for the summer, moving into new homes, removing clutter after spring cleaning. This time of year is big for movers."
+  emoji: 📦
+  posting_recommendation: "Check to see if your customer offers any spring cleaning or junk removal specials."
+  day: Seasonal
+  vertical: Home Services
+  subvertical: Moving
+
+- name: Work From Home Needs
+  description: "As many folks have shifted to working from home, they're looking to upgrade their internet or running new lines to home offices."
+  emoji: 🖥
+  day: Trending
+  vertical: Home Services
+  subvertical: TV/Internet
+
+- name: Wall-To-Wall Cabinetry
+  description: "Kitchens are seeing more use after the last year, filling with gadgets and tools to help with at-home meals. This year, we're seeing a shift to wall-to-wall cabinetry instead of smaller units of open shelving or cluttered countertops."
+  emoji: 🏬
+  day: Trending
+  vertical: Home Services
+  subvertical: Carpentry
+
+- name: Clean-Lined Cabinets
+  description: "While trends overall are leaning away from minimalism, cabnetry is an exception. More and more homes are opting for more modern cabinets in kitchen and bathrooms instead of a more traditional style."
+  emoji: 🧼
+  day: Trending
+  vertical: Home Services
+  subvertical: Carpentry
