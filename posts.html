@@ -6,5 +6,52 @@ permalink: /posts
 
 <h1>Post Gallery</h1>
 
-<div class="content-area"></div>
-<div class="content-aside"></div>
+<div class="content-area">
+
+    {% for post in site.data.posts %}
+    <div class="tile has_left_large clearfix" data-vertical="{{post.vertical}}" data-subvertical="{{post.subvertical}}" data-category="{{post.category}}" data-caption="{{post.caption}}" data-author="{{post.author}}">
+      <div class="tile_media_left">
+        <img src="{{post.media}}?width=150" />
+      </div>
+      <div class="tile_body">
+        <h4 class="caption">{{post.caption}}</h4>
+        <ul class="tile_meta">
+          {% if post.subvertical and post.subvertical != "General" %}
+            <li class="tile_meta__tag">{{post.vertical}} ({{post.subvertical}}) • {{post.category}}</li>
+          {% else %}
+            <li class="tile_meta__tag">{{post.vertical}} • {{post.category}}</li>
+          {% endif %}
+          <li class="tile_meta__author">{{post.author}}</li>
+          <li class="tile_meta__notes has_hover">Editor’s Notes<div class="flyout_wrapper"><span class="flyout_content">{{post.comment}}</span></div></li>
+        </ul>
+      </div>
+    </div>
+    {% endfor %}
+
+    <br /><br /><br /><br /><br /><br /><br /><br />
+
+</div>
+<div class="content-aside post-gallery-aside">
+  <h4>Filter by vertical:</h4>
+  <ul>
+    <li><a class="post-filter-link post-filter-link--vertical post-filter-link--all post-filter-link--active" href="#" data-vertical="All">All</a></li>
+    <li><a class="post-filter-link post-filter-link--vertical" href="#" data-vertical="Automotive">Automotive</a></li>
+    <li><a class="post-filter-link post-filter-link--vertical" href="#" data-vertical="Events and Activities">Events and Activities</a></li>
+    <li><a class="post-filter-link post-filter-link--vertical" href="#" data-vertical="Health and Wellness">Health and Wellness</a></li>
+    <li><a class="post-filter-link post-filter-link--vertical" href="#" data-vertical="Home Services">Home Services</a></li>
+    <li><a class="post-filter-link post-filter-link--vertical" href="#" data-vertical="Pets">Pets</a></li>
+    <li><a class="post-filter-link post-filter-link--vertical" href="#" data-vertical="Professional Services">Professional Services</a></li>
+    <li><a class="post-filter-link post-filter-link--vertical" href="#" data-vertical="Restaurant">Restaurant</a></li>
+    <li><a class="post-filter-link post-filter-link--vertical" href="#" data-vertical="Retail">Retail</a></li>
+    <li><a class="post-filter-link post-filter-link--vertical" href="#" data-vertical="Spa and Salon">Spa and Salon</a></li>
+  </ul>
+  <h4>Filter by category:</h4>
+  <ul>
+    <li><a class="post-filter-link post-filter-link--category post-filter-link--all post-filter-link--active" href="#" data-category="All">All</a></li>
+    <li><a class="post-filter-link post-filter-link--category" href="#" data-category="About the Business">About the Business</a></li>
+    <li><a class="post-filter-link post-filter-link--category" href="#" data-category="Audience Participation">Audience Participation</a></li>
+    <li><a class="post-filter-link post-filter-link--category" href="#" data-category="Educational">Educational</a></li>
+    <li><a class="post-filter-link post-filter-link--category" href="#" data-category="Product/Service">Product/Service</a></li>
+    <li><a class="post-filter-link post-filter-link--category" href="#" data-category="Testimonial">Testimonial</a></li>
+  </ul>
+</div>
