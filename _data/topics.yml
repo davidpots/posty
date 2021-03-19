@@ -9,6 +9,7 @@
   emoji: 🌳
   day: Seasonal
   vertical: Professional Services
+  subvertical: Gardening Landscaping
 
 - name: Spring Cleaning
   description: "Starting in March, get a little extra help with spring cleaning both interior spaces and external ones like gutters, siding, driveways, or walkways."
@@ -16,6 +17,7 @@
   posting_recommendation: "Be sure to avoid mentions of Covid, viruses, or other terms related to the pandemic."
   day: Seasonal
   vertical: Professional Services
+  subvertical: Cleaning
 
 - name: Thoughtful organization of decor
   description: "We're seeing a shift away from minimalism folks spending more time in their homes. They're realizing rather than being tucked away in a drawer or closet, having the things they need within arms reach is important. This leads to careful curation of how these items are displayed: think curio cabinets or shelfing with glass doors and carefully curated shelves in kitchens, offices, and living spaces. #shelfie"
@@ -49,27 +51,6 @@
   emoji: 🏀
   day: Thursday
   date: March 18
-  vertical: General
-
-- name: Spring Cleaning
-  description: Starting in March, get a little extra help with spring cleaning both interior spaces and external ones like gutters, siding, driveways, or walkways.
-  emoji: 🧼
-  day: Entire Month
-  date: March
-  vertical: General
-
-- name: Backyard Projects
-  description: Spring is the best time to start backyard projects like pool installations or new landscaping before summer.
-  emoji: 🌷
-  day: Entire Month
-  date: March
-  vertical: General
-
-- name: National Crafting Month
-  description: "During National Craft Month, crafters get creative with their supplies. Artisans set to work on a design, and different craftspeople put their skills together to bring an idea to life. Content recommended for: craft stores, fabric stores, events and activites customers that invove crafting (like painting or pottery), listing agents (try asking followers if they're crafting anything for their new home). #NationalCraftingMonth"
-  emoji: 🧶
-  day: Entire Month
-  date: March
   vertical: General
 
 - name: Spring Housing Market
@@ -255,14 +236,6 @@
   subvertical: Electrician
   url: https://msh-success.atlassian.net/wiki/spaces/KnowledgeBase/pages/499123067/Electricians
 
-#
-# - name: Renovations
-#   description: "Kitchens and Bathrooms are two of the most frequently remodeled rooms before homes are put on the market. Electricians are often needed to move or install new outlets in the room."
-#   emoji: 🛠
-#   day: Seasonal
-#   vertical: Home Services
-#   subvertical: Electrician
-
 - name: Spring Pest Control
   description: "As snow and ice melts in different parts of the country, it leaves plenty of still water  that draws mosquitos and ants begin their search for food. Preventative pest control is a great investment before summer arrives."
   emoji: 🐛
@@ -298,3 +271,92 @@
   day: Trending
   vertical: Home Services
   subvertical: Carpentry
+
+- name: National Burrito Day
+  description: "The day celebrates everyone's appreciation for burritos. The Mexican dish is popular all over the world, but it has only been offered in American restaurants since the 1930s. #NationalBurritoDay"
+  emoji: "🌯"
+  day: April 2
+  date: Friday
+  vertical: General
+
+- name: Masters Tournament 2021
+  description: "The Masters Tournament, often referred to as just The Masters or The US Masters, is a major championship in professional golf held in Augusta, Georgia, at the beginning of every April. The winner of the tournament competes for a percentage of the ever-changing money pool and a legendary green jacket that signifies a one-year honorary membership in the Augusta National Golf Club. This year, due to the pandemic, the tournament was postponed by several months and will be held with limited spectators in attendance. #2021Masters #MastersTournament"
+  emoji: "⛳️"
+  posting_recommendation: "Posting is not required for the tournamnet but may be a great opportunity to connect with audiences for golf customers, sporting goods stores, and sports bars. Bes sure to check out the guidelines for a list of words and images you cannot use due to trademark law."
+  day: April 5
+  date: Monday
+  vertical: General
+  url: https://msh-success.atlassian.net/wiki/spaces/KnowledgeBase/pages/1944715349/Masters+Tournament+2021
+
+- name: The Academy Awards/The Oscars
+  description: "The Oscars, formally known as the Academy Awards, are a set of 24 awards for artistic and technical merit in the film industry to recognize excellence in cinematic achievements as assessed by the Academy's voting membership. The event has grown in popularity over the years, with the celebrities and their fashion garnering almost as much attention as the awards themselves. This year, the event is scheduled to take place at the Dolby Theatre in Hollywood, two months later than originally planned, due to the impact of the COVID-19 pandemic on cinema. #Oscars #OscarNoms"
+  emoji: "🎞"
+  posting_recommendation: "Posting is optional. The Oscars can be a fun source of inspiration for your content, but just like any expensive sponsored event, the Academy is very particular about how third parties are allowed to use their trademarks. Please see the guidelines on the KB for a list of language and images to avoid."
+  day: April 25
+  date: Monday
+  vertical: General
+  url: https://msh-success.atlassian.net/wiki/spaces/KnowledgeBase/pages/1992950817/The+Oscars+2021
+
+- name: The Kentucky Derby
+  description: "The Kentucky Derby is an annual horse race held at the Churchill Downs Racetrack in Louisville, Kentucky. The race is the first of three in a series of races that make up the Triple Crown, a prestigious award granted to a horse that wins all three events. The event is steeped in Southern tradition and celebrated by way of mint julep cocktails, very large hats, and seersucker suits, though it’s likely the event will look different this year due to the pandemic. #KentuckyDerby"
+  emoji: "🏇"
+  posting_recommendation: "As with most sporting events, we need to be cautious when it comes to using trademarked words and imagery. Check out the guidelines on the KB for the full trademark list."
+  day: April 30
+  date: Friday
+  vertical: General
+  url: https://msh-success.atlassian.net/wiki/spaces/KnowledgeBase/pages/2001600659/Kentucky+Derby+2021
+
+- name: Stress Awareness Month
+  description: "During this month, health care professionals and health promotion experts across the country will join forces to increase public awareness about both the causes and cures for our modern stress epidemic. #StressAwarenessMonth"
+  emoji: "🧘‍♀️"
+  posting_recommendation: "This content could be threaded throughout the month for businesses in the health and wellness vertical and select retail customers. Try promoting products and services that promote self-care or daily stress relief. Examples include: workout classes, essential oils, scented candles, work from home tips, meditation, etc."
+  day: Entire Month
+  date: April
+  vertical: General
+
+- name: Spring Cleaning
+  description: Starting in March, get a little extra help with spring cleaning both interior spaces and external ones like gutters, siding, driveways, or walkways.
+  emoji: 🧼
+  day: Entire Month
+  date: April
+  vertical: General
+  subvertical: Moving
+
+- name: Backyard Projects
+  description: "Spring is the best time to start backyard projects like pool installations or new landscaping before summer. #backyardreno"
+  emoji: 🌷
+  day: Entire Month
+  date: April
+  vertical: General
+
+- name: Hosting From Home
+  description: "While virtual meetups aren't going anywhere, folks are looking forward to hosting close family and friends in the somewhat near future. Think spruced up social spaces, fresh furniture ideas, and tips to get all that clutter under control. "
+  emoji: "🏡"
+  posting_recommendation: "People are planning—and purchasing—for their post-quarantine lives. Consider how your cusotmers can help. Think furnitire DIY and inspo, potential first meals they'll serve, and outdoor living spaces."
+  day: Trending
+  date:
+  vertical: General
+
+- name: Values Matter Most
+  description: "The pandemic has put everyone in touch with what matters. People are more grounded in their values than ever—and they want the world to see it. "
+  emoji: "🥰"
+  posting_recommendation: "Does your cusotmer mention any particular values in their welcome call or in their brand kit? Are they passionate about the planet and making eco-conscious decisions? Do they work with the local community in any way to give back?"
+  day: Trending
+  date:
+  vertical: General
+
+- name: Best Dressed
+  description: "Loungewear may still reign supreme, but people are planning for future events. Weddings, vacations, casual get-togethers are top-of-mind for many. "
+  emoji: "🎀"
+  posting_recommendation: "How can your customer help those planning for their first events post-quarantine? Think eretail or businesses in the wedding industry."
+  day: Trending
+  date:
+  vertical: General
+
+- name: Wedding Season
+  description: "While wedding season typically starts in late spring in the US, now is the time couples often begin making reservations for the big-ticket items in their wedding. Couples will likely be looking to tour venues, place catering orders, pricing florists, trying on dresses, and more. "
+  emoji: "👰"
+  posting_recommendation: "This time of the year is usually big for florists, weddign boutiques, venues, restaurants and catering companies, wedding coordinators or planners, and photographers."
+  day: Trending
+  date:
+  vertical: General
