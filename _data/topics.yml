@@ -300,9 +300,9 @@
 - name: The Kentucky Derby
   description: "The Kentucky Derby is an annual horse race held at the Churchill Downs Racetrack in Louisville, Kentucky. The race is the first of three in a series of races that make up the Triple Crown, a prestigious award granted to a horse that wins all three events. The event is steeped in Southern tradition and celebrated by way of mint julep cocktails, very large hats, and seersucker suits, though it’s likely the event will look different this year due to the pandemic. #KentuckyDerby"
   emoji: "🏇"
-  posting_recommendation: "As with most sporting events, we need to be cautious when it comes to using trademarked words and imagery. Check out the guidelines on the KB for the full trademark list."
-  day: April 30
-  date: Friday
+  posting_recommendation: "While the actual race is on May 1, events are scheduled to happen the entire week before. As with most sporting events, we need to be cautious when it comes to using trademarked words and imagery. Check out the guidelines on the KB for the full trademark list."
+  day: May 1
+  date: Saturday
   vertical: General
   url: https://msh-success.atlassian.net/wiki/spaces/KnowledgeBase/pages/2001600659/Kentucky+Derby+2021
 
