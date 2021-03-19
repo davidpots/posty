@@ -1,13 +1,9 @@
-- name: womenshistorymonth
-  description: Can be used for Women's History Month content
+- name: NationalBurritoDay
+  description: This hashtag is to be used in content about National Burrito Day (Friday, April 2)
   vertical: General
 
-- name: nationalnappingday
-  description: Can be used for National Napping Day content
-  vertical: General
-
-- name: NationalCraftingMonth
-  description: Can be used for National Crafting Month content
+- name: JazzAppreciationMonth
+  description: This hashtag is to be used in content about Jazz Apprecaiton Month (April)
   vertical: General
 
 - name: homereno
