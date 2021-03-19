@@ -75,11 +75,12 @@ permalink: "/"
     </div>
     <div class="tile_body">
       <h3>{{holiday.name}}</h3>
-      <p>{{holiday.description}}</p>
-      <p><a href="{{holiday.url}}">Learn more »</a></p>
+      <p>{{holiday.description}}&nbsp;{% if holiday.url %}<a href="{{holiday.url}}">Learn more »</a>{% endif %}</p>
+      {% if holiday.posting_recommendation %}
       <ul class="tile_meta">
         <li class="tile_meta__recommendation has_hover">Posting Recommendation<div class="flyout_wrapper"><span class="flyout_content">{{ holiday.posting_recommendation}}</span></div></li>
       </ul>
+      {% endif %}
     </div>
   </div>
   {% endfor %}
