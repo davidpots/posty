@@ -23,9 +23,9 @@ $(document).ready(function(){
     $(this).addClass('filter-item--active');
     var clickedFilter = $(this).attr('data-filterName');
     if ( $(this).hasClass('filter-item--all') ) {
-      $('.filter-items--category .tile-item').show();
+      $('.filter-items--category .tile').show();
     } else {
-      $('.filter-items--category .tile-item').each(function() {
+      $('.filter-items--category .tile').each(function() {
         if ( $(this).attr('data-category') == clickedFilter ) {
           $(this).show();
         } else {
