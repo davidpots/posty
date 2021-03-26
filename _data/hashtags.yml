@@ -1,7 +1,3 @@
-- name: NationalBurritoDay
-  description: This hashtag is to be used in content about National Burrito Day (Friday, April 2)
-  vertical: General
-
 - name: JazzAppreciationMonth
   description: This hashtag is to be used in content about Jazz Apprecaiton Month (April)
   vertical: General
@@ -25,3 +21,15 @@
 - name: househunting
   description: For posts that center on buying a home
   vertical: Professional Services
+
+- name: NationalBeerDay
+  description: Used when posting about National Beer Day (Weds, April 7)
+  vertical: General
+
+- name: WorldHealthDay
+  description: Used when posting about World Health Day (Weds, April 7)
+  vertical: General
+
+- name: NationalPetDay
+  description: Used when posting about National Pet Day (Sat, April 11)
+  vertical: General
