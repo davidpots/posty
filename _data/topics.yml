@@ -46,13 +46,6 @@
   posting_recommendation: "This content compliments posts about de-cluttering and improving the appeal of a home before it goes on the market."
   day: Trending
 
-- name: March Madness 2021
-  description: March Madness is a 68-team college basketball tournament that takes place throughout the month of March. Check our guidelines for copyrighted words and phrases. This topic is relevent for sports bars or sports-centric customers.
-  emoji: 🏀
-  day: Thursday
-  date: March 18
-  vertical: General
-
 - name: Spring Housing Market
   description: "Spring is typically the best time to prep for the busy real estate marekt ahead (March - June). A few things folks do to prepare: renovate the backyard, tackle spring cleaning and decluttering (the first step to staging a home), explore areas for potential rental properties."
   emoji: 🏡
@@ -272,13 +265,6 @@
   vertical: Home Services
   subvertical: Carpentry
 
-- name: National Burrito Day
-  description: "The day celebrates everyone's appreciation for burritos. The Mexican dish is popular all over the world, but it has only been offered in American restaurants since the 1930s. #NationalBurritoDay"
-  emoji: "🌯"
-  day: April 2
-  date: Friday
-  vertical: General
-
 - name: Masters Tournament 2021
   description: "The Masters Tournament, often referred to as just The Masters or The US Masters, is a major championship in professional golf held in Augusta, Georgia, at the beginning of every April. The winner of the tournament competes for a percentage of the ever-changing money pool and a legendary green jacket that signifies a one-year honorary membership in the Augusta National Golf Club. This year, due to the pandemic, the tournament was postponed by several months and will be held with limited spectators in attendance. #2021Masters #MastersTournament"
   emoji: "⛳️"
@@ -287,6 +273,14 @@
   date: Monday
   vertical: General
   url: https://msh-success.atlassian.net/wiki/spaces/KnowledgeBase/pages/1944715349/Masters+Tournament+2021
+
+- name: National Beer Day
+  description: "A day to raise a toast to brewers everywhere."
+  emoji: "🍺"
+  posting_recommendation:
+  day: Wednesday
+  date: April 7
+  vertical: General
 
 - name: The Academy Awards/The Oscars
   description: "The Oscars, formally known as the Academy Awards, are a set of 24 awards for artistic and technical merit in the film industry to recognize excellence in cinematic achievements as assessed by the Academy's voting membership. The event has grown in popularity over the years, with the celebrities and their fashion garnering almost as much attention as the awards themselves. This year, the event is scheduled to take place at the Dolby Theatre in Hollywood, two months later than originally planned, due to the impact of the COVID-19 pandemic on cinema. #Oscars #OscarNoms"
@@ -357,6 +351,54 @@
   description: "While wedding season typically starts in late spring in the US, now is the time couples often begin making reservations for the big-ticket items in their wedding. Couples will likely be looking to tour venues, place catering orders, pricing florists, trying on dresses, and more. "
   emoji: "👰"
   posting_recommendation: "This time of the year is usually big for florists, weddign boutiques, venues, restaurants and catering companies, wedding coordinators or planners, and photographers."
+  day: Trending
+  date:
+  vertical: General
+
+- name: Everyday Wellness
+  description: "A shift to natural, shorter movement being incorporated thorughout the day rather than spending hours in the gym is on the rise. Activiites like biking, cleaning, and gardening set a new exercise model for many. Look to promote movement as accessible activities that can be attainably woven through the week."
+  emoji: "🏋️‍♂️"
+  posting_recommendation:
+  day: Trending
+  date:
+  vertical: General
+
+- name: Morning Rituals
+  description: "The time spent at home in the past year has allowed folks to fine-tune their morning routines. With many gaining minkutes to hours back in their day from the time not spent communiting, there's been a shift in focus on how to spend the first hours of the day. Breakfast is making a big comeback for many. Morning workouts, mediations, and yoga flows allow folks to start their day with less stress and more focus. Specialty coffee drinks made from an at-home coffee bar have found their place too."
+  emoji: "🌅"
+  posting_recommendation: "Do your health and wellness cusotmers offer online meditations or yoga flows to tune into? Or maybe coffee shops offer a barista class or want to hear about the kinds of drinks folks have been trying to master at home. Think about how your customers can make morning routines that much more enjoyable for consumers."
+  day: Trending
+  date:
+  vertical: General
+
+- name: Anyone Can Cook
+  description: "Limited dining options and quarantine in 2020 taught many folks how to take the fate of weeknight dinners into their own hands. In 2021, we're seeing the result of millions of home chefs flexing their skills and wanting to push their kitchen-prowess further. From new cookbooks to viral Tik Tok recipes, we'll see the cooking community come together more and more this year."
+  emoji: "👩‍🍳"
+  posting_recommendation: "How can you engage with at-home chefs or those looking to expand their palate."
+  day: Trending
+  date:
+  vertical: General
+
+- name: Meal Prep Comeback
+  description: "During quarantine, many loosened up their strict meal prep routines. However, we're seeing more and more folks ease back into meal prep."
+  emoji: "🍲"
+  posting_recommendation: "At the core of meal prep is the sentiment of being prepped and prepared for the week. How can your customers help consumers achieve this?"
+  day: Trending
+  date:
+  vertical: General
+
+- name: Gardeners Rejoice
+  description: "This horticultural hobby shows no signs of slowing down this year -- especially this spring. While May is peak gardening season, now is the time to plan and plant early crops. Things like herb gardens, home-grown produce, and perfecting lawn care will all be top of mind."
+  emoji: "🌱"
+  posting_recommendation: "Do your customers offer any gardening services, weed/pest control services, or tips for yard maintenance? Maybe they can offer ways to use home-grown veggies in healthy recipes or guidance around the stress relieving properties of gardening."
+  day: Trending
+  date:
+  vertical: General
+
+- name: Travel Planning
+  description: "70% of consumers are planning vacations this year. That means a larger audience for our consumers to connect with. Weekend trips or staycations are trending this year likely in more rural or secluded destinations."
+  emoji: "✈️"
+  posting_recommendation: "Now's the time to showcase the value our travel customers have to offer. Why choose their services? Why choose to stay with them rather than a brand they've stayed with before? Look to specific services or details about your travel customers that help them stand out. Also don't be afraid to think outside the box when it comes to travel planning (think boarding pets, vehicle storage, packing tips, or guides to local areas)."
   day: Trending
   date:
   vertical: General
