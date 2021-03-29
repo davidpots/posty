@@ -11,7 +11,7 @@ permalink: /posts
     {% for post in site.data.posts %}
     <div class="tile has_left_large clearfix" data-vertical="{{post.vertical}}" data-subvertical="{{post.subvertical}}" data-category="{{post.category}}" data-caption="{{post.caption}}" data-author="{{post.author}}">
       <div class="tile_media_left">
-        <img src="{{post.media}}?width=150" />
+        <a href="{{post.passport_link}}"><img src="{{post.media}}?width=150" /></a>
       </div>
       <div class="tile_body">
         <h4 class="caption">{{post.caption}}</h4>
