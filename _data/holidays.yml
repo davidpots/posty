@@ -1,3 +1,13 @@
+- name: Ramadan
+  description: "Ramadan represents a time of worship and self-reflection for Muslims. Throughout the entire month, observers participate by fasting (abstaining from all eating and drinking) from dawn to sunset, praying often, and reciting from the Quran. Members of the faith are also asked to abstain from 'sinful activities,' including smoking, sexual relations, and swearing. The day after Ramadan ends marks the beginning of Eid al-Fitr, which is the celebration of successfully completing a month of fasting."
+  emoji: ☪️
+  posting_recommendation: "Please see guidelines as you are required to follow certain posting guidelines for your halal customers/businesses with a strong Muslim identity."
+  day: Monday
+  date: April 12
+  vertical: General
+  subvertical: General
+  url: https://msh-success.atlassian.net/wiki/spaces/KnowledgeBase/pages/1992753467/Ramadan+2021
+
 - name: Patriots' Day
   description: "Patriots' Day commemorates the battles of Lexington and Concord, which were fought near Boston in 1775. Both Massachusetts and Maine celebrate Patriots' Day as a state holiday on the third Monday of April. Many businesses and schools are closed, meaning residents enjoy a three-day weekend. The holiday is recognized in Wisconsin and Connecticut as well, but businesses remain open as usual (though their operations could vary this year to due COVID-19)."
   emoji: 🇺🇸
@@ -17,13 +27,3 @@
   vertical: General
   subvertical: General
   url: https://msh-success.atlassian.net/wiki/spaces/KnowledgeBase/pages/1985446402/Earth+Day+2021
-
-- name: Ramadan
-  description: "Ramadan represents a time of worship and self-reflection for Muslims. Throughout the entire month, observers participate by fasting (abstaining from all eating and drinking) from dawn to sunset, praying often, and reciting from the Quran. Members of the faith are also asked to abstain from 'sinful activities,' including smoking, sexual relations, and swearing. The day after Ramadan ends marks the beginning of Eid al-Fitr, which is the celebration of successfully completing a month of fasting."
-  emoji: ☪️
-  posting_recommendation: "Please see guidelines as you are required to follow certain posting guidelines for your halal customers/businesses with a strong Muslim identity."
-  day: Monday
-  date: April 12
-  vertical: General
-  subvertical: General
-  url: https://msh-success.atlassian.net/wiki/spaces/KnowledgeBase/pages/1992753467/Ramadan+2021
