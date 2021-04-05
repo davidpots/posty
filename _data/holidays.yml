@@ -27,3 +27,24 @@
   vertical: General
   subvertical: General
   url: https://msh-success.atlassian.net/wiki/spaces/KnowledgeBase/pages/1985446402/Earth+Day+2021
+
+- name: Cinco de Mayo
+  description: "Cinco de Mayo is an annual celebration commemorating the victory of the Mexican army against the French empire during the Franco-Mexican War. It is not Mexican Independence Day, but it does represent a significant moment in Mexican history. In the US, celebrations often include parades, parties, mariachi music, and traditional Mexican food and drinks. This year, due to the pandemic, people may be celebrating Cinco de Mayo differently."
+  emoji: 🇲🇽
+  posting_recommendation: "Posting for this day is optional. If you do create content for this holiday be sure to give the KB guidelines a read before you start."
+  day: Wednesday
+  date: May 5
+  vertical: General
+  subvertical: General
+  url: https://msh-success.atlassian.net/wiki/spaces/KnowledgeBase/pages/2037122092/Cinco+de+Mayo+2021
+
+
+# - name: _____
+#   description: "_____"
+#   emoji: _____
+#   posting_recommendation: "_____"
+#   day: _____
+#   date: _____
+#   vertical: _____
+#   subvertical: _____
+#   url: _____
