@@ -114,4 +114,6 @@ $(document).ready(function(){
       // Look how many matching items exist in the main feed
       // Put that number next to the side bar link
 
+  $('.numberTotalPosts').text( $('.content-area .tile').length );
+
 });
