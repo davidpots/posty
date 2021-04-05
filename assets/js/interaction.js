@@ -92,4 +92,26 @@ $(document).ready(function(){
     return false;
   });
 
+
+  // Post Gallery - adding counts to each category and vertical
+
+  $('.post-gallery-aside .post-filter-link--vertical').each(function() {
+    var numInThatVertical = 0;
+    var currentVertical = $(this).attr('data-vertical');
+    numInThatVertical = $('.content-area .tile[data-vertical="'+currentVertical+'"]').length;
+    $(this).append(" <span class='numberOfThings'>" + numInThatVertical + "</span>");
+  });
+
+  $('.post-gallery-aside .post-filter-link--category').each(function() {
+    var numInThatCategory = 0;
+    var currentCategory = $(this).attr('data-category');
+    numInThatCategory = $('.content-area .tile[data-category="'+currentCategory+'"]').length;
+    $(this).append(" <span class='numberOfThings'>" + numInThatCategory + "</span>");
+  });
+
+  // For each link in the side bar...
+      // Fetch the data-attr/name of that link
+      // Look how many matching items exist in the main feed
+      // Put that number next to the side bar link
+
 });
