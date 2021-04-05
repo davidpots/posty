@@ -46,12 +46,7 @@
   posting_recommendation: "This content compliments posts about de-cluttering and improving the appeal of a home before it goes on the market."
   day: Trending
 
-- name: Spring Housing Market
-  description: "Spring is typically the best time to prep for the busy real estate marekt ahead (March - June). A few things folks do to prepare: renovate the backyard, tackle spring cleaning and decluttering (the first step to staging a home), explore areas for potential rental properties."
-  emoji: 🏡
-  day: Entire Month
-  date: March & April
-  vertical: General
+
 
 - name: Spring Maintenance
   description: "For many, A/C systems will click on for the first time since last summer. Scheduling routine maintence can prevent pricey fixes down the road. Tasks often include: testing and cleaning the blower fan, checking the level of coolant in the cooling system, and testing the system’s thermostat and operation."
@@ -265,21 +260,20 @@
   vertical: Home Services
   subvertical: Carpentry
 
-- name: Masters Tournament 2021
-  description: "The Masters Tournament, often referred to as just The Masters or The US Masters, is a major championship in professional golf held in Augusta, Georgia, at the beginning of every April. The winner of the tournament competes for a percentage of the ever-changing money pool and a legendary green jacket that signifies a one-year honorary membership in the Augusta National Golf Club. This year, due to the pandemic, the tournament was postponed by several months and will be held with limited spectators in attendance. #2021Masters #MastersTournament"
-  emoji: "⛳️"
-  posting_recommendation: "Posting is not required for the tournamnet but may be a great opportunity to connect with audiences for golf customers, sporting goods stores, and sports bars. Bes sure to check out the guidelines for a list of words and images you cannot use due to trademark law."
-  day: April 5
+- name: National Grilled Cheese Day
+  description: "A day to celebrate one of the best and most versatile comfort foods!"
+  posting_recommendation: "Does your restaurant customer offer grilled cheese on their menu? How can you engage with consumers around this day? A few ideas: Cleaning tips for cheesy pans, asking audiences what they pair with their grilled cheese, asking what bread + cheese pairing make the best sammy."
+  emoji: 🧀
+  day: April 12
   date: Monday
   vertical: General
-  url: https://msh-success.atlassian.net/wiki/spaces/KnowledgeBase/pages/1944715349/Masters+Tournament+2021
 
-- name: National Beer Day
-  description: "A day to raise a toast to brewers everywhere."
-  emoji: "🍺"
-  posting_recommendation:
-  day: Wednesday
-  date: April 7
+- name: National Gardening Day
+  description: "A day that celebrates gardeners and spending time in the garden!"
+  posting_recommendation: "There are so many new gardeners this year, seeing as so many folks picked it up as a pandemic hobby. Check out the trending topic \"Gardener's Rejoice\" for posting recommendations!"
+  emoji: 🌹
+  day: April 14
+  date: Wednesday
   vertical: General
 
 - name: The Academy Awards/The Oscars
@@ -299,6 +293,29 @@
   date: Saturday
   vertical: General
   url: https://msh-success.atlassian.net/wiki/spaces/KnowledgeBase/pages/2001600659/Kentucky+Derby+2021
+
+- name: Tax Day
+  description: "Tax Day is traditionally known as the day on which individual income tax returns are due to be submitted to the federal government.  Similar to last year, there has been an extension on Tax Day. It now falls on May 17."
+  posting_recommendation: "This content is useful for: Businesses that deal in financials, real estate agencies/brokers, retail spaces that capitalize on customers receiving tax returns"
+  emoji: 💸
+  day: May 17
+  date: Monday
+  vertical: General
+
+- name: Spring Housing Market
+  description: "Spring is typically the best time to prep for the busy real estate marekt ahead (March - June). A few things folks do to prepare: renovate the backyard, tackle spring cleaning and decluttering (the first step to staging a home), explore areas for potential rental properties."
+  emoji: 🏡
+  day: Entire Month
+  date: April
+  vertical: General
+
+- name: Lawn and Garden Month
+  description: "Blooms and little sprigs mean spring is finally here for many folks around the US. April celebrates getting outside and spending time around the yard. "
+  posting_recommendation: "In many cases, outdoor space can be a premium, so offering ways to adapt gardens and lawns to smaller spaces are great ways to connect with some audiences. Plants and flowers often need specific care. Tips on how to handle more temperamental plants can be really helpful to new gardeners just getting started."
+  emoji: 🌻
+  day: Entire Month
+  date: April
+  vertical: General
 
 - name: Stress Awareness Month
   description: "During this month, health care professionals and health promotion experts across the country will join forces to increase public awareness about both the causes and cures for our modern stress epidemic. #StressAwarenessMonth"
