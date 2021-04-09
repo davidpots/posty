@@ -38,6 +38,15 @@
   subvertical: General
   url: https://msh-success.atlassian.net/wiki/spaces/KnowledgeBase/pages/2037122092/Cinco+de+Mayo+2021
 
+- name: Mother’s Day
+  description: "Mother’s Day is a holiday dedicated to the celebration of mothers and all motherly figures, like grandmothers, stepmothers, dog moms, etc. Typically, families honor moms by giving them gifts or organizing activities or getaways like brunches, spa days, etc. This year, with the pandemic, it’s possible that Mother’s Day will look different for many families – especially those who aren’t able to travel during this time."
+  emoji: 👩‍👧‍👧
+  posting_recommendation: "While we encourage a Mother's Day post for your customers, be sure to check out the KB guidelines for posting details."
+  day: Sunday
+  date: May 9
+  vertical: General
+  url: https://msh-success.atlassian.net/wiki/spaces/KnowledgeBase/pages/2067826824/Mother+s+Day+2021
+
 
 # - name: _____
 #   description: "_____"
