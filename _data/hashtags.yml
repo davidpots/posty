@@ -22,14 +22,10 @@
   description: For posts that center on buying a home
   vertical: Professional Services
 
-- name: NationalGrilledCheeseDay
-  description: Perfect for your National Grilled Cheese Day content (Monday, Apr 12)
-  vertical: General
-
-- name: NationalGardeningDay
-  description: Use this when creating content for National Gardening Day (Wednesday, Apr 14)
-  vertical: General
-
 - name: CincoDeMayo
   description: Pair this hashtag with your Cinco de Mayo content (Wednesday, May 5)
+  vertical: General
+
+- name: gardenplanning
+  description: This hashtag works great in conjunction with content about Lawn and Garden Month or spring gardening.
   vertical: General
