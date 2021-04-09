@@ -1,3 +1,12 @@
+- name: Contingency
+  description: "A contingency in a real estate deal means there's something the buyer has to do for the process to go forward, like getting approved for a loan or selling their home. If the contingency terms are not met, the contract can be broken with no penalty or loss of earnest money to the buyer or seller."
+  vertical: Professional Services
+
+- name: Common Early Spring Weeds
+  description: "Dandelions, White or Dutch Clover, Hairy Bittercress"
+  vertical: Home Services
+  subvertical: Gardening Landscaping
+
 - name: Down payment
   description: "The amount of money a buyer pays at closing toward a home purchase."
   vertical: Professional Services
