@@ -383,8 +383,53 @@ html {
     }
 
 
+    /* Search on Posts page */
+    #search-box {
+      border: 1px solid #ddd;
+      border-radius: 3px;
+      padding: 0px 0 0 8px;
+      font-size: 14px;
+      height: 36px;
+      font-family: 'Barlow';
+      margin: 0 0 28px 0;
+      box-sizing: border-box;
+      outline: none;
+    }
+    #search-box:focus {
+      outline-width: 0;
+      outline: none;
+    }
 
+    #search-button {
+      box-sizing: border-box;
+      background: $color-accent;
+      color: white;
+      display: inline-block;
+      font-family: 'Barlow';
+      border-radius: 2px;
+      margin: 0;
+      padding: 0 7px;
+      font-size: 14px;
+      height: 36px;
+      border: none;
+      &:hover {
+        cursor:pointer;
+      }
+      -webkit-border-radius:2px;
+      -webkit-appearance: none;
+    }
+    #searchSummary {
+      display: none;
+    }
+    #searchSummaryTerm {
+      font-weight: bold;
+    }
 
+    .hasSearchMatch {
+    }
+    .noSearchMatch {
+      display: none;
+    }
 
 
 

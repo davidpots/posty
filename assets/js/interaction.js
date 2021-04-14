@@ -19,6 +19,7 @@ $(document).ready(function(){
 
   // Post firehose stuff
   $('.filter-item-wrapper .filter-item').click(function(){
+
     $('.filter-item--active').removeClass('filter-item--active');
     $(this).addClass('filter-item--active');
     var clickedFilter = $(this).attr('data-filterName');
@@ -41,6 +42,11 @@ $(document).ready(function(){
   var activeVertical = "All";
   var activeCategory = "All";
   $('.post-filter-link').click(function(){
+
+    // If there are search results being shown, clear/reset them
+    $('#searchSummary').hide();
+    document.getElementById('search-box').setAttribute("value", "");
+
     if ( $(this).hasClass('post-filter-link--vertical') ) {
       activeVertical = $(this).data('vertical');
       $('.post-filter-link--vertical').removeClass('post-filter-link--active');
