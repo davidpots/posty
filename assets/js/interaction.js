@@ -43,7 +43,7 @@ $(document).ready(function(){
   var activeCategory = "All";
   $('.post-filter-link').click(function(){
 
-    // If there are search results being shown, clear/reset them
+    // If there are search results being shown, clear/reset them 
     $('#searchSummary').hide();
     document.getElementById('search-box').setAttribute("value", "");
 
