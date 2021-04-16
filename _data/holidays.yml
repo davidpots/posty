@@ -8,16 +8,6 @@
   subvertical: General
   url: https://msh-success.atlassian.net/wiki/spaces/KnowledgeBase/pages/1992753467/Ramadan+2021
 
-- name: Patriots' Day
-  description: "Patriots' Day commemorates the battles of Lexington and Concord, which were fought near Boston in 1775. Both Massachusetts and Maine celebrate Patriots' Day as a state holiday on the third Monday of April. Many businesses and schools are closed, meaning residents enjoy a three-day weekend. The holiday is recognized in Wisconsin and Connecticut as well, but businesses remain open as usual (though their operations could vary this year to due COVID-19)."
-  emoji: 🇺🇸
-  posting_recommendation: "Patriots' Day posts will be request only."
-  day: Monday
-  date: April 19
-  vertical: General
-  subvertical: General
-  url: https://msh-success.atlassian.net/wiki/spaces/KnowledgeBase/pages/1985413568/Patriots+Day
-
 - name: Cinco de Mayo
   description: "Cinco de Mayo is an annual celebration commemorating the victory of the Mexican army against the French empire during the Franco-Mexican War. It is not Mexican Independence Day, but it does represent a significant moment in Mexican history. In the US, celebrations often include parades, parties, mariachi music, and traditional Mexican food and drinks. This year, due to the pandemic, people may be celebrating Cinco de Mayo differently."
   emoji: 🇲🇽

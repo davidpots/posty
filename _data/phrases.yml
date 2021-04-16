@@ -1,3 +1,7 @@
+- name: Underwriting
+  description: "Underwriting is the part of the mortgage loan application process where the bank is scrutinizes all of the buyers credit and financial documents to determine their loan eligibility."
+  vertical: Professional Services
+
 - name: Contingency
   description: "A contingency in a real estate deal means there's something the buyer has to do for the process to go forward, like getting approved for a loan or selling their home. If the contingency terms are not met, the contract can be broken with no penalty or loss of earnest money to the buyer or seller."
   vertical: Professional Services
