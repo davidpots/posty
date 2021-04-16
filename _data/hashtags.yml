@@ -2,23 +2,23 @@
   description: This hashtag is to be used in content about Jazz Apprecaiton Month (April)
   vertical: General
 
-- name: homereno
+- name: HomeReno
   description: Perfect for before/after posts, or tips for home renovation
   vertical: Professional Services
 
-- name: interiordesign
+- name: InteriorDesign
   description: Can be used on posts about trends in the industry
   vertical: Professional Services
 
-- name: homegoals
+- name: HomeGoals
   description: Can be used on posts about trends in the industry
   vertical: Professional Services
 
-- name: decorgoals
+- name: DecorGoals
   description: Can be used on posts about trends in the industry
   vertical: Professional Services
 
-- name: househunting
+- name: HouseHunting
   description: For posts that center on buying a home
   vertical: Professional Services
 
@@ -26,6 +26,6 @@
   description: Pair this hashtag with your Cinco de Mayo content (Wednesday, May 5)
   vertical: General
 
-- name: gardenplanning
+- name: GardenPlanning
   description: This hashtag works great in conjunction with content about Lawn and Garden Month or spring gardening.
   vertical: General
