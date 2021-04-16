@@ -18,16 +18,6 @@
   subvertical: General
   url: https://msh-success.atlassian.net/wiki/spaces/KnowledgeBase/pages/1985413568/Patriots+Day
 
-- name: Earth Day
-  description: "Earth Day is an annual holiday dedicated to environmental protection. The day officially marks the anniversary of the start of the environmental movement in 1970 and is recognized by 192 countries. People around the world dedicate the day to environmental projects big and small: donating to environmental protection charities, picking up trash on the sidewalk, participating in community clean-ups, etc."
-  emoji: 🌎
-  posting_recommendation: "Posts are optional but encouraged for eco-friendly customers and those who may benefit from a post."
-  day: Thursday
-  date: April 22
-  vertical: General
-  subvertical: General
-  url: https://msh-success.atlassian.net/wiki/spaces/KnowledgeBase/pages/1985446402/Earth+Day+2021
-
 - name: Cinco de Mayo
   description: "Cinco de Mayo is an annual celebration commemorating the victory of the Mexican army against the French empire during the Franco-Mexican War. It is not Mexican Independence Day, but it does represent a significant moment in Mexican history. In the US, celebrations often include parades, parties, mariachi music, and traditional Mexican food and drinks. This year, due to the pandemic, people may be celebrating Cinco de Mayo differently."
   emoji: 🇲🇽
