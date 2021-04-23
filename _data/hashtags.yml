@@ -29,3 +29,11 @@
 - name: GardenPlanning
   description: This hashtag works great in conjunction with content about Lawn and Garden Month or spring gardening.
   vertical: General
+
+- name: NationalSalsaMonth
+  description: Grab your favorite chips, the month of May is National Salsa Month! Businesses to consider: Retailers who sell salsas, Mexican restaurants who offer salsa, plant shops or nurseries that sell tomato plants or other produce that can become salsa.
+  vertical: General
+
+- name: NationalSaladMonth
+  description: Crisp and refreshing salads are perfect as the weather heats up this summer. Grab your favorite dressing because May is National Salad Month.
+  vertical: General
