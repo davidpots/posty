@@ -6,6 +6,7 @@
 #   date: _____
 #   vertical: _____
 #
+
 - name: Adopt a Shelter Pet Day
   description: "This day raises awareness for the thousands of pets that are waiting for their furever home. Many donate to or visit shelters on this day. #AdoptAShelterPetDay"
   emoji: 🐶
@@ -21,27 +22,64 @@
   date: April 30
   vertical: General
 
+- name: The Kentucky Derby
+  description: "The Kentucky Derby is an annual horse race held at the Churchill Downs Racetrack in Louisville, Kentucky. The race is the first of three in a series of races that make up the Triple Crown, a prestigious award granted to a horse that wins all three events. The event is steeped in Southern tradition and celebrated by way of mint julep cocktails, very large hats, and seersucker suits, though it’s likely the event will look different this year due to the pandemic. #KentuckyDerby"
+  emoji: "🏇"
+  posting_recommendation: "While the actual race is on May 1, events are scheduled to happen the entire week before. As with most sporting events, we need to be cautious when it comes to using trademarked words and imagery. Check out the guidelines on the KB for the full trademark list."
+  day: May 1
+  date: Saturday
+  vertical: General
+  url: https://msh-success.atlassian.net/wiki/spaces/KnowledgeBase/pages/2001600659/Kentucky+Derby+2021
+
+
+- name: Met Gala
+  description: "The Met Gala, formally called the Costume Institute Gala or the Costume Institute Benefit and also known as the Met Ball, is an annual fundraising gala for the benefit of the Metropolitan Museum of Art's Costume Institute in New York City. It marks the opening of the Costume Institute's annual fashion exhibit. #MetGala #MetGala2021"
+  emoji: 👗
+  posting_recommendation: "Typically retail, beauty, or fashion brands engage in conversation around the Met Gala each year. It's important to note that the Met Gala was cancelled last year due to Covid-19."
+  day: Monday
+  date: May 3
+  vertical: General
+
+- name: Teacher Appreciation week
+  description: "People typically look to celebrate their children's teachers with small gifts, gift cards, catered lunches, etc. #TeacherAppreciationWeek"
+  emoji: 👩‍🏫
+  day: May 3–7
+  vertical: General
+
+- name: National Nurses Week
+  description: "Each year we use this time to celebrate those who work in healthcare or the nursing profession. Due to the pandemic, this year National Nurses Week will be especially impactful. #NationalNursesWeek"
+  emoji: 👩‍⚕️
+  posting_recommendation: "Many businesses may post: A well wish to celebrate nurses, sell specialized products for nurses, offer specials to industry workers (nurses), or post an employee spotlight."
+  day: May 6–12
+  vertical: General
+
+- name: Pests That Thrive in the Summer
+  description: "Mosquitoes, Ants, Fleas, Ticks, Termites, Grasshoppers, Flies, and Stinging Insects"
+  emoji: 🐝
+  vertical: Home Services
+  subvertical: Pest Control
+
+- name: Pest Control in the Kitchen
+  description: "Spring pests, like ants, love kitchen spaces because of the availability of potential water and food sources. Crumbs, spill residue, and food left out are some of their favorite snacks. Here are a few things to tackle at the beginning of each season to help prevent pests in the kitchen: -Clean out all of your cabinets and pantry. Discard stale or outdated foods and spices. -Thoroughly clean the inside of your cabinets and replace old shelf paper. -Vacuum behind your appliances—there’s probably a good bit of dust back there! -Clear off your counters and give them a good scrub, looking out for any sticky spots or residue in hard-to-reach areas."
+  emoji: 🐜
+  url: https://www.vulcantermite.com/home-pest-control/spring-cleaning-tips-avoid-spring-pests/
+  vertical: Home Services
+  subvertical: Pest Control
+
+- name: Booming Housing Market
+  description: "Spring is typically the best time to prep for the busy real estate market ahead (March - June). A few things folks do to prepare: renovate the backyard, tackle spring cleaning and decluttering (the first step to staging a home), explore areas for potential rental properties."
+  emoji: 📈
+  day: Entire Month
+  date: March – June
+  vertical: Professional Services
+
 - name: Remodeling Tip
   description: "Remodeling a home isn't for the faint of heart. It's recommended to budget a 10% cushion into your project if you're living in the home while remodeling and 30% if you plan to live elsewhere to account for delays or mishaps during construction."
   emoji: 🗜
   vertical: Home Services
   subvertical: Contractors
 
-- name: Gradutaion Season
-  description: "Starting in May many HS and college seniors are likely to celebrate their graduation with backyard parties, zoom/virtual celebrations, and planning senior trips after graduation."
-  emoji: 🎓
-  posting_recommendation: "This content is especially relevant for Restaurant, Florists, Beauty (Salon and Spa), and Retail customers"
-  day: Entire Month
-  date: May
-  vertical: General
 
-- name: Allergy Season
-  description: "Seasonal allergies can occur year-round for some, but many experience symptoms in the spring when allergens like mold spores and pollen from trees, grasses, or weeds are released into the air. Trees begin producing pollen early in spring, followed by grass later on in the season. A particularly rainy spring season can also result in more rapid plant growth, leading to a spike in mold spores around this time."
-  emoji: 🤧
-  posting_recommendation: "Pets who spend time outside can experience seasonal allergy symptoms. Do your health and wellness customers specialize in allergens or have an allergist on staff? Keep in mind not to promote \"cures or remedies\" to avoid breaking FB's content guidelines."
-  day: Entire Month
-  date: April
-  vertical: General
 
 
 - name: The gift of lawn care
@@ -53,7 +91,7 @@
 - name: Solid vs. Engineered Hardwood
   description: "Solid hardwood flooring typically comes in long planks, milled with tongues and grooves on opposite edges so that the boards interlock when installed. It is always nailed down to the subfloor, a process that requires some skill. Because it is solid wood, this flooring can be sanded down and refinished several times over its life. Engineered flooring looks like solid hardwood, but it's made of a thin layer of hardwood bonded over a premium-quality plywood layer for added stability. It is both less expensive and easier for DIYers to install than solid hardwood."
   emoji: 👷‍♀️
-  posting_recommendation: "Solid hardwood vs engineered hardwood is a great topic to engage audiecnes — especially those looking to renovate or flip a new home."
+  posting_recommendation: "Solid hardwood vs engineered hardwood is a great topic to engage audiences — especially those looking to renovate or flip a new home."
   vertical: Professional Services
 
 - name: Home Projects and ROI
@@ -99,14 +137,14 @@ Replacement windows - 89.6%"
   subvertical: Cleaning
 
 - name: Thoughtful organization of decor
-  description: "We're seeing a shift away from minimalism folks spending more time in their homes. They're realizing rather than being tucked away in a drawer or closet, having the things they need within arms reach is important. This leads to careful curation of how these items are displayed: think curio cabinets or shelfing with glass doors and carefully curated shelves in kitchens, offices, and living spaces. #shelfie"
+  description: "We're seeing a shift away from minimalism folks spending more time in their homes. They're realizing rather than being tucked away in a drawer or closet, having the things they need within arms reach is important. This leads to careful curation of how these items are displayed: think curio cabinets or shelving with glass doors and carefully curated shelves in kitchens, offices, and living spaces. #shelfie"
   emoji: 🖼
-  posting_recommendation: "Useful for customers who offer staging as a part of their realty service or in educaitonal posts about interior design trends."
+  posting_recommendation: "Useful for customers who offer staging as a part of their realty service or in educational posts about interior design trends."
   day: Trending
   vertical: Professional Services
 
 - name: Shifts to neutrals and warm colors
-  description: "Warm nuetrals are on the rise. Cool tones aren't completely going away, but tones that are inviting and cozy are certainly making an entrace. Think natural feeling spaces over sleek and minimal."
+  description: "Warm neutrals are on the rise. Cool tones aren't completely going away, but tones that are inviting and cozy are certainly making an entrance. Think natural feeling spaces over sleek and minimal."
   emoji: 🛍
   posting_recommendation: "Useful for customers who offer staging as a part of their realty service, educaitonal posts about interior design trends, audience participation posts about color palettes in the home"
   day: Trending
@@ -122,13 +160,13 @@ Replacement windows - 89.6%"
 - name: Organization as a viral trend
   description: "Pairing nicely with seasonal spring cleaning, projects that include organizing drawers, shelves, cabinets, and closets are making the rounds. Folks love the gratification of a clean and tidy space. More examples include: pantries, offices, bookshelves, garages, and bathrooms. #organized, #pantrymakeover, #declutter, #homeorganization"
   emoji: 🥣
-  posting_recommendation: "This content compliments posts about de-cluttering and improving the appeal of a home before it goes on the market."
+  posting_recommendation: "This content compliments posts about decluttering and improving the appeal of a home before it goes on the market."
   day: Trending
-
+  vertical: Professional Services
 
 
 - name: Spring Maintenance
-  description: "For many, A/C systems will click on for the first time since last summer. Scheduling routine maintence can prevent pricey fixes down the road. Tasks often include: testing and cleaning the blower fan, checking the level of coolant in the cooling system, and testing the system’s thermostat and operation."
+  description: "For many, A/C systems will click on for the first time since last summer. Scheduling routine maintenance can prevent pricey fixes down the road. Tasks often include: testing and cleaning the blower fan, checking the level of coolant in the cooling system, and testing the system’s thermostat and operation."
   emoji: 🔧
   posting_recommendation: "Try creating content about tips on signs of A/C trouble or promoting routine maintenance checks."
   day: Seasonal
@@ -164,7 +202,7 @@ Replacement windows - 89.6%"
   url: https://msh-success.atlassian.net/wiki/spaces/KnowledgeBase/pages/499057101/Plumbers
 
 - name: New construction plumbing
-  description: "The spring houseing market means an influx of new homes needing plumbing installation or updates/repairs to older plumbing in a newly-purchased home."
+  description: "The spring housing market means an influx of new homes needing plumbing installation or updates/repairs to older plumbing in a newly-purchased home."
   emoji: 🚰
   posting_recommendation: "Does your customer offer new installation warranties or discounts?"
   day: Seasonal
@@ -173,9 +211,9 @@ Replacement windows - 89.6%"
   url: https://msh-success.atlassian.net/wiki/spaces/KnowledgeBase/pages/499057101/Plumbers
 
 - name: Spring Floods
-  description: "Springtime showers can mean trouble for those located in floodzones. Flooded homes, basements, garages, etc. can mean a quick call for emergency plumbing services."
+  description: "Springtime showers can mean trouble for those located in flood zones. Flooded homes, basements, garages, etc. can mean a quick call for emergency plumbing services."
   emoji: 🌧
-  posting_recommendation: "Look to see if your customer offers emergency plubming services or if they have a special phone number for 24/7 service."
+  posting_recommendation: "Look to see if your customer offers emergency plumbing services or if they have a special phone number for 24/7 service."
   day: Seasonal
   vertical: Home Services
   subvertical: Plumbing
@@ -184,7 +222,7 @@ Replacement windows - 89.6%"
 - name: Remodeling Projects
   description: "Lots of people jump into remodel-mode in the spring once the weather warms up."
   emoji: 👷‍♀️
-  posting_recommendation: "Contractors are needed to help plan new contstruction or larger remodeling projects to make sure all the right people get brought and to help estimate cost."
+  posting_recommendation: "Contractors are needed to help plan new construction or larger remodeling projects to make sure all the right people get brought and to help estimate cost."
   day: Seasonal
   vertical: Home Services
   subvertical: Contractors
@@ -197,7 +235,7 @@ Replacement windows - 89.6%"
   vertical: Home Services
   subvertical: Contractors
 
-- name: Spring Home Refresh
+- name: Home Refresh
   description: "Hiring a painting contractor is often needed for renovation projects that cover large parts of the home, high ceilings, or even where drywall has been repaired to match paint."
   emoji: 🖼
   posting_recommendation: "Does your customer offer special services for repairs, or have specialty like cabinetry or exterior wall paint?"
@@ -208,7 +246,7 @@ Replacement windows - 89.6%"
 - name: Home Reno
   description: "Whether it's installing a pool in preparation of summer or smoothing out damaged parts of the property from fallen trees and debris, if there's dirt to be moved, Excavation Contractors are here to help."
   emoji: 🚜
-  posting_recommendation: "Spring is the perfect time to install a swimming pool. Check to see if your cusotmer has any specializations or specialty equipment that could help."
+  posting_recommendation: "Spring is the perfect time to install a swimming pool. Check to see if your customer has any specializations or specialty equipment that could help."
   day: Seasonal
   vertical: Home Services
   subvertical: Construction Engineering
@@ -223,7 +261,7 @@ Replacement windows - 89.6%"
   subvertical: Construction Engineering
   url: https://msh-success.atlassian.net/wiki/spaces/KnowledgeBase/pages/499155575/Damage+Restoration
 
-- name: Pavement and Driveways
+- name: Home Customization
   description: "Folks who are building homes this spring may have the opportunity to look into customizing their driveway."
   emoji: 🚗
   day: Seasonal
@@ -241,7 +279,7 @@ Replacement windows - 89.6%"
   url: https://msh-success.atlassian.net/wiki/spaces/KnowledgeBase/pages/499024735/Landscaping
 
 - name: Outdoor Living Upgrade
-  description: "Getting ready for poolside dinners and days spent outside is the perfect opportunity to refresh outdoor living spaces — that's where our outdoor lighting customers come in. Pool lighting, advanced lighting system in gardens and yards, and professionally lit gazeebos are all on the top of mind over othe next few months."
+  description: "Getting ready for poolside dinners and days spent outside is the perfect opportunity to refresh outdoor living spaces — that's where our outdoor lighting customers come in. Pool lighting, advanced lighting system in gardens and yards, and professionally lit gazebos are all on the top of mind over the next few months."
   emoji: 🏖
   day: Seasonal
   vertical: Home Services
@@ -249,14 +287,14 @@ Replacement windows - 89.6%"
   url: https://msh-success.atlassian.net/wiki/spaces/KnowledgeBase/pages/499287083/Outdoor+Lighting
 
 - name: Tricky Trees
-  description: "After a season of winter weather and storms, folks begin to realize problem areas in their own back yard. Trees leaning dangerously close to the house, trees that have fallen over the last few months, or tree that need to be trimmed to keep residents safe are all top mind for new and tenured home owners."
+  description: "After a season of winter weather and storms, folks begin to realize problem areas in their own backyard. Trees leaning dangerously close to the house, trees that have fallen over the last few months, or tree that need to be trimmed to keep residents safe are all top mind for new and tenured home owners."
   emoji: 🌴
   day: Seasonal
   vertical: Home Services
   subvertical: Gardening Landscaping
   url: https://msh-success.atlassian.net/wiki/spaces/KnowledgeBase/pages/499188478/Tree+Care
 
-- name: Carpet Cleaning
+- name: Home Staging
   description: "Staging a home can drastically improve the rate at which it sells. It's important to keep in mind those carpets that have been walked on for over a decade or the rug under the dining table that doesn't get a deep clean all the time. Carpet cleaning is a great way to remove dust, dirt, build-up, and improve the air quality in a home."
   emoji: 🧹
   posting_recommendation: "Some companies offer free estimates which is great for home owners working on a budget."
@@ -265,7 +303,7 @@ Replacement windows - 89.6%"
   subvertical: Cleaning Services
   url: https://msh-success.atlassian.net/wiki/spaces/KnowledgeBase/pages/499287218/Carpet+Cleaning
 
-- name: Power and Pressure Washing
+- name: Curb Appeal
   description: "Curb appeal is a big deal when it comes to selling your home. Hiring a company to pressure wash the driveway and sidewalks of a home before it gets put on the market is an easy way to elevate the look and feel without doing any major renovation."
   emoji: 💧
   day: Seasonal
@@ -273,7 +311,7 @@ Replacement windows - 89.6%"
   subvertical: Cleaning Services
   url: https://msh-success.atlassian.net/wiki/spaces/KnowledgeBase/pages/499025787/Power+and+Pressure+Washing
 
-- name: Chimney Sweeping
+- name: Unseen Issues in Old Homes
   description: "Older homes have their charm, but also can come with unseen issues. Depending on the age of the property, the chimney might be outdated compared to the rest of the home. An expert will know techniques to repair older and newer chimneys."
   emoji: 💨
   day: Seasonal
@@ -282,7 +320,7 @@ Replacement windows - 89.6%"
   url: https://msh-success.atlassian.net/wiki/spaces/KnowledgeBase/pages/499025787/Power+and+Pressure+Washing
 
 - name: A Helpful Hand
-  description: "Some small fixes are often neeed before you close on a house. From switching light fixutres to ficing a leaky toilet, a handyman is perfect to call when there are multiple small fixes that need to get done quickly rather than calling multiple contractors."
+  description: "Some small fixes are often needed before you close on a house. From switching light fixtures to fixing a leaky toilet, a handyman is perfect to call when there are multiple small fixes that need to get done quickly rather than calling multiple contractors."
   emoji: 🤝
   day: Seasonal
   vertical: Home Services
@@ -296,19 +334,12 @@ Replacement windows - 89.6%"
   subvertical: Electrician
 
 - name: Renovations
-  description: "Smaller renovation and remodel projects may be doable on your own, but when trying to move or replace light fixutres it's important to have a professional to avoid costly mistakes."
+  description: "Smaller renovation and remodel projects may be doable on your own, but when trying to move or replace light fixtures it's important to have a professional to avoid costly mistakes."
   emoji: 🛠
   day: Seasonal
   vertical: Home Services
   subvertical: Electrician
   url: https://msh-success.atlassian.net/wiki/spaces/KnowledgeBase/pages/499123067/Electricians
-
-- name: Spring Pest Control
-  description: "As snow and ice melts in different parts of the country, it leaves plenty of still water  that draws mosquitos and ants begin their search for food. Preventative pest control is a great investment before summer arrives."
-  emoji: 🐛
-  day: Seasonal
-  vertical: Home Services
-  subvertical: Pest Control
 
 - name: Moving Season
   description: "Moving home from college for the summer, moving into new homes, removing clutter after spring cleaning. This time of year is big for movers."
@@ -333,20 +364,12 @@ Replacement windows - 89.6%"
   subvertical: Carpentry
 
 - name: Clean-Lined Cabinets
-  description: "While trends overall are leaning away from minimalism, cabnetry is an exception. More and more homes are opting for more modern cabinets in kitchen and bathrooms instead of a more traditional style."
+  description: "While trends overall are leaning away from minimalism, cabinetry is an exception. More and more homes are opting for more modern cabinets in kitchen and bathrooms instead of a more traditional style."
   emoji: 🧼
   day: Trending
   vertical: Home Services
   subvertical: Carpentry
 
-- name: The Kentucky Derby
-  description: "The Kentucky Derby is an annual horse race held at the Churchill Downs Racetrack in Louisville, Kentucky. The race is the first of three in a series of races that make up the Triple Crown, a prestigious award granted to a horse that wins all three events. The event is steeped in Southern tradition and celebrated by way of mint julep cocktails, very large hats, and seersucker suits, though it’s likely the event will look different this year due to the pandemic. #KentuckyDerby"
-  emoji: "🏇"
-  posting_recommendation: "While the actual race is on May 1, events are scheduled to happen the entire week before. As with most sporting events, we need to be cautious when it comes to using trademarked words and imagery. Check out the guidelines on the KB for the full trademark list."
-  day: May 1
-  date: Saturday
-  vertical: General
-  url: https://msh-success.atlassian.net/wiki/spaces/KnowledgeBase/pages/2001600659/Kentucky+Derby+2021
 
 
 - name: World Whisky Day
@@ -357,8 +380,8 @@ Replacement windows - 89.6%"
   vertical: General
 
 - name: Tax Day
-  description: "Tax Day is traditionally known as the day on which individual income tax returns are due to be submitted to the federal government.  Similar to last year, there has been an extension on Tax Day. It now falls on May 17."
-  posting_recommendation: "This content is useful for: Businesses that deal in financials, real estate agencies/brokers, retail spaces that capitalize on customers receiving tax returns"
+  description: "Tax Day is traditionally known as the day on which individual income tax returns are due to be submitted to the federal government. Similar to last year, there has been an extension on Tax Day. It now falls on May 17."
+  posting_recommendation: "This content is useful for: Businesses that deal in financials, real estate agencies/brokers, retail spaces that capitalize on customers receiving tax returns."
   emoji: 💸
   day: May 17
   date: Monday
@@ -367,14 +390,6 @@ Replacement windows - 89.6%"
 - name: Spring Housing Market
   description: "Spring is typically the best time to prep for the busy real estate marekt ahead (March - June). A few things folks do to prepare: renovate the backyard, tackle spring cleaning and decluttering (the first step to staging a home), explore areas for potential rental properties."
   emoji: 🏡
-  day: Entire Month
-  date: April
-  vertical: General
-
-- name: Lawn and Garden Month
-  description: "Blooms and little sprigs mean spring is finally here for many folks around the US. April celebrates getting outside and spending time around the yard. "
-  posting_recommendation: "In many cases, outdoor space can be a premium, so offering ways to adapt gardens and lawns to smaller spaces are great ways to connect with some audiences. Plants and flowers often need specific care. Tips on how to handle more temperamental plants can be really helpful to new gardeners just getting started."
-  emoji: 🌻
   day: Entire Month
   date: April
   vertical: General
@@ -401,6 +416,22 @@ Replacement windows - 89.6%"
   emoji: 🌷
   day: Entire Month
   date: April
+  vertical: General
+
+- name: Allergy Season
+  description: "Seasonal allergies can occur year-round for some, but many experience symptoms in the spring when allergens like mold spores and pollen from trees, grasses, or weeds are released into the air. Trees begin producing pollen early in spring, followed by grass later on in the season. A particularly rainy spring season can also result in more rapid plant growth, leading to a spike in mold spores around this time."
+  emoji: 🤧
+  posting_recommendation: "Pets who spend time outside can experience seasonal allergy symptoms. Do your health and wellness customers specialize in allergens or have an allergist on staff? Keep in mind not to promote \"cures or remedies\" to avoid breaking FB's content guidelines."
+  day: Entire Month
+  date: April
+  vertical: General
+
+- name: Graduation Season
+  description: "Starting in May many HS and college seniors are likely to celebrate their graduation with backyard parties, zoom/virtual celebrations, and planning senior trips after graduation."
+  emoji: 🎓
+  posting_recommendation: "This content is especially relevant for Restaurant, Florists, Beauty (Salon and Spa), and Retail customers."
+  day: Entire Month
+  date: May
   vertical: General
 
 - name: Hosting From Home
@@ -468,7 +499,7 @@ Replacement windows - 89.6%"
   vertical: General
 
 - name: Gardeners Rejoice
-  description: "This horticultural hobby shows no signs of slowing down this year -- especially this spring. While May is peak gardening season, now is the time to plan and plant early crops. Things like herb gardens, home-grown produce, and perfecting lawn care will all be top of mind."
+  description: "This horticultural hobby shows no signs of slowing down this year. While May is peak gardening season, now is the time to plan and plant early crops. Things like herb gardens, home-grown produce, and perfecting lawn care will all be top of mind."
   emoji: "🌱"
   posting_recommendation: "Do your customers offer any gardening services, weed/pest control services, or tips for yard maintenance? Maybe they can offer ways to use home-grown veggies in healthy recipes or guidance around the stress relieving properties of gardening."
   day: Trending
@@ -481,4 +512,11 @@ Replacement windows - 89.6%"
   posting_recommendation: "Now's the time to showcase the value our travel customers have to offer. Why choose their services? Why choose to stay with them rather than a brand they've stayed with before? Look to specific services or details about your travel customers that help them stand out. Also don't be afraid to think outside the box when it comes to travel planning (think boarding pets, vehicle storage, packing tips, or guides to local areas)."
   day: Trending
   date:
+  vertical: General
+
+- name: End of the School Year
+  description: "The end of the school year symbolically kicks off the summer season for many families in the US. Timing varies across country."
+  emoji: 🏫
+  posting_recommendation: "Prep for summer vacations, summer camps, swimming lessons, and outdoor activities kicks off early-mid may. Businesses tend to lean into start of summer specials and promotions to capitalize on the need for new summer clothing, activities, and travel."
+  day: Trending
   vertical: General
