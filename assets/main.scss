@@ -838,3 +838,41 @@ td {
   margin-top: 5px;
   margin-bottom: 5px;
 }
+
+
+
+
+/* SHOOTING STAR */
+
+    /* -- LAYOUT -- */
+
+            /* A section is a horiztonal band/stripe/row on the page.
+               Defaults to the <body> bg color but can have its own color. */
+            .section        { padding: 20px; }
+
+            /* If the page is at least 768px, center the content at that width.
+               Otherwise it will be 100% wide. */
+            @media (min-width: 768px) {
+              .content { width: 768px; margin: 0 auto; }
+            }
+
+            /* If you want full width content no matter what,
+               add class '.content-full' to any 'div.content' */
+            .content-full   { margin: 0; width: 100%; }
+
+            /* new stuff from not 5 years ago */
+
+            .ss-container {
+              width: 960px;
+              margin: 0 auto;
+              position: relative;
+            }
+
+    /* -- */
+
+        article               { position: relative; }
+        article .primary      { left: 275px;     top: 0; background: #aaffaa; width: 500px; }
+        article .secondary    { /* left: 0px; */ top: 0; background: #ffaaff; width: 250px; height: 100px; }
+
+
+        body.fixed              { background: orange; }

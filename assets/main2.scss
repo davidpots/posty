@@ -1,0 +1,77 @@
+---
+---
+
+$color-accent: #27A7F9;
+
+/* -- Reset -- */
+
+html { box-sizing: border-box; }
+*, *:before, *:after { box-sizing: inherit; }
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+
+html {
+  scroll-behavior: smooth;
+}
+
+/*-- Type --*/
+
+    body {
+      font-family: 'Roboto', sans-serif;
+      font-size: 16px;
+      line-height: 1.4;
+      color: #333;
+    }
+
+
+
+
+/* SHOOTING STAR */
+
+    /* -- LAYOUT -- */
+
+            /* A section is a horiztonal band/stripe/row on the page.
+               Defaults to the <body> bg color but can have its own color. */
+            // .section        { padding: 20px; }
+
+            /* If the page is at least 768px, center the content at that width.
+               Otherwise it will be 100% wide. */
+            // @media (min-width: 768px) {
+            //   .content { width: 768px; margin: 0 auto; }
+            // }
+
+            /* If you want full width content no matter what,
+               add class '.content-full' to any 'div.content' */
+            // .content-full   { margin: 0; width: 100%; }
+
+            /* new stuff from not 5 years ago */
+
+            .feed-wrapper {
+              position: relative;
+            }
+
+            @media (min-width: 768px) {
+              .feed-controls { width: 200px; float: right; }
+              .feed-controls.fixed { position: fixed; top: 0; right: calc((100% - 960px)/2); }
+              .feed-main { width: 700px; float: left; }
+            }
+
+            .ss-container {
+              width: 960px;
+              margin: 0 auto;
+              position: relative;
+            }
+
+    /* -- */
+
+        article               { position: relative; }
+        article .primary      { left: 175px;     top: 0; background: #aaffaa; width: 560px; }
+        article .secondary    { /* left: 0px; */ top: 0; background: #ffaaff; width: 150px; height: 100px; }
+
+
+        body.fixed              { background: orange; }

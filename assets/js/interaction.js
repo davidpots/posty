@@ -1,17 +1,21 @@
 $(window).scroll(function(){
 
   // Calculate the distance of an element from the top of the browser window
-  var scrollTop     = $(window).scrollTop(),
-      elementOffset = $('#right-side-nav').offset().top,
-      distance      = (elementOffset - scrollTop);
+  var scrollTop     = $(window).scrollTop();
+  if ( $('.feed-controls').length ) {
+    var elementOffset = $('.feed-controls').offset().top;
+    var distance      = (elementOffset - scrollTop);
+    console.log(scrollTop);
 
-  console.log(scrollTop);
-
-  if ( scrollTop > 150 ) {
-    $('#right-side-nav').addClass('fixed');
-  } else {
-    $('#right-side-nav').removeClass('fixed');
+    if ( scrollTop > 125 ) {
+      $('.feed-controls').addClass('fixed');
+    } else {
+      $('.feed-controls').removeClass('fixed');
+    }
   }
+
+
+
 
  });
 
@@ -43,7 +47,7 @@ $(document).ready(function(){
   var activeCategory = "All";
   $('.post-filter-link').click(function(){
 
-    // If there are search results being shown, clear/reset them 
+    // If there are search results being shown, clear/reset them
     $('#searchSummary').hide();
     document.getElementById('search-box').setAttribute("value", "");
 
