@@ -2,7 +2,7 @@ $(document).ready(function(){
   // Loop through each <article> and add the height as inline CSS
   $('article').each(function(){
     var primaryHeight = $(this).find('.primary').height() + 'px';
-    var bottomMargin = "80px";
+    var bottomMargin = "120px";
     $(this).css('height', primaryHeight);
     $(this).css('margin-bottom', bottomMargin);
   });
