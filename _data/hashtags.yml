@@ -22,10 +22,6 @@
   description: For posts that center on buying a home
   vertical: Professional Services
 
-- name: CincoDeMayo
-  description: Pair this hashtag with your Cinco de Mayo content (Wednesday, May 5)
-  vertical: General
-
 - name: GardenPlanning
   description: This hashtag works great in conjunction with content about Lawn and Garden Month or spring gardening.
   vertical: General
@@ -37,3 +33,11 @@
 - name: NationalSaladMonth
   description: Crisp and refreshing salads are perfect as the weather heats up this summer. Grab your favorite dressing because May is National Salad Month.
   vertical: General
+
+- name: LuxuryListings
+  description: "It's likely that you have some customers who support buyers and sellers in the luxury market. If so, try using this hashtag! It'll help draw in an engaging audience of luxury buyers & real estate enthusiasts. Similar hashtags: #LuxuryRealEstate #LuxuryConso #LuxuryLifestyle"
+  vertical: Professional Services
+
+- name: HomeInspo
+  description: This hashtag can be used to highlight any beautiful, appealing home or well-designed room.
+  vertical: Professional Services

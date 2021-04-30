@@ -82,3 +82,28 @@
   description: "Grass, Trees, Shrubs, Flowers, Soil, Vegetable gardens"
   vertical: Home Services
   subvertical: Gardening Landscaping
+
+
+- name: Debt-to-income ratio
+  description: "Simply put, this is the amount of debt a buyer has compared to their yearly income. Buyers don't need to be debt-free to secure loans -- loan officers are accustomed to working with certain kinds of debt, like student loans. But, if this ratio is too high, it could be hard for them to secure a loan (or it might result in a higher interest rate)."
+  vertical: Professional Services
+
+- name: ARV
+  description: "The term \"ARV\" in real estate stands for \"After Repair Value.\" It refers to the value of a property after the home's repairs are complete and the house is ready to sell. It takes into account the total cost of the repairs and the estimated value of the home. This is a useful term for buyers who want to invest and then flip homes/properties."
+  vertical: Professional Services
+
+- name: Under Contract
+  description: "This term means a seller has accepted the buyer's offer but any contingencies have yet to be met."
+  vertical: Professional Services
+
+- name: Refinancing
+  description: "Refinancing is when you restructure your home loan, replacing your old loan with an entirely new loan that has different rates and payment structures. The main reason people refinance their home loans is to get a lower interest rate on their mortgage, and therefore lower not only the monthly payment but also the overall debt owed."
+  vertical: Professional Services
+
+- name: MLS
+  description: "A MLS is a local or regional real estate service that compiles available properties for sale submitted by real estate brokers and agents. An MLS can only be accessed by real estate brokers and agents. Having access to the MLS is a huge advantage of working with a real estate professional."
+  vertical: Professional Services
+
+- name: Concierge Services
+  description: "If a Realtor offers concierge services, that essentially means they act as real estate consultants in addition to providing basic agent services. It also means they're committed to forming relationships with their clients that last beyond the transaction. They can share connections and coordinate appointments with other professionals (like repairmen, contractors, cleaners, etc), arrange inspections, inform buyers on the specifics of the property (HOA fees, property taxes, etc), assist in finding refinishing and remodeling professionals, and more. They may also anticipate and alleviate the stress of moving and act as an \"enthusiastic welcome wagon\" by acclimating their clients to their new neighborhoods, linking clients to  local social activities. and relaying information about local things that suit the new residents' interests."
+  vertical: Professional Services

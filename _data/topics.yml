@@ -7,6 +7,28 @@
 #   vertical: _____
 #
 
+- name: Housing Market
+  description: "The spring & summer months are typically the busiest time of the year for real estate professional. Homeowners looking to sell may be finishing up renovations or looking for agents to get their houses on the market. Scoping out rental properties is common during this time of year, too. People use these months as an opportunity to check out new neighborhoods and parks, too -- the warmer weather makes strolls, walks, and other realty recon more enjoyable."
+  emoji: 🏡
+  vertical: Professional Services
+
+- name: Curb appeal
+  description: "Sprucing up curb appeal is a traditional seasonal real estate marketing technique. A home's \"curb appeal\" is the first impression it gives to the outside world. It enhances the overall look and feel of a property, and it also stimulates interest and provides a return on investment."
+  emoji: 📬
+  posting_recommendation: "Think of all the things you see when you stand in front of a home -- the driveway, the door, the front yard, etc. In general, touching up or enhancing these things adds to curb appeal. You could even post gardening tips or wreath examples."
+  vertical: Professional Services
+  day: May – June
+  url: https://www.lifestorage.com/blog/moving/diy-curb-appeal-tips-increase-buyer-appeal/
+
+- name: Backyard Trends
+  description: "In the summer months, backyards can really stand out. They're defining features of the home and could lead potential buyers into thinking how to live their lives outdoors. Lately, people have been improving their backyards with particular attention paid to sustainability, \"gardening with a purpose\" (using native/local or functional plants, etc), and moving indoor living outside."
+  emoji: 🌳
+  day: May – August
+  vertical: Professional Services
+
+
+
+
 - name: Adopt a Shelter Pet Day
   description: "This day raises awareness for the thousands of pets that are waiting for their furever home. Many donate to or visit shelters on this day. #AdoptAShelterPetDay"
   emoji: 🐶
@@ -22,35 +44,10 @@
   date: April 30
   vertical: General
 
-- name: The Kentucky Derby
-  description: "The Kentucky Derby is an annual horse race held at the Churchill Downs Racetrack in Louisville, Kentucky. The race is the first of three in a series of races that make up the Triple Crown, a prestigious award granted to a horse that wins all three events. The event is steeped in Southern tradition and celebrated by way of mint julep cocktails, very large hats, and seersucker suits, though it’s likely the event will look different this year due to the pandemic. #KentuckyDerby"
-  emoji: "🏇"
-  posting_recommendation: "While the actual race is on May 1, events are scheduled to happen the entire week before. As with most sporting events, we need to be cautious when it comes to using trademarked words and imagery. Check out the guidelines on the KB for the full trademark list."
-  day: May 1
-  date: Saturday
-  vertical: General
-  url: https://msh-success.atlassian.net/wiki/spaces/KnowledgeBase/pages/2001600659/Kentucky+Derby+2021
-
-
-- name: Met Gala
-  description: "The Met Gala, formally called the Costume Institute Gala or the Costume Institute Benefit and also known as the Met Ball, is an annual fundraising gala for the benefit of the Metropolitan Museum of Art's Costume Institute in New York City. It marks the opening of the Costume Institute's annual fashion exhibit. #MetGala #MetGala2021"
-  emoji: 👗
-  posting_recommendation: "Typically retail, beauty, or fashion brands engage in conversation around the Met Gala each year. It's important to note that the Met Gala was cancelled last year due to Covid-19."
-  day: Monday
-  date: May 3
-  vertical: General
-
 - name: Teacher Appreciation week
   description: "People typically look to celebrate their children's teachers with small gifts, gift cards, catered lunches, etc. #TeacherAppreciationWeek"
   emoji: 👩‍🏫
   day: May 3–7
-  vertical: General
-
-- name: National Nurses Week
-  description: "Each year we use this time to celebrate those who work in healthcare or the nursing profession. Due to the pandemic, this year National Nurses Week will be especially impactful. #NationalNursesWeek"
-  emoji: 👩‍⚕️
-  posting_recommendation: "Many businesses may post: A well wish to celebrate nurses, sell specialized products for nurses, offer specials to industry workers (nurses), or post an employee spotlight."
-  day: May 6–12
   vertical: General
 
 - name: Pests That Thrive in the Summer
@@ -70,7 +67,7 @@
   description: "Spring is typically the best time to prep for the busy real estate market ahead (March - June). A few things folks do to prepare: renovate the backyard, tackle spring cleaning and decluttering (the first step to staging a home), explore areas for potential rental properties."
   emoji: 📈
   day: Entire Month
-  date: March – June
+  date: May – June
   vertical: Professional Services
 
 - name: Remodeling Tip
@@ -127,14 +124,6 @@ Replacement windows - 89.6%"
   day: Seasonal
   vertical: Professional Services
   subvertical: Gardening Landscaping
-
-- name: Spring Cleaning
-  description: "Starting in March, get a little extra help with spring cleaning both interior spaces and external ones like gutters, siding, driveways, or walkways."
-  emoji: 🧼
-  posting_recommendation: "Be sure to avoid mentions of Covid, viruses, or other terms related to the pandemic."
-  day: Seasonal
-  vertical: Professional Services
-  subvertical: Cleaning
 
 - name: Thoughtful organization of decor
   description: "We're seeing a shift away from minimalism folks spending more time in their homes. They're realizing rather than being tucked away in a drawer or closet, having the things they need within arms reach is important. This leads to careful curation of how these items are displayed: think curio cabinets or shelving with glass doors and carefully curated shelves in kitchens, offices, and living spaces. #shelfie"
@@ -387,11 +376,28 @@ Replacement windows - 89.6%"
   date: Monday
   vertical: General
 
+- name: PGA Championship
+  description: "The PGA Championship is an annual golf tournament conducted by the Professional Golfers' Association of America. It is one of the four major championships in professional golf."
+  emoji: ⛳️
+  posting_recommendation: "Please view KB guidelines for trademark phrases to avoid."
+  day: May 20–23
+  url: https://msh-success.atlassian.net/wiki/spaces/KnowledgeBase/pages/1269825655/PGA+Championship+2020
+  vertical: General
+
+- name: National Dental Care Awareness Month
+  description: "During the month of May, National Dental Care Month takes time to remind us of the importance of caring for our pearly whites."
+  emoji: 🦷
+  posting_recommendation: "The start of the summer is a great time for a cleaning or preventative dental work. With events like graduations, family reunions. and vacations coming up, making sure your smile is in top shape is crucial."
+  day: Entire Month
+  date: May
+  vertical: General
+
+
 - name: Spring Housing Market
   description: "Spring is typically the best time to prep for the busy real estate marekt ahead (March - June). A few things folks do to prepare: renovate the backyard, tackle spring cleaning and decluttering (the first step to staging a home), explore areas for potential rental properties."
   emoji: 🏡
   day: Entire Month
-  date: April
+  date: May
   vertical: General
 
 - name: Backyard Projects
@@ -503,3 +509,11 @@ Replacement windows - 89.6%"
   posting_recommendation: "Prep for summer vacations, summer camps, swimming lessons, and outdoor activities kicks off early-mid may. Businesses tend to lean into start of summer specials and promotions to capitalize on the need for new summer clothing, activities, and travel."
   day: Trending
   vertical: General
+
+
+- name: Home offices
+  description: "Looks like remote work is a permanent, accessible solution for many! Home offices are going to be a priority for home buyers."
+  emoji: 🖥
+  posting_recommendation: "Think of the educational content your customer could offer about home office design trends -- soothing colors, natural decor, access to sunlight/fresh air,  or even smart tech solutions. Engage with followers by asking your audience to share details about their home office spaces."
+  vertical: General
+  day: Trending
