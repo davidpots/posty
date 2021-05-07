@@ -1,3 +1,17 @@
+# - name: ____
+#   description: "____"
+#   vertical: ____
+
+- name: June bugs
+  description: "The term \"June bug\" can refer to a number of different species of beetles. The name is derived from the fact that they typically emerge towards the beginning of summer. They are harmless to people and animals but because they are attracted to light, they can be a big nuisance at night. Many pest control companies offer services related to June bug control."
+  vertical: Home Services
+  subvertical: Pest Control
+
+- name: Sump pump
+  description: "A sump pump moves water from the areas surrounding a house's foundation. The main purpose of a sump pump is to pump and send water away from the house, to a place where it can cause less problems — usually a city storm drain. Properly working sump pumps are integral for homes in areas that get a lot of rain or are near sources of water."
+  vertical: Home Services
+  subvertical: Plumbing
+
 - name: Underwriting
   description: "Underwriting is the part of the mortgage loan application process where the bank is scrutinizes all of the buyers credit and financial documents to determine their loan eligibility."
   vertical: Professional Services

@@ -7,6 +7,60 @@
 #   vertical: _____
 #
 
+- name: National Rose Month
+  description: "June is National Rose Month. With over 150 different species throughout North America, roses are in peak bloom in June. They are a hardy plant that can be added to any landscape. #NationalRoseMonth"
+  emoji: 🌹
+  posting_recommendation: "Landscaping really kicks it up a notch as gardens come in full bloom. Consider educating followers on the care and keeping of different varieties of roses."
+  day: Entire Month
+  date: June
+  vertical: Home Services
+  subvertical: Gardening Landscaping
+
+- name: National Garden Week
+  description: "National Garden Week takes place the first full week in June every year. Gardens provide fresh fruits and vegetables, beautify neighborhoods and communities and provide social and physical activities throughout the year. #NationalGardenWeek"
+  emoji: 💐
+  posting_recommendation: "When posting about National Garden Week, consider the hard work many people put into their gardens last year and how they can continue the upkeep this season. Consumers may celebrate with an update to their home's landscaping or much-needed maintenance."
+  day: June 1-7
+  vertical: Home Services
+  subvertical: Gardening Landscaping
+  url: https://www.gardenclub.org/national-garden-week#:~:text=National%20Garden%20Week%3A%20June%206%2D12%2C%202021
+
+- name: Summer heat
+  description: "With summer ramping up, so do outside temperatures. Between May and June we see a sizeable increase in average temperature in areas that have typical summers. This means the need for potential emergency repairs, filter changes, and finding ways to keep homes cool without breaking the bank."
+  emoji: 🥵
+  day: Entire Month
+  date: June
+  vertical: Home Services
+  subvertical: HVAC
+
+- name: Custom-built homes
+  description: "With real estate prices in many areas going up, some people are considering custom-built homes. For many, the long-term cost savings of buying a new home are more attractive than maintaining an older home."
+  emoji: 🗜
+  vertical: Home Services
+  subvertical: Construction Engineering
+
+- name: Pool maintenance
+  description: "With summer coming, it's important to make sure your pool continues to operate successfully. Skimming, brushing, and vacuuming your pool are just a few things to keep track of when considering pool maintenance. Making sure chemical levels stay where they need to be can take a little more time and practice. "
+  emoji: 🩱
+  posting_recommendation: "Some pool companies offer routine in-person maintenance, while others may provide the perfect tools to do it yourself."
+  vertical: Home Services
+  subvertical: Pool service/maintenance
+
+- name: Gutter cleaning
+  description: "Depending on where you live and if there are trees near your home, you need to make sure your gutters are clear of debris. Having clear gutters insures rainwater flows freely and does not get stuck which can cause standing water. This can cause a number of problems including damage to the gutter itself, excess moisture in walls, mold and mildew."
+  emoji: 🍂
+  posting_recommendation: "Most roofing or handyman companies can safely and effectively clear gutters prior to unpredictable weather."
+  vertical: Home Services
+  subvertical: Roofing
+
+- name: Roadtrip Season
+  description: "End of May through June marks the beginning of roadtrip season. Auto businesses lean into vacation specials, oil changes, tire specials, rental vehicles, and more. RV and Camper sales were up a drastic amount in 2020 — while we may not see new purchases as high as last year, we're bound to see camper makeovers and a need to make traveling and working on the road easier for the whole family. #CamperRenovation #CamperLife #RoadTrippin"
+  emoji: 🛣
+  day: May–June
+  posting_recommendation: "Lean into prepping the family vehicle for long car rides. Ideas for entertaining littles in the car, car-approved snacks, and tips for roadside emergencies work great during this season. When posting for RV or Camper customers, consider small space hacks or tips for bringing work on the road. Showcasing local spots to visit for a long weekends help followers plan obtainable vacations without any huge commitments."
+  vertical: General
+
+
 - name: Housing Market
   description: "The spring & summer months are typically the busiest time of the year for real estate professional. Homeowners looking to sell may be finishing up renovations or looking for agents to get their houses on the market. Scoping out rental properties is common during this time of year, too. People use these months as an opportunity to check out new neighborhoods and parks, too -- the warmer weather makes strolls, walks, and other realty recon more enjoyable."
   emoji: 🏡
@@ -26,29 +80,6 @@
   day: May – August
   vertical: Professional Services
 
-
-
-
-- name: Adopt a Shelter Pet Day
-  description: "This day raises awareness for the thousands of pets that are waiting for their furever home. Many donate to or visit shelters on this day. #AdoptAShelterPetDay"
-  emoji: 🐶
-  posting_recommendation: "Does your customer partner with or donate to a local shelter? Or maybe the business has a shelter pet in their shop to highlight?"
-  day: Friday
-  date: April 30
-  vertical: General
-
-- name: National Bubble Tea Day
-  description: "The word \"boba\" can refer to either a broad category of chunky drinks — including everything from iced tea with tapioca pearls to fresh juice loaded with fruity bits — or black tapioca pearls themselves. Boba tea, bubble tea, and pearl milk tea — in Taiwan, zhenzhu naicha (珍珠奶茶) — are essentially different names for the same thing; the monikers differ by location, but also personal preference. No matter what you call it, we celebrate it on National Bubble Tea Day."
-  emoji: 🍵
-  day: Friday
-  date: April 30
-  vertical: General
-
-- name: Teacher Appreciation week
-  description: "People typically look to celebrate their children's teachers with small gifts, gift cards, catered lunches, etc. #TeacherAppreciationWeek"
-  emoji: 👩‍🏫
-  day: May 3–7
-  vertical: General
 
 - name: Pests That Thrive in the Summer
   description: "Mosquitoes, Ants, Fleas, Ticks, Termites, Grasshoppers, Flies, and Stinging Insects"
@@ -359,15 +390,6 @@ Replacement windows - 89.6%"
   vertical: Home Services
   subvertical: Carpentry
 
-
-
-- name: World Whisky Day
-  description: "World Whisky Day 2021 may be different to all which have come before it but the guiding principles remain the same. World Whisky Day is about making whisky fun for all, not about being exclusive or prescriptive."
-  emoji: 🥃
-  day: Saturday
-  date: May 15
-  vertical: General
-
 - name: Tax Day
   description: "Tax Day is traditionally known as the day on which individual income tax returns are due to be submitted to the federal government. Similar to last year, there has been an extension on Tax Day. It now falls on May 17."
   posting_recommendation: "This content is useful for: Businesses that deal in financials, real estate agencies/brokers, retail spaces that capitalize on customers receiving tax returns."
@@ -448,9 +470,9 @@ Replacement windows - 89.6%"
   vertical: General
 
 - name: Wedding Season
-  description: "While wedding season typically starts in late spring in the US, now is the time couples often begin making reservations for the big-ticket items in their wedding. Couples will likely be looking to tour venues, place catering orders, pricing florists, trying on dresses, and more."
+  description: "June is typically considered peak wedding season. Couples will be finalizing details and arranging the final touches of their big day. Many potential wedding guests are already thinking about what they'll wear and how they'll travel to venues. The industry is seeing many rescheduled wedding due to Covid-19 and leading to some being downsized or changed before the event."
   emoji: "👰"
-  posting_recommendation: "This time of the year is usually big for florists, weddign boutiques, venues, restaurants and catering companies, wedding coordinators or planners, and photographers."
+  posting_recommendation: "A few things to consider this season: The rise in micro weddings (under 50 people), wedding gifts, dress cleaning/tailoring, video venue tours, photography sessions, and catering events/tastings."
   day: Trending
   date:
   vertical: General

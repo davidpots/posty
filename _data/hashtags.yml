@@ -1,3 +1,18 @@
+# - name: ___________
+#   description: "___________"
+#   vertical: General
+#   subvertical: ___________
+
+- name: NationalRoseMonth
+  description: "Celebrate the month-long holiday by sharing the hashtag on posts!"
+  vertical: Home Services
+  subvertical: Gardening Landscaping
+
+- name: HVACMaintenance
+  description: "Use this hashtag on posts promoting HVAC customers who can repair air conditioning systems when they fail in the summer."
+  vertical: Home Services
+  subvertical: HVAC
+
 - name: NationalBarbecueMonth
   description: "May is the month of backyard barbecues and many folks fire up their grills in celebration. Businesses to consider: BBQ Joints, Outdoor retailers who sell grills or patio furniture, or even shops that sell sauces or tools for grilling."
   vertical: General
