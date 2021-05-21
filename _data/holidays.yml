@@ -6,30 +6,6 @@
   date: May 31
   vertical: General
 
-- name: National Wine Day
-  description: "Whether it's paired with your favorite meal or shared among friends and family, today is the day to celebrarte your favorite vino."
-  emoji: 🍷
-  posting_recommendation: "Outside of wineries or places that serve wine, be sure to think about your customer's brand when cosidering a post about this day. For example: some Realtors give bottles as closing gifts while some prefer to not be associated with alcohol at all. Be sure to check your customer's notes before posting. #NationalWineDay"
-  day: Tuesday
-  date: May 25
-  vertical: General
-
-- name: National Hamburger Day
-  description: "May 28 is National Hamburger Day. It's the perfect opportunity to highlight backyards, summer weather, cook-outs, and other fun, family-oriented activities that people can enjoy in their backyards. #NationalHamburgerDay"
-  emoji: 🍔
-  posting_recommendation: "Does your restaurant customer have a famed burger on the menu? Or maybe this is the perfect opportunity to highlight the fresh burger buns your bakery customer makes every day."
-  day: Friday
-  date: May 28
-  vertical: General
-
-- name: Memorial Day
-  description: "Memorial Day is a federal holiday commemorating the people who died while serving in the country's armed forces. It also marks the unofficial start of the summer vacation season. Since this day has two (tonally very different) meanings in American culture, it’s customary to honor this day in a multitude of ways. Some participate in community parades, which are tributes to those who have died while serving (like ceremonies at memorials and cemeteries or tribute concerts). Some celebrate the kick-off to summer with outdoor BBQs, spending time in the sunshine, or vacations."
-  emoji: 🇺🇸
-  posting_recommendation: "Avoid scheduling content on Memorial Day unless requested by the customer."
-  day: Monday
-  date: May 31
-  vertical: General
-
 - name: Children's Day
   description: "Similar to Mother's and Father's Day, Children's Day takes a moment to honor the children in your life. #ChildrensDay"
   emoji: 🧒
@@ -37,6 +13,25 @@
   day: Sunday
   date: June 13
   vertical: General
+
+- name: Juneteenth
+  description: "Juneteenth is a holiday that celebrates the official end of slavery in all 50 states. The Emancipation Proclamation in 1862 declared that slaves were to be freed in the rebellious states, but states that weren't occupied by Union soldiers weren't able (or willing) to effectively enforce the new order immediately. It wasn't until June 19, 1865, that every state announced the abolition of slavery – the last being Texas. Today, the holiday is considered a joyous day in which we celebrate freedom and equality. With the Black Lives Matter movement and protests prevalent across the country and in mainstream conversations and news outlets, discussions around the struggles and injustices that Black people face has been heavily noted over the last few years in particular. This is something to keep in mind as you create your customer-requested Juneteenth post. Think about tone very carefully while writing your caption, and don't hesitate to reach out to your manager if you have questions or concerns about your post."
+  emoji: ✊🏾
+  posting_recommendation: "Posting for this holiday is by request only. Please see the full KB article for posting guidelines."
+  day: Saturday
+  date: June 19
+  vertical: General
+  url: https://msh-success.atlassian.net/wiki/spaces/KnowledgeBase/pages/2254537128/Juneteenth+2021
+
+- name: Father's Day
+  description: "Father's Day is on June 20. A post is encouraged for most of your customers – just be sure to follow our guidelines while creating a post to ensure your content is customer-specific and relevant."
+  emoji: 👨‍👧‍👦
+  posting_recommendation: "Many businesses have already started promoting their products and services for Father's Day. If reservations or shipping times are concern, be sure to post promotions in advance of the holiday."
+  day: Sunday
+  date: June 20
+  vertical: General
+  url: https://msh-success.atlassian.net/wiki/spaces/KnowledgeBase/pages/2260730256/Father%2Bs%2BDay%2B2021
+
 
 # - name: _____
 #   description: "_____"

@@ -5,7 +5,29 @@ permalink: /verticals/home-services
 
 <p class="breadcrumb"><a href="/">&larr; Home</a></p>
 
-<h1>Home Services <span class="last_updated">Updated Friday, May 7</span></h1>
+<h1>Home Services <span class="last_updated">Updated Friday, May 21</span></h1>
+
+<div class="section">
+  <h3>Hashtags</h3>
+  {% assign hashtags_proServices = site.data.hashtags | where: "vertical", "Home Services" %}
+  {% for hashtag in hashtags_proServices %}
+  <div class="tile has_left has_right">
+    <div class="tile_media_left">
+      <span class="tile_hashtag">{% include icon-hashtag.svg %}</span>
+    </div>
+    <div class="tile_media_right">
+      <span class="tile_socialLinks">
+        <a href="https://www.instagram.com/explore/tags/{{hashtag.name}}/" target="_blank">{% include icon-instagram.svg %}</a>
+        <a href="https://twitter.com/search?q=%23{{hashtag.name}}" target="_blank">{% include icon-twitter.svg %}</a>
+      </span>
+    </div>
+    <div class="tile_body">
+      <h3>{{hashtag.name}} <a data-hashtag="#{{hashtag.name}}" class="copy-button copy-hashtag" href="#">copy</a></h3>
+      <p>{{hashtag.description}}</p>
+    </div>
+  </div>
+  {% endfor %}
+</div>
 
 <div class="section">
   <h3>Upcoming Topics</h3>

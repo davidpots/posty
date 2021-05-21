@@ -7,6 +7,87 @@
 #   vertical: _____
 #
 
+- name: Pride Month
+  description: "Pride Month is celebrated every June in tribute to those involved in the Stonewall Riots and is a month-long celebration of lesbian, gay, bisexual, transgender, queer, intersex, non-binary, and questioning people to promote self-affirmation, dignity, community, and equality rights. Over time, several other queer identities have come to light and been embraced under the wider acronym of the LGBTQIA+ umbrella, and intersectional discussions of Pride that acknowledge queer identities regarding gender, race, disability, and more have been especially encouraged. Pride Month is celebrated in different cities with parades, festivals, and other events. With COVID-19 still being a worldwide concern, it's likely that many parades and events will be altered, cancelled, or held online.  See posting recommendations for guidelines. "
+  emoji: 🏳️‍🌈
+  posting_recommendation: "Only post celebratory Pride Month content if requested or if your customer has a clear focus/identity as a queer business. Since Pride Month can potentially be considered a political statement or stance on a social issue, be cautious with what and how you post. Additionally, we don't want to suggest Pride Month events may be happening at a business if COVID-19 is preventing them from fruition. See link for full guidelines."
+  day: Entire Month
+  date: June
+  vertical: General
+  url: https://msh-success.atlassian.net/wiki/spaces/KnowledgeBase/pages/2186543188/Pride+Month+2021
+
+- name: National Nail Polish Day
+  description: ""
+  emoji: 💅
+  day: Tuesday
+  date: June 1
+  vertical: General
+
+- name: World Bicycle Day
+  description: ""
+  emoji: 🚴‍♀️
+  day: Thursday
+  date: June 3
+  vertical: General
+
+- name: National Doughnut Day
+  description: "Each year folks celebrate the doughnut and honor the Salvation Army Lassies. The Salvation Army Lassies were the women who served doughnuts to soldiers during WWI. #NationalDoughnutDay"
+  emoji: 🍩
+  day: Friday
+  date: June 4
+  vertical: General
+
+- name: Birthday of the US Army
+  description: "The U.S. Army was founded on 14 June 1775 and is celebrated every year on this day."
+  emoji: 🇺🇸
+  posting_recommendation: "Many home services customers offer discounts and special promotions for active service members and veterans."
+  day: Monday
+  date: June 14
+  vertical: Home Services
+
+- name: International Sushi Day
+  description: ""
+  emoji: 🍣
+  day: Friday
+  date: June 18
+  vertical: General
+
+- name: National HVAC Tech Day
+  description: "Founded in 2016 by HVAC company ARS/Rescue Rooter, this day is to show appreciation for all HVAC technicians in the industry. #HVACTech"
+  emoji: 💨
+  day: Tuesday
+  date: June 22
+  vertical: Home Services
+  subvertical: HVAC
+
+- name: Tornado season
+  description: "Though tornadoes can form at any time of year in some places, May and June are typically the peak months. Texas and Oklahoma are two of the states with the highest number of tornadoes per year."
+  emoji: 🌪
+  posting_recommendation: "Tornadoes and other severe weather can cause a wide range of potential issues for homes and businesses.  Do any of your customers offer emergency repair services?"
+  vertical: Home Services
+
+- name: 3D Printed Homes
+  description: "3D printed homes are gaining popularity as they become more easily available in cities across the country. They can typically be built quickly and at a lower price than a traditional home. "
+  emoji: 🖨
+  posting_recommendation: "An interesting trend can make for a great audience participation post."
+  vertical: Home Services
+  subvertical: Construction Engineering
+
+- name: Natural Mosquito Control
+  description: "Mosquito and other pest control using natural ingredients like plant oils are gaining in popularity. Additionally, making changes to your outdoor area like treating water features with repellent or working to remedy areas with standing water can be a big help. "
+  emoji: 🦟
+  posting_recommendation: "Mosquitoes thrive in hot, humid weather. Natural alternatives are popular because they are effective and safe for children and pets."
+  vertical: Home Services
+  subvertical: Pest Control
+
+- name: Drywall Installation
+  description: "Drywall installation is one of the most commonly requested handyman services, home improvement or to repair damage. Professionals can repair or install drywall including cracks from settling, wear and tear, moisture damage, rodent damage, drywall hanging, and painting and finishing touches. "
+  emoji: 🔨
+  vertical: Home Services
+  subvertical: Handyman
+
+##
+
 - name: Slim Pickings
   description: "From late 2020 to mid 2021, real estate inventory has been incredibly low. As of November 2020, inventory has been down a whole 20%. In December, more that 70% of homes for sale were on the market for less than a month. Simply put, in some markets, there aren't enough houses to meet buyer demand. "
   emoji: "👀"
@@ -461,23 +542,6 @@ Replacement windows - 89.6%"
   date: Monday
   vertical: General
 
-- name: PGA Championship
-  description: "The PGA Championship is an annual golf tournament conducted by the Professional Golfers' Association of America. It is one of the four major championships in professional golf."
-  emoji: ⛳️
-  posting_recommendation: "Please view KB guidelines for trademark phrases to avoid."
-  day: May 20–23
-  url: https://msh-success.atlassian.net/wiki/spaces/KnowledgeBase/pages/1269825655/PGA+Championship+2020
-  vertical: General
-
-- name: National Dental Care Awareness Month
-  description: "During the month of May, National Dental Care Month takes time to remind us of the importance of caring for our pearly whites."
-  emoji: 🦷
-  posting_recommendation: "The start of the summer is a great time for a cleaning or preventative dental work. With events like graduations, family reunions. and vacations coming up, making sure your smile is in top shape is crucial."
-  day: Entire Month
-  date: May
-  vertical: General
-
-
 - name: Spring Housing Market
   description: "Spring is typically the best time to prep for the busy real estate marekt ahead (March - June). A few things folks do to prepare: renovate the backyard, tackle spring cleaning and decluttering (the first step to staging a home), explore areas for potential rental properties."
   emoji: 🏡
@@ -488,14 +552,6 @@ Replacement windows - 89.6%"
 - name: Backyard Projects
   description: "Spring is the best time to start backyard projects like pool installations or new landscaping before summer. #backyardreno"
   emoji: 🌷
-  day: Entire Month
-  date: May
-  vertical: General
-
-- name: Allergy Season
-  description: "Seasonal allergies can occur year-round for some, but many experience symptoms in the spring when allergens like mold spores and pollen from trees, grasses, or weeds are released into the air. Trees begin producing pollen early in spring, followed by grass later on in the season. A particularly rainy spring season can also result in more rapid plant growth, leading to a spike in mold spores around this time."
-  emoji: 🤧
-  posting_recommendation: "Pets who spend time outside can experience seasonal allergy symptoms. Do your health and wellness customers specialize in allergens or have an allergist on staff? Keep in mind not to promote \"cures or remedies\" to avoid breaking FB's content guidelines."
   day: Entire Month
   date: May
   vertical: General

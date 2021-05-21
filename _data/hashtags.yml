@@ -3,6 +3,11 @@
 #   vertical: General
 #   subvertical: ___________
 
+- name: MovingDay
+  description: "Historically, June-August is peak season for moving. 	You can provide tips and tricks for people looking to move, even during the hectic moving season. If working with movers, here are some helpful tips: schedule at least two weeks in advance; morning time slots fill up faster; there is less demand for movers on weekdays and after Labor Day."
+  vertical: Home Services
+  subvertical: Moving
+
 - name: NationalRoseMonth
   description: "Celebrate the month-long holiday by sharing the hashtag on posts!"
   vertical: Home Services
@@ -12,10 +17,6 @@
   description: "Use this hashtag on posts promoting HVAC customers who can repair air conditioning systems when they fail in the summer."
   vertical: Home Services
   subvertical: HVAC
-
-- name: NationalBarbecueMonth
-  description: "May is the month of backyard barbecues and many folks fire up their grills in celebration. Businesses to consider: BBQ Joints, Outdoor retailers who sell grills or patio furniture, or even shops that sell sauces or tools for grilling."
-  vertical: General
 
 - name: HomeReno
   description: Perfect for before/after posts, or tips for home renovation
@@ -39,14 +40,6 @@
 
 - name: GardenPlanning
   description: This hashtag works great in conjunction with content about Lawn and Garden Month or spring gardening.
-  vertical: General
-
-- name: NationalSalsaMonth
-  description: "Grab your favorite chips, the month of May is National Salsa Month! Businesses to consider: Retailers who sell salsas, Mexican restaurants who offer salsa, plant shops or nurseries that sell tomato plants or other produce that can become salsa."
-  vertical: General
-
-- name: NationalSaladMonth
-  description: Crisp and refreshing salads are perfect as the weather heats up this summer. Grab your favorite dressing because May is National Salad Month.
   vertical: General
 
 - name: LuxuryListings

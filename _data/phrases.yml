@@ -2,6 +2,17 @@
 #   description: "____"
 #   vertical: ____
 
+
+- name: Native plants
+  description: "Native plants are plants that occur naturally in a given region. They are popular in landscaping because they can more easily tolerate the area in which they are planted. They thrive in the conditions that they're used to."
+  vertical: Home Services
+  subvertical: Gardening Landscaping
+
+- name: LED Lightbulbs
+  description: "LED light bulbs typically use anywhere from 25-80% less electricity and have a much longer lifespan than non-LED bulbs. Their energy consciousness and longevity continue to make them popular choices for homes and businesses."
+  vertical: Home Services
+  subvertical: Electrician
+
 - name: As-is
   description: "If a home is marked \"as-is,\" that indicates that the property owner or seller is unwilling to perform most or all repairs. It could also mean that it's priced typically lower than market pricing in the area. One thing to note -- \"as is\" refers to the time that the offer is written. If something happens to the property after the offer but before closing, then it ought to be brought back to the same condition as it was when the offer was composed."
   vertical: Professional Services
