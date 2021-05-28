@@ -7,6 +7,27 @@
 #   vertical: _____
 #
 
+
+- name: Summer vacation
+  description: "School's out - wheeee! Families will be spending more time together -- maybe travelling, or maybe entertaining each other at home. This would be a great chance to highlight local attractions in your clients' communities (for fun day trips), or post family-friendly craft ideas or recipes."
+  emoji: ⛱
+  posting_recommendation: "Highlight the areas your clients sell/buy houses in by calling attention to local things or places people can do/visit with their families."
+  vertical: Professional Services
+
+- name: Summer housing market update
+  description: "July is typically the last big push for sellers before the slower season starts in August. Due to the lower inventory and higher prices of homes this year, we may not see as big of a dip as previous years."
+  emoji: 🏠
+  day: Entire Month
+  date: July
+  vertical: Professional Services
+
+- name: The Tour de France
+  description: "The Tour de France is an annual men's multiple stage bicycle race primarily held in France, while also occasionally passing through nearby countries. Like the other Grand Tours, it consists of 21 day-long stages over the course of 23 days."
+  emoji: 🚴‍♂️
+  posting_recommendation: "If posting about the Tour de France, be sure to make a clear connection to your customer. Does your Realtor work in or near a community that values the outdoors or outdoor activities? Maybe there's even tourism drawn to the area for that exact reason.  The Tour de France allows a fun, tongue-in-cheek way to highlight local bike routes, bike shops, or bike repair businesses."
+  day: June 26 - July 18
+  vertical: General
+
 - name: Pride Month
   description: "Pride Month is celebrated every June in tribute to those involved in the Stonewall Riots and is a month-long celebration of lesbian, gay, bisexual, transgender, queer, intersex, non-binary, and questioning people to promote self-affirmation, dignity, community, and equality rights. Over time, several other queer identities have come to light and been embraced under the wider acronym of the LGBTQIA+ umbrella, and intersectional discussions of Pride that acknowledge queer identities regarding gender, race, disability, and more have been especially encouraged. Pride Month is celebrated in different cities with parades, festivals, and other events. With COVID-19 still being a worldwide concern, it's likely that many parades and events will be altered, cancelled, or held online.  See posting recommendations for guidelines. "
   emoji: 🏳️‍🌈
@@ -16,26 +37,6 @@
   vertical: General
   url: https://msh-success.atlassian.net/wiki/spaces/KnowledgeBase/pages/2186543188/Pride+Month+2021
 
-- name: National Nail Polish Day
-  description: ""
-  emoji: 💅
-  day: Tuesday
-  date: June 1
-  vertical: General
-
-- name: World Bicycle Day
-  description: ""
-  emoji: 🚴‍♀️
-  day: Thursday
-  date: June 3
-  vertical: General
-
-- name: National Doughnut Day
-  description: "Each year folks celebrate the doughnut and honor the Salvation Army Lassies. The Salvation Army Lassies were the women who served doughnuts to soldiers during WWI. #NationalDoughnutDay"
-  emoji: 🍩
-  day: Friday
-  date: June 4
-  vertical: General
 
 - name: Birthday of the US Army
   description: "The U.S. Army was founded on 14 June 1775 and is celebrated every year on this day."
@@ -121,17 +122,6 @@
   posting_recommendation: "This is a great trend to capitalize on if you have any Realtor clients who work in areas or communities that are adjacent to large, bustling urban sprawls. Highlight the benefits of those communities!"
   vertical: Professional Services
   url: https://www.realtor.com/research/2021-national-housing-forecast/
-
-- name: National Posture Month
-  description: "May is National Posture Month. Good posture is more than standing up straight — to improve posture you have to strengthen how your body balances and how it moves. #NationalPostureMonth"
-  emoji: "🧍‍♀️"
-  posting_recommendation: "Work, exercise, and tech habits all shape your body and posture. Customers like yoga studios, chiropractors, and other health and wellness customers could benefit from educational posts on this topic."
-  vertical: General
-
-- name: National Motorcycle Awareness Month
-  description: "May is National Motorcycle Awareness Month. With warmer weather, it's time to remind everyone to be on the alert and to share the road with motorcyclists. "
-  emoji: "🏍"
-  vertical: General
 
 - name: Sleep is the New Self-Care
   description: "From sleep yoga to essential oil blends made for sleep, folks are getting serious about getting some Zzz's. With more emphasis on mental health this year (and the last), sleep is becoming a comodity that cannot be sacrificed. Bed time routines are become a must-have along with anything that can get you a better night sleep. Think: silk sleep masks, noise machines. a rise in CBD products, and essential oils for bedtime. "
@@ -338,14 +328,6 @@ Replacement windows - 89.6%"
   subvertical: HVAC
   url: https://msh-success.atlassian.net/wiki/spaces/KnowledgeBase/pages/499351835/HVAC+Heating+Ventilation+and+Air+Conditioning#HVAC(Heating,Ventilation,andAirConditioning)-TypicalServicesProvided
 
-- name: HVAC Installation
-  description: "The spring housing market means folks are getting units installed into new builds or upgrading systems in just-purchased older homes."
-  emoji: 🆒
-  posting_recommendation: "Installation warranties or maintenance deals are common this time of year with new systems being installed before summer. Check your customers website to see if they're running anything special."
-  day: Seasonal
-  vertical: Home Services
-  subvertical: HVAC
-  url: https://msh-success.atlassian.net/wiki/spaces/KnowledgeBase/pages/499351835/HVAC+Heating+Ventilation+and+Air+Conditioning#HVAC(Heating,Ventilation,andAirConditioning)-TypicalServicesProvided
 
 - name: Summer Prep
   description: "Many home and business owners are looking for ways to make their HVAC systems more energy-efficient. Many HVAC customers provide energy-efficient alternatives."
@@ -356,14 +338,6 @@ Replacement windows - 89.6%"
   subvertical: HVAC
   url: https://msh-success.atlassian.net/wiki/spaces/KnowledgeBase/pages/499351835/HVAC+Heating+Ventilation+and+Air+Conditioning#HVAC(Heating,Ventilation,andAirConditioning)-TypicalServicesProvided
 
-- name: Leak Repair
-  description: "Springtime has the habit of bringing turbulent weather. Many homeowners struggle with leaky pipes and drains. A few signs of leaky pipes: low water pressure, damaged walls or ceilings, a big water bill increase, mold or mildew, or an unexplained odor."
-  emoji: 💦
-  posting_recommendation: "Educating followers on the signs of leaky pipes and what to do if they encounter them is a great start for posting."
-  day: Seasonal
-  vertical: Home Services
-  subvertical: Plumbing
-  url: https://msh-success.atlassian.net/wiki/spaces/KnowledgeBase/pages/499057101/Plumbers
 
 - name: New construction plumbing
   description: "The spring housing market means an influx of new homes needing plumbing installation or updates/repairs to older plumbing in a newly-purchased home."
@@ -534,14 +508,6 @@ Replacement windows - 89.6%"
   vertical: Home Services
   subvertical: Carpentry
 
-- name: Tax Day
-  description: "Tax Day is traditionally known as the day on which individual income tax returns are due to be submitted to the federal government. Similar to last year, there has been an extension on Tax Day. It now falls on May 17."
-  posting_recommendation: "This content is useful for: Businesses that deal in financials, real estate agencies/brokers, retail spaces that capitalize on customers receiving tax returns."
-  emoji: 💸
-  day: May 17
-  date: Monday
-  vertical: General
-
 - name: Spring Housing Market
   description: "Spring is typically the best time to prep for the busy real estate marekt ahead (March - June). A few things folks do to prepare: renovate the backyard, tackle spring cleaning and decluttering (the first step to staging a home), explore areas for potential rental properties."
   emoji: 🏡
@@ -551,18 +517,29 @@ Replacement windows - 89.6%"
 
 - name: Backyard Projects
   description: "Spring is the best time to start backyard projects like pool installations or new landscaping before summer. #backyardreno"
+  posting_recommendation: "Springboard ideas to get you started: Dream garden inspo, patio furniture updates, easy pest control, and tool organization."
   emoji: 🌷
   day: Entire Month
-  date: May
+  date: June
   vertical: General
 
-- name: Graduation Season
-  description: "Starting in May many HS and college seniors are likely to celebrate their graduation with backyard parties, zoom/virtual celebrations, and planning senior trips after graduation."
-  emoji: 🎓
-  posting_recommendation: "This content is especially relevant for Restaurant, Florists, Beauty (Salon and Spa), and Retail customers."
+- name: Backyard Projects
+  description: "Spring is the best time to start backyard projects like pool installations or new landscaping before summer. #backyardreno"
+  posting_recommendation: "Springboard ideas to get you started: Dream garden inspo, patio furniture updates, easy pest control, and tool organization."
+  emoji: 🌷
   day: Entire Month
-  date: May
-  vertical: General
+  date: June
+  vertical: Home Services
+  subvertical: Gardening Landscaping
+
+- name: Backyard Projects
+  description: "Spring is the best time to start backyard projects like pool installations or new landscaping before summer. #backyardreno"
+  posting_recommendation: "Springboard ideas to get you started: Dream garden inspo, patio furniture updates, easy pest control, and tool organization."
+  emoji: 🌷
+  day: Entire Month
+  date: June
+  vertical: Home Services
+  subvertical: Pest Control
 
 - name: Hosting From Home
   description: "While virtual meetups aren't going anywhere, folks are looking forward to hosting close family and friends in the somewhat near future. Think spruced up social spaces, fresh furniture ideas, and tips to get all that clutter under control."
