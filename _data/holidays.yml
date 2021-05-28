@@ -1,10 +1,4 @@
-- name: Memorial Day
-  description: "Memorial Day is a federal holiday commemorating the people who died while serving in the country's armed forces. It also marks the unofficial start of the summer vacation season. Since this day has two (tonally very different) meanings in American culture, it’s customary to honor this day in a multitude of ways. Some participate in community parades, which are tributes to those who have died while serving (like ceremonies at memorials and cemeteries or tribute concerts). Some celebrate the kick-off to summer with outdoor BBQs, spending time in the sunshine, or vacations."
-  emoji: 🇺🇸
-  posting_recommendation: "Avoid scheduling content on Memorial Day unless requested by the customer."
-  day: Monday
-  date: May 31
-  vertical: General
+
 
 - name: Children's Day
   description: "Similar to Mother's and Father's Day, Children's Day takes a moment to honor the children in your life. #ChildrensDay"
