@@ -2,6 +2,27 @@
 #   description: "____"
 #   vertical: ____
 
+- name: Fixer-upper
+  description: "In real estate vernacular, a fixer-upper is a property that will require repair, though it usually can be lived in or used as it is. They are popular with buyers who wish to raise the property's potential value to get a return on their investment (i.e. \"flip the house\") , or as a starter home for buyers on a budget."
+  vertical: Professional Services
+
+- name: Interest rates
+  description: "We know that interest rates are the lowest they've been in a while, but how does a lender calculate what an interest rate might look like for an individual buyer? Here are some factors they might consider when making that decision: Credit score -- if a buyer's credit score is higher, their interest rate will likely be lower. Down payment -- if a client puts less than 20% down on a property purchase, the lender might require mortgage insurance, which requires a slightly higher interest rate. Loan term -- in general, shorter-term loans have lower interest rates and lower overall costs, but higher monthly payments. Interest rate type -- fixed interest rates are locked in, but adjustable rates fluctuate based on the market after an initial period. This means clients might qualify for a lower rate early on, but the rate could gradually increase."
+  posting_recommendation: "This topic is an educational content minefield. Feel free to pick and choose different aspects to draw attention to, and to teach your clients' audiences how they could potentially qualify for lower interest rates."
+  vertical: Professional Services
+  url: https://www.instagram.com/p/CPBqyUVhzUs/
+
+
+- name: Open shelving
+  description: "Open shelving refers to shelves that are not encased and have a bookcase-type design. They are a great way to show off pretty kitchenware, momentos, and decor. They also may help make small rooms, like kitchens, seem bigger."
+  posting_recommendation: "Use a beautiful stock image to highlight and share this trendy design tip."
+  vertical: Professional Services
+  url: https://www.instagram.com/p/CO0fBgKhmKk/
+
+- name: Foreclosure
+  description: "Foreclosure is the process of a lender seizing and selling a property to a new buyer when the owner fails to make their mortgage payments as agreed. It enables the lender to recover at least some of the mortgage balance that is left. In some states, there must be a legal process in court before the home can be taken. Other states offer options that don't require a court to get involved. They also might be priced to sell quickly because of the lender’s need to recoup their losses."
+  vertical: Professional Services
+  url: https://www.thebalance.com/what-is-a-foreclosure-1798185
 
 - name: Native plants
   description: "Native plants are plants that occur naturally in a given region. They are popular in landscaping because they can more easily tolerate the area in which they are planted. They thrive in the conditions that they're used to."

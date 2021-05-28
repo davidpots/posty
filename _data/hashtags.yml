@@ -3,6 +3,11 @@
 #   vertical: General
 #   subvertical: ___________
 
+
+- name: FirstDayOfSummer
+  description: "June 21 marks the official first day of summer."
+  vertical: General
+
 - name: MovingDay
   description: "Historically, June-August is peak season for moving. 	You can provide tips and tricks for people looking to move, even during the hectic moving season. If working with movers, here are some helpful tips: schedule at least two weeks in advance; morning time slots fill up faster; there is less demand for movers on weekdays and after Labor Day."
   vertical: Home Services

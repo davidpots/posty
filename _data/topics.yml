@@ -7,6 +7,81 @@
 #   vertical: _____
 #
 
+- name: New construction
+  description: "Since inventory in the housing market is low, more buyers may be turning to new construction as a solution. Basically, this term refers to buying a house before it is complete or built. This process comes with its own set of complications, like securing permits, finding contractors, and more.  Also, as a result, the buyer may have more influence on what the finished product looks like."
+  emoji: 🔨
+  vertical: Professional Services
+
+- name: Fourth of July Planning
+  description: "It may be more than a month away, but the Fourth of July is a big consumer holiday many businesses begin preparing for weeks in advance. When thinking about how to plan in advance for your customer, consider things like live music tickets, dinner reservations, boat rentals, catering orders, and more seasonal items that may take advance notice."
+  emoji: 🎆
+  vertical: General
+
+
+
+- name: National Selfie Day
+  description: "Grab your phone or camera, National Selfie Day is just what it sounds like!"
+  emoji: 📸
+  posting_recommendation: "Use this day to encourage past happy clients to post a real-estate related selfie. You can ask them to share a shot of them using their favorite room/feature of the house they currently live in (kitchens, outdoors, etc). This would be a great one to highlight if it's about time for some audience-participation content."
+  day: June 21
+  vertical: Professional Services
+
+- name: National Selfie Day
+  description: "Grab your phone or camera, National Selfie Day is just what it sounds like!"
+  emoji: "📸"
+  posting_recommendation: "Ask followers to snap a selfie at the business, restaurant, or even with their pet. Be sure to tailor the engagement question to be relevant to the customer's products or services."
+  day: June 21
+  vertical: General
+
+- name: Summer Solstice
+  description: "June 21 is the longest day of the year."
+  emoji: "🌞"
+  posting_recommendation: "This is another opportunity to encourage some interaction and audience engagement. Ask your audience how they plan to make the best of those extra few hours of sunshine!"
+  day: June 21
+  vertical: Professional Services
+
+- name: Summer Solstice
+  description: "June 21 is the longest day of the year."
+  emoji: "🌞"
+  posting_recommendation: "This is an opportunity to encourage interaction and audience engagement. Ask your audience how they plan to make the best of those extra few hours of sunshine, promote dining on the patio, or give tips on how to use those extra few minutes of sunshine."
+  day: June 21
+  vertical: General
+
+- name: Above Asking Price
+  description: "The asking price for a home is the amount of money that the seller wishes to receive for their property. Due to lower inventory and higher demand, nearly every home sold during the pandemic went into a multiple-offer situation. Thus, a majority of recent buyers have had to pay over the asking price for their new home purchases. This particularly impacted first-time home buyers and millenials, who tended to have lower budgets."
+  emoji: "💰"
+  vertical: Professional Services
+  url: https://www.realtor.com/news/trends/how-covid-19-pandemic-impacted-millennial-home-buyers/
+
+- name: Required renovations
+  description: "Due to lower inventory and higher demand, many buyers have had to settle for properties that need more work or repairs than they had originally planned or budgeted for. According to a survey, 56% of millennials bought a home requiring minor or major renovations, although only 42.4% began their search with that intention."
+  emoji: "🔨"
+  posting_recommendation: "If your client has connections to contractors, remodelers, interior designers, etc -- highlight that! Also, this is a good time to post home-improvement tips, DIY projects, design trends and suggestions, and the like."
+  vertical: Professional Services
+  url: https://www.realtor.com/news/trends/how-covid-19-pandemic-impacted-millennial-home-buyers/
+
+- name: Playful details
+  description: "Due to budget or time constraints, making major aesthetic overhauls may be a difficulty or impossibility for some buyers. Small details, such as dashes of color, backsplashes, or unique hardware on cabinets or drawers are small,simple details that make big impacts."
+  emoji: "✨"
+  posting_recommendation: "For audience participation, you can ask your clients' audience what their favorite small details in their home are. Alternatively, you can choose a stock photo that shows off a small detail and highlight this idea in the caption."
+  vertical: Professional Services
+  url: https://www.realtor.com/advice/home-improvement/bargain-block-unveils-a-new-design-style-that-modern-farmhouse-folks-will-love/
+
+- name: Vegetable gardens
+  description: "As people became wary of the grocery store in the beginning of the pandemic, at-home vegetable gardens grew (haha) in popularity. Expect to see these new gardeners keep at it as the late spring/early summer harvest season approaches."
+  emoji: "🌽"
+  posting_recommendation: "Post gardening tips or recipes for seasonal fruits and veggies. Highlight veggie and fruit plants that look beautiful as a way to impress potential buyers and boost curb appeal."
+  vertical: Professional Services
+  url: realtor.com/videos/video-these-landscaping-trends-will-be-hot-this-summer/8302c422-ed18-480f-b791-1712b60cc4c1/
+
+- name: DIY playgrounds
+  description: "Since many people spent most of their time at home last year, they invested in backyard entertainment to keep their families busy. Think inflatable pools, swing sets, rope swings, and lawn games like cornhole. These inexpensive improvements can bring a lot of life into an otherwise unimpressive backyard space."
+  emoji: "👟"
+  posting_recommendation: "Highlight ways to affordably and efficiently turn a backyard into a fun place the whole family can enjoy."
+  vertical: Professional Services
+  url: realtor.com/videos/video-these-landscaping-trends-will-be-hot-this-summer/8302c422-ed18-480f-b791-1712b60cc4c1/
+
+
 
 - name: Summer vacation
   description: "School's out - wheeee! Families will be spending more time together -- maybe travelling, or maybe entertaining each other at home. This would be a great chance to highlight local attractions in your clients' communities (for fun day trips), or post family-friendly craft ideas or recipes."
