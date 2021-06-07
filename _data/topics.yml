@@ -423,15 +423,6 @@ Replacement windows - 89.6%"
   subvertical: Plumbing
   url: https://msh-success.atlassian.net/wiki/spaces/KnowledgeBase/pages/499057101/Plumbers
 
-- name: Spring Floods
-  description: "Springtime showers can mean trouble for those located in flood zones. Flooded homes, basements, garages, etc. can mean a quick call for emergency plumbing services."
-  emoji: 🌧
-  posting_recommendation: "Look to see if your customer offers emergency plumbing services or if they have a special phone number for 24/7 service."
-  day: Seasonal
-  vertical: Home Services
-  subvertical: Plumbing
-  url: https://msh-success.atlassian.net/wiki/spaces/KnowledgeBase/pages/499057101/Plumbers
-
 - name: Remodeling Projects
   description: "Lots of people jump into remodel-mode in the spring once the weather warms up."
   emoji: 👷‍♀️
@@ -481,15 +472,6 @@ Replacement windows - 89.6%"
   vertical: Home Services
   subvertical: Construction Engineering
   url: https://msh-success.atlassian.net/wiki/spaces/KnowledgeBase/pages/499123763/Pavement+and+Driveways
-
-- name: Warm Weather Weeds
-  description: "As weather gets warmer this spring, weeds of all shapes and sizes begin to bloom."
-  emoji: 🌾
-  posting_recommendation: "Some customers may offer reocurring yard maintenance to keep yards looking great all spring and summer."
-  day: Seasonal
-  vertical: Home Services
-  subvertical: Gardening Landscaping
-  url: https://msh-success.atlassian.net/wiki/spaces/KnowledgeBase/pages/499024735/Landscaping
 
 - name: Outdoor Living Upgrade
   description: "Getting ready for poolside dinners and days spent outside is the perfect opportunity to refresh outdoor living spaces — that's where our outdoor lighting customers come in. Pool lighting, advanced lighting system in gardens and yards, and professionally lit gazebos are all on the top of mind over the next few months."
@@ -591,7 +573,7 @@ Replacement windows - 89.6%"
   vertical: General
 
 - name: Backyard Projects
-  description: "Spring is the best time to start backyard projects like pool installations or new landscaping before summer. #backyardreno"
+  description: "Maintaining yards and outdoor spaces during the Summer can be daunting. Many look for inspiration on how to keep their spaces fresh and pest free all season long."
   posting_recommendation: "Springboard ideas to get you started: Dream garden inspo, patio furniture updates, easy pest control, and tool organization."
   emoji: 🌷
   day: Entire Month
