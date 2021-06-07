@@ -3,6 +3,9 @@
 #   vertical: General
 #   subvertical: ___________
 
+- name: EndAlzheimers
+  description: "June is Alzheimer's and Brain Awareness Month. Worldwide, 50 million people are living with Alzheimer's and other dementias. In June, the Alzheimer's Association raises awareness through the color purple and sharing stories."
+  vertical: General
 
 - name: FirstDayOfSummer
   description: "June 21 marks the official first day of summer."

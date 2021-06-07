@@ -109,11 +109,6 @@
   description: "This is the agent who represents the seller in the home-buying process. On the other side is the buyer’s agent, who represents the buyer."
   vertical: Professional Services
 
-- name: Common Pests in Spring
-  description: "Termites, Rats, Mossquitos, Ants, and Spiders"
-  vertical: Home Services
-  subvertical: Pest Control
-
 - name: Adhesive
   description: "Used to bond tile to a surface."
   vertical: Home Services
