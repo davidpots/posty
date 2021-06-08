@@ -1,22 +1,12 @@
 ---
-title: The Content Depot
+title: Social Media Planner
 timezone: UTC
-collections:
-  hashtags:
-    title: Hashtags
-    output: true
-  posts:
-    title: Posts
-    output: true
-  uploads:
-    title: Uploads
-    output: true
 email: your-email@example.com
-description: A curated collection of ideas for your next post.
-baseurl: ''
-url: http://godepot.co
+description: A curated collection of ideas for your next social media post.
+baseurl: '/'
+url: 'http://gosocialplanner.com/'
 twitter_username: posty_sike
 github_username: posty_sike
 plugins:
 - jekyll-feed
-google_analytics: true
+google_analytics: false

@@ -1,6 +1,6 @@
 ---
 layout: mvp
-permalink: "/"
+permalink: "/eow"
 ---
 {% assign week19 = site.data.mvpv3 | where: "week","19" %}
 {% assign week20 = site.data.mvpv3 | where: "week","20" %}
@@ -11,19 +11,18 @@ permalink: "/"
 {% assign week25 = site.data.mvpv3 | where: "week","25" %}
 {% assign week26 = site.data.mvpv3 | where: "week","26" %}
 
-<h1>Social Media Marketing Planner</h1>
-<p class="subhead">A list of upcoming holidays, topics, and prompts to help inspire your social posts and related marketing campaigns.</p>
+<h1>Admin View</h1>
+<p class="subhead"><a href="https://docs.google.com/spreadsheets/d/1F-zfXlRT6-4Xa2T-cckYQwzTp7SExaSBwfbX4YNBSZ0/edit#gid=2139753352">Google Sheet</a> | <a href="/">Design for user test</a> | <a href="/date-only">Date-only version</a> | <a href="/eow">End-of-week version</a></p>
 
 <div class="feed-wrapper clearfix">
   <div class="feed-controls">
-    <a class="new_post_button">Create Social Post</a>
+    <a class="new_post_button">+ Create Social Post</a>
     <div class="tile tile-calendar" data-current-month="May">
       <span class="calendar-next"></span>
       <span class="calendar-prev"></span>
-      <span class="calendar-today" style="background-image: url(/assets/images/cal-today/cal-may19.png);"></span>
+      <span class="calendar-today" style="background-image: url(/assets/images/cal-today/cal-may22.png);"></span>
       <img class="calendar-image" width="100%" src="/assets/images/cal-may.png" />
     </div>
-    <img width="100%" style="margin-top: 16px;" src="/assets/images/cal-today/scheduled-may19.png" />
 
     <!-- <h4 class="tile-scheduled-posts--heading">My Scheduled Posts:</h4>
     <div class="tile tile-scheduled-posts" style="height: 200px;"></div> -->
@@ -43,7 +42,6 @@ permalink: "/"
       <div class="primary tile-wrapper">
         <div class="tile tile--featured tile--with-carousel">
           <h3 class="tile--title">Graduation season is here!</h3>
-          <p class="tile--description">This is a great chance to post a reminder about any products/services that may be appropriate to the graduates in your community. Here are some example posts for inspiration:</p>
           <div class="tile--carousel-controls">
             <span class="tile--carousel-prev"></span><span class="tile--carousel-next"></span>
           </div>
@@ -59,44 +57,16 @@ permalink: "/"
               <div class="tile-carousel-item--post--cta"><a href="">Schedule This Post</a></div>
             </div>
             <div class="tile-carousel-item tile-carousel-item--post">
-              <img class="tile-carousel-item--post--image" src="/assets/images/sample-posts/grad4.png" />
+              <img class="tile-carousel-item--post--image" src="/assets/images/sample-posts/grad3.png" />
               <div class="tile-carousel-item--post--caption">Lookin’ GOOD, grad! 🎓 Get your fresh cut for graduation at our salon. 💇 </div>
               <div class="tile-carousel-item--post--cta"><a href="">Schedule This Post</a></div>
             </div>
             <div class="tile-carousel-item tile-carousel-item--post">
-              <img class="tile-carousel-item--post--image" src="/assets/images/sample-posts/grad3.png" />
+              <img class="tile-carousel-item--post--image" src="/assets/images/sample-posts/grad4.png" />
               <div class="tile-carousel-item--post--caption">A few more prints of out favorite makeup, carry all, anything, FUN bags have arrived just in time for Graduation 👩‍🎓</div>
               <div class="tile-carousel-item--post--cta"><a href="">Schedule This Post</a></div>
             </div>
           </div>
-        </div>
-        <div class="tile-minivan">
-          <h3 class="tile-minivan--heading">Dates of Interest</h3>
-          {% for date in week20 %}
-          <div class="tile">
-            <div class="tile--icon"><img src="/assets/images/emojis/{{date.icon}}.png" /></div>
-            <div class="tile--body">
-              <p class="tile--details"><a href="">Details</a></p>
-              <h3 class="tile--title">{{date.name}}</h3>
-              <p class="tile--date">{{date.date | date: "%A, %B %e" }}</p>
-              <div class="tile--expandedContent">
-                <p class="tile--description">{{date.description}}</p>
-
-                {% assign hashtags = date.hashtags | split: " " %}
-                <div class="tile--hashtags-wrapper">
-                {% for hashtag in hashtags %}
-                  <div class="tile--hashtag-pill">
-                    <p>
-                      <span class="tile--hashtag-itself">{{hashtag}} <span class="tile--hashtag-copy" data-hashtag="{{hashtag}}">(<u>copy</u>)</span></span>
-                      <span class="tile--hashtag-outbound">View on <a href="https://www.instagram.com/explore/tags/{{hashtag | slice: 1, hashtag.size}}/" target="_blank">Instagram</a></span>
-                    </p>
-                  </div>
-                {% endfor %}
-                </div>
-              </div>
-            </div>
-          </div>
-          {% endfor %}
         </div>
       </div>
     </article>
@@ -110,17 +80,20 @@ permalink: "/"
       </div>
       <div class="primary tile-wrapper">
 
-        <div class="tile tile--featured" style="padding-right: 0;">
-          <img class="tile--image" src="/assets/images/sample-posts/mdw.png" />
-            <h3 class="tile--title">Plan your Memorial Day content</h3>
-
-
-
-          <p class="tile--description">Memorial Day Weekend kicks off this Friday... plan your post ahead of time! Some honor fallen service members with community parades, while others celebrate the unofficial start of summer with BBQs, spending time outside, or vacations with friends and family.</p>
-          <p class="tile--cta"><a href="">View Templates</a></p>
+        <div class="tile tile--featured tile--with-carousel tile--with-prompts tile--with-carousel--narrow">
+          <h3 class="tile--title">Quick Inspiration</h3>
+          <p class="tile--description">Share a fun fact about your business! Some ideas:</p>
+          <div class="tile--carousel-controls">
+            <span class="tile--carousel-prev"></span><span class="tile--carousel-next"></span>
+          </div>
+          <div class="tile--carousel-wrapper">
+            <div class="tile-carousel-item tile-carousel-item--prompt">Describe what inspired you to start your business.</div>
+            <div class="tile-carousel-item tile-carousel-item--prompt">Post a picture of your office or working space.</div>
+            <div class="tile-carousel-item tile-carousel-item--prompt">Share the product or service you’re most proud of – and say why!</div>
+            <div class="tile-carousel-item tile-carousel-item--prompt">Share an image of the first thing you ever sold. Tell the story!</div>
+            <div class="tile-carousel-item tile-carousel-item--prompt">Have a co-founder or first employee? Introduce them to your followers!</div>
+          </div>
         </div>
-
-
 
         <div class="tile-minivan">
           <h3 class="tile-minivan--heading">Dates of Interest</h3>
@@ -130,7 +103,7 @@ permalink: "/"
           <div class="tile--body">
             <p class="tile--details"><a href="">Details</a></p>
             <h3 class="tile--title">{{date.name}}</h3>
-            <p class="tile--date">{{date.date | date: "%A, %B %e" }}</p>
+            <p class="tile--date">{{date.date | date: "%A, %b %d" }}</p>
             <div class="tile--expandedContent">
               <p class="tile--description">{{date.description}}</p>
 
@@ -161,27 +134,11 @@ permalink: "/"
         </div>
       </div>
       <div class="primary tile-wrapper">
-
-
-
-        <div class="tile tile--featured tile--with-carousel tile--with-prompts tile--with-carousel--narrow">
-          <h3 class="tile--title">Quick Inspiration</h3>
-          <p class="tile--description">Share a fun fact about your business! Some ideas:</p>
-          <div class="tile--carousel-controls">
-            <span class="tile--carousel-prev"></span><span class="tile--carousel-next"></span>
-          </div>
-          <div class="tile--carousel-wrapper">
-            <div class="tile-carousel-item tile-carousel-item--prompt">Describe what inspired you to start your business.</div>
-            <div class="tile-carousel-item tile-carousel-item--prompt">Post a picture of your office or working space.</div>
-            <div class="tile-carousel-item tile-carousel-item--prompt">Share the product or service you’re most proud of – and say why.</div>
-            <div class="tile-carousel-item tile-carousel-item--prompt">Let your followers know about parts of your daily work routine that may surprise them.</div>
-            <div class="tile-carousel-item tile-carousel-item--prompt">Have a co-founder or first employee? Introduce them to your followers.</div>
-            <div class="tile-carousel-item tile-carousel-item--prompt">Share an image of the first thing you ever sold. Tell the story!</div>
-            <div class="tile-carousel-item tile-carousel-item--prompt">Tell your followers about any entrepreneurial heroes you look up to.</div>
-          </div>
+        <div class="tile tile--featured">
+          <img class="tile--image" src="/assets/images/stock-memorial.png" />
+          <h3 class="tile--title">Memorial Day Weekend</h3>
+          <p class="tile--description">Depending on your business and your audience, there are a few ways to post about this. For some, it marks commemeration of fallen soliders. For others, it’s symbolic of the official start of summer.</p>
         </div>
-
-
         <div class="tile-minivan">
           <h3 class="tile-minivan--heading">Dates of Interest</h3>
         {% for date in week22 %}
@@ -190,7 +147,7 @@ permalink: "/"
           <div class="tile--body">
             <p class="tile--details"><a href="">Details</a></p>
             <h3 class="tile--title">{{date.name}}</h3>
-            <p class="tile--date">{{date.date | date: "%A, %B %e" }}</p>
+            <p class="tile--date">{{date.date | date: "%A, %b %d" }}</p>
             <div class="tile--expandedContent">
               <p class="tile--description">{{date.description}}</p>
 
@@ -223,7 +180,7 @@ permalink: "/"
       <div class="primary tile-wrapper">
         <div class="tile tile--featured tile--with-carousel tile--with-carousel--over tile--with-carousel--narrow">
           <h3 class="tile--title">Father's Day is Next Sunday!</h3>
-          <p class="tile--description">Sunday, June 20th is Fathers Day. If there's anything you want to promote or announce ahead of time, this is your final chance! Here's some suggested templates you can use:</p>
+          <p class="tile--description">Here's some suggested templates for your next post.</p>
           <div class="tile--carousel-controls">
             <span class="tile--carousel-prev"></span><span class="tile--carousel-next"></span>
           </div>
@@ -258,6 +215,13 @@ permalink: "/"
             <div class="tile-carousel-item tile-carousel-item--over-item">
               <img class="tile-carousel-item--over-item--image" src="/assets/images/sample-posts/dad9.png" />
             </div>
+
+            <div class="tile-carousel-item tile-carousel-item--over-item">
+              <img class="tile-carousel-item--over-item--image" src="/assets/images/sample-posts/dad11.png" />
+            </div>
+            <div class="tile-carousel-item tile-carousel-item--over-item">
+              <img class="tile-carousel-item--over-item--image" src="/assets/images/sample-posts/dad12.png" />
+            </div>
           </div>
         </div>
         <div class="tile-minivan">
@@ -268,7 +232,7 @@ permalink: "/"
           <div class="tile--body">
             <p class="tile--details"><a href="">Details</a></p>
             <h3 class="tile--title">{{date.name}}</h3>
-            <p class="tile--date">{{date.date | date: "%A, %B %e" }}</p>
+            <p class="tile--date">{{date.date | date: "%A, %b %d" }}</p>
             <div class="tile--expandedContent">
               <p class="tile--description">{{date.description}}</p>
 
@@ -291,7 +255,7 @@ permalink: "/"
       </div>
     </article>
 
-    <!-- <article>
+    <article>
       <div class="secondary date_range">
         <div class="date-ribbon">
           <h4>Week of</h4>
@@ -307,7 +271,7 @@ permalink: "/"
           <div class="tile--body">
             <p class="tile--details"><a href="">Details</a></p>
             <h3 class="tile--title">{{date.name}}</h3>
-            <p class="tile--date">{{date.date | date: "%A, %B %e" }}</p>
+            <p class="tile--date">{{date.date | date: "%A, %b %d" }}</p>
             <div class="tile--expandedContent">
               <p class="tile--description">{{date.description}}</p>
 
@@ -328,7 +292,7 @@ permalink: "/"
         {% endfor %}
         </div>
       </div>
-    </article> -->
+    </article>
 
   </div>
 </div>

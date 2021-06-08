@@ -1,7 +1,5 @@
 <head>
 
-
-
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -13,10 +11,10 @@
 
   <!-- Open Graph / Facebook -->
   <meta property="og:type" content="website">
-  <meta property="og:url" content="http://godepot.co/">
+  <meta property="og:url" content="{{ site.url }}">
   <meta property="og:title" content="{{ site.title }}">
   <meta property="og:description" content="{{ site.description }}">
-  <meta property="og:image" content="http://godepot.co/assets/images/site-preview.png">
+  <meta property="og:image" content="{{ site.url }}/assets/images/site-preview.png">
 
 <!-- favicon -->
 <link rel="apple-touch-icon" sizes="180x180" href="/assets/images/favicon/apple-touch-icon.png">
@@ -29,13 +27,10 @@
   <!-- Google Fonts -->
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <!-- <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap" rel="stylesheet"> -->
-  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@300;400;500;700;800&family=Barlow:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap" rel="stylesheet">
 
-  <link rel="stylesheet" href="{{ "/assets/main.css" | relative_url }}">
-  {%- feed_meta -%}
-  {% if jekyll.environment == 'production' and site.google_analytics %}
-    {% include google-analytics.html %}
-  {% endif %}
+  <link rel="stylesheet" href="{{ "/assets/mvp.css" | relative_url }}">
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="/assets/js/interaction.js"></script>
@@ -43,13 +38,13 @@
   <script>
     $(document).ready(function(){
 
-      $('.copy-hashtag').click(function(){
+      $('.tile--hashtag-copy').click(function(){
         var hashtag = $(this).data('hashtag');
         copyToClipboard(hashtag);
         var chloe = this;
-        $(chloe).addClass('copy-copied').text("Copied!");
+        $(chloe).find('u').addClass('copy-copied').text("copied!");
         setTimeout(function(){
-          $(chloe).removeClass('copy-copied').text("Copy");
+          $(chloe).find('u').removeClass('copy-copied').text("copy");
         }, 2000);
 
         return false;
@@ -63,13 +58,72 @@
         $temp.remove();
       }
 
-      $(document).ready(function() {
-          $(".sidebar ul a").each(function() {
-            // console.log( $(this).attr("href") + " ==== " + window.location.href);
-              if ($(this).attr("href") == window.location.href) {
-                  $(this).addClass("active");
-              }
-          });
+      $('.tile--details').click(function(){
+        $(this).toggleClass('tile--details--expanded').parent().find('.tile--expandedContent').toggle();
+        prepArticles();
+        $(window).scroll();
+        return false;
+      });
+
+      $('.calendar-next').click(function(){
+        if ( $(this).parent().attr('data-current-month') == "May" ) {
+          $(this).parent().attr('data-current-month',"June");
+          $('.calendar-image').attr('src','/assets/images/cal-june.png');
+          return false;
+        }
+        if ( $(this).parent().attr('data-current-month') == "June" ) {
+          $(this).parent().attr('data-current-month',"July");
+          $('.calendar-image').attr('src','/assets/images/cal-july.png');
+          return false;
+        }
+        if ( $(this).parent().attr('data-current-month') == "July" ) {
+          $(this).parent().attr('data-current-month',"August");
+          $('.calendar-image').attr('src','/assets/images/cal-aug.png');
+          return false;
+        }
+      });
+
+      $('.calendar-prev').click(function(){
+        if ( $(this).parent().attr('data-current-month') == "June" ) {
+          $(this).parent().attr('data-current-month',"May");
+          $('.calendar-image').attr('src','/assets/images/cal-may.png');
+          return false;
+        }
+        if ( $(this).parent().attr('data-current-month') == "July" ) {
+          $(this).parent().attr('data-current-month',"June");
+          $('.calendar-image').attr('src','/assets/images/cal-june.png');
+          return false;
+        }
+        if ( $(this).parent().attr('data-current-month') == "August" ) {
+          $(this).parent().attr('data-current-month',"July");
+          $('.calendar-image').attr('src','/assets/images/cal-july.png');
+          return false;
+        }
+      });
+
+
+
+
+      // Normal carousel
+      $('.tile--carousel-next').click(function(){
+        scrollAmount = $(this).parent().next('.tile--carousel-wrapper').scrollLeft();
+        if ( $(this).closest('.tile--with-carousel').hasClass('.tile--with-carousel--narrow') ) {
+          var distance = 160;
+        } else {
+          var distance = 490;
+        }
+        $(this).parent().next('.tile--carousel-wrapper').scrollLeft( scrollAmount+distance );
+        return false;
+      });
+      $('.tile--carousel-prev').click(function(){
+        scrollAmount = $(this).parent().next('.tile--carousel-wrapper').scrollLeft();
+        if ( $(this).closest('.tile--with-carousel').hasClass('.tile--with-carousel--narrow') ) {
+          var distance = 210;
+        } else {
+          var distance = 490;
+        }
+        $(this).parent().next('.tile--carousel-wrapper').scrollLeft( scrollAmount-distance );
+        return false;
       });
 
 
