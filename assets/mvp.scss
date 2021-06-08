@@ -103,7 +103,30 @@ html {
     background: #fff;
     padding: 21px;
     border: 1px solid #d4dbe0;
+    margin-bottom: 16px;
   }
+      .tile-minivan--with-carousel {
+        padding-bottom: 0;
+        position: relative;
+      }
+      .tile-minivan--with-carousel .tile-minivan--heading {
+        margin-bottom: 8px;
+      }
+      .tile-minivan--with-carousel .tile--description {
+        margin-top: 0;
+        font-size: 14px;
+      }
+      .tile-minivan--with-carousel .tile-carousel-item {
+        background: #D8EFEF;
+        margin-left: 14px;
+        border: 1px solid #D8EFEF;
+        vertical-align: top;
+        &:first-child {
+          margin-left: 21px;
+        }
+      }
+
+
   .tile-minivan--heading {
     color: #F38F48;
     font-size: 12px;
@@ -326,12 +349,8 @@ html {
 
 /* Planner UI - Calendar column */
 
-.feed-controls .new_post_button {
-  text-decoration: none; text-align: center; font-size: 16px; font-weight: 700; background: #222; color: #fff; display: block; padding: 15px 0; margin-top: 32px; border-radius: 2px; cursor: pointer;
-}
-
 .feed-controls .tile-calendar {
-  margin-top: 16px;
+  margin-top: 32px;
   padding: 8px 0 0 0;
   text-align: center;
   position: relative;
@@ -428,6 +447,30 @@ html {
         }
 
 
+    // Hashtag and topics gallery within carousel
+
+        .tile-carousel-item--topic {
+          width: 340px;
+          height: 210px;
+          white-space: normal;
+          padding: 16px;
+          border-radius: 4px;
+          &:hover {
+            box-shadow: 0 2px 16px rgba(0,0,0,0.08);
+          }
+        }
+        .tile-carousel-item--topic .tile-carousel-item--topic--heading {
+          font-size: 16px;
+          margin-bottom: 8px;
+          font-weight: bold;
+          color: #09757A;
+        }
+        .tile-carousel-item--topic .tile-carousel-item--topic--description {
+          font-size: 14px;
+          color: #09757A;
+        }
+
+
     // Post gallery within gallery
 
     .tile-carousel-item--post {
@@ -514,3 +557,20 @@ html {
     .tile-carousel-item--prompt:first-child {
       margin-left: 21px;
     }
+
+
+// Copy button
+
+.copy-button {
+    font-size: 11px;
+    padding: 4px 6px;
+    background: #B8E0E0;
+    text-decoration: none;
+    text-transform: uppercase;
+    display: inline-block;
+    border-radius: 2px;
+    position: relative;
+    left: 6px;
+    top: -2px;
+    color: #09757A;
+}
