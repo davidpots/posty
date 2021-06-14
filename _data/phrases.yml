@@ -2,6 +2,14 @@
 #   description: "____"
 #   vertical: ____
 
+- name: Appraisal
+  description: "In order to get a loan from a bank to buy a home, you first need to get the home appraised so the bank can be sure they are lending the correct amount of money. The appraiser will determine the value of the home based on an examination of the property itself, as well as the sale price of comparable homes in the area. It's common that people may not know the actual worth of their homes or the ones they're interested in buying. Knowledge is power -- emphasize the benefits of hiring an outside appraiser."
+  vertical: Professional Services
+
+- name: Pre-approval letter
+  description: "Before buying a home, a buyer can obtain a pre-approval letter from a bank, which provides an estimate on how much the bank will lend that person. This letter will help determine what the buyer can afford. Getting pre-approved should be the first step for every buyer in their home search. It helps them determine what to look for and what's in their budget."
+  vertical: Professional Services
+
 - name: Fixer-upper
   description: "In real estate vernacular, a fixer-upper is a property that will require repair, though it usually can be lived in or used as it is. They are popular with buyers who wish to raise the property's potential value to get a return on their investment (i.e. \"flip the house\") , or as a starter home for buyers on a budget."
   vertical: Professional Services
@@ -72,8 +80,8 @@
   description: "A contingency in a real estate deal means there's something the buyer has to do for the process to go forward, like getting approved for a loan or selling their home. If the contingency terms are not met, the contract can be broken with no penalty or loss of earnest money to the buyer or seller."
   vertical: Professional Services
 
-- name: Common Early Spring Weeds
-  description: "Dandelions, White or Dutch Clover, Hairy Bittercress"
+- name: Common Summer Weeds
+  description: "Dallisgrass, Crabgrass, Dandelion, White Clover"
   vertical: Home Services
   subvertical: Gardening Landscaping
 

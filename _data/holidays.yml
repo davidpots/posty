@@ -1,13 +1,5 @@
 
 
-- name: Children's Day
-  description: "Similar to Mother's and Father's Day, Children's Day takes a moment to honor the children in your life. #ChildrensDay"
-  emoji: 🧒
-  posting_recommendation: "This kind of content works for businesses who offer kid-friendly products or services or customers wanting to appeal to families. Example: For realtors, you can use this day to appeal to families who are looking for the perfect homes for their families to learn, play, and grow in."
-  day: Sunday
-  date: June 13
-  vertical: General
-
 - name: Juneteenth
   description: "Juneteenth is a holiday that celebrates the official end of slavery in all 50 states. The Emancipation Proclamation in 1862 declared that slaves were to be freed in the rebellious states, but states that weren't occupied by Union soldiers weren't able (or willing) to effectively enforce the new order immediately. It wasn't until June 19, 1865, that every state announced the abolition of slavery – the last being Texas. Today, the holiday is considered a joyous day in which we celebrate freedom and equality. With the Black Lives Matter movement and protests prevalent across the country and in mainstream conversations and news outlets, discussions around the struggles and injustices that Black people face has been heavily noted over the last few years in particular. This is something to keep in mind as you create your customer-requested Juneteenth post. Think about tone very carefully while writing your caption, and don't hesitate to reach out to your manager if you have questions or concerns about your post."
   emoji: ✊🏾
@@ -36,3 +28,29 @@
 #   vertical: _____
 #   subvertical: _____
 #   url: _____
+
+
+- name: National Work From Home Day
+  description: "In a year where WFH has become the norm, this day might not stand out like a sore thumb. However, highlighting it can be a great way to connect and engage with your audiences."
+  emoji: 👩‍💻
+  posting_recommendation: "Highlight home-offices, decor tips, and other design choices that might make home offices feel a little more welcoming or productive."
+  day: Thursday
+  date: June 24
+  vertical: Professional Services
+
+- name: National Take Your Dog to Work Day
+  description: "A day to show our pups what we do while we're away from them all day long (or a day to appreciate our furriest WFH coworkers)."
+  emoji: 🐕
+  posting_recommendation: "This is a great opportunity to make use of those cute photoshoot images of your POC with their dogs!"
+  day: Friday
+  date: June 25
+  vertical: Professional Services
+
+
+- name: Fourth of July
+  description: "It's Independence Day!"
+  emoji: 🎇
+  posting_recommendation: "For Realtors specifically, send appropriate well wishes to your audience. Create BBQ-related content by highlight the backyard decor tips or sharing recipes."
+  day: Sunday
+  date: July 4
+  vertical: Professional Services

@@ -7,13 +7,79 @@
 #   vertical: _____
 #
 
+# June 14
+
+- name: Housewarming parties
+  description: "More and more people are getting vaccinated and opening their homes up to friends and parties. Expect lots of later-than-expected housewarming celebrations!"
+  emoji: "🥳"
+  posting_recommendation: "You can post tips regarding how to host a fun and safe housewarming, or post suggestions of what to bring to others as housewarming gifts."
+  vertical: Professional Services
+
+- name: Relocating for work
+  description: "Recent studies have shown that less people are willing to relocate for work -- just 4.2 percent of those surveyed in 2021 so far said they would, as compared to 9.6% in 2018. Career experts say that the pandemic accelerated a yearslong trend of falling worker relocations, no doubt due at least in part to the realized possibility and efficiency of remote work as a longtime solution."
+  emoji: "📦"
+  posting_recommendation: "This just means that people might not want to uproot themselves from the cities they know and love! Use this topic as an opportunity to highlight the wonderful things about the area your Realtor or real estate agent works or sells in.  Encourage \"settling in,\" \"growing roots,\" and \"making your house a real home."
+  vertical: Professional Services
+  url: https://www.realtor.com/news/trends/move-to-a-new-city-for-work-no-thanks/
+
+- name: New home sales decline
+  description: "Marking a sign of moderation from the frenzied pace of the past few months, sales of newly-built homes dropped nearly 6% in April as builders cut back on production. For buyers, this could mean fewer options and higher costs."
+  emoji: "📉"
+  posting_recommendation: "This could be fodder for creating an educational post. If your Realtor has an audience that likes to stay informed on the currect state of the market, fill them in!"
+  vertical: Professional Services
+  url: https://www.realtor.com/videos/normality-returns-to-the-economy-but-real-estate-markets-are-moderating/4647d464-5716-4faf-95ed-c1e97330587e/
+
+- name: Existing home sales decline
+  description: "Contract signings for existing homes dropped in April, too -- buying activity experienced a setback in all regions except for the Midwest. This doesn't mean less people are looking, though. High prices, low inventory, and competitive landscapes may be taking a toll on many first-time buyers."
+  emoji: "📉"
+  posting_recommendation: "At this point in time, find a home might not be easy -- but it will be worth it! Encourage your audience to stick with their search, and highlight the supportive and professional qualities of the professionals you represent."
+  vertical: Professional Services
+  url: https://www.realtor.com/videos/normality-returns-to-the-economy-but-real-estate-markets-are-moderating/4647d464-5716-4faf-95ed-c1e97330587e/
+
+- name: Listings increase
+  description: "Studies by Realtor.com show that markets have seen seven consecutive weeks of gains in new home listings. As pandemic restrictions are lifting, more sellers may be putting their homes on the market. Price growth remains strong, though."
+  emoji: "📈"
+  posting_recommendation: "Buyers might start seeing more options. Additionally, sellers may be looking for professional representation. Appeal to either or both of these groups by letting your audiences know what your client is available for or specializes in."
+  vertical: Professional Services
+  url: https://www.realtor.com/videos/normality-returns-to-the-economy-but-real-estate-markets-are-moderating/4647d464-5716-4faf-95ed-c1e97330587e/
+
+- name: Happy homebodies
+  description: "Evidence shows that a large majority of buyers (across generations) who have purchased their homes in the past four months are happy and satisfied with their new properties and neighborhoods. Buying a home in this climate is a huge decision, but it's not one that people seem to regret."
+  emoji: "😊"
+  posting_recommendation: "Woohoo! You can use this information in your content to welcome new people to town, comfort buyers who are scared to \"pull the trigger,\" and/or celebrate new homeowners."
+  vertical: Professional Services
+  url: https://www.realtor.com/videos/normality-returns-to-the-economy-but-real-estate-markets-are-moderating/4647d464-5716-4faf-95ed-c1e97330587e/
+
+- name: Light up!
+  description: "Simple home improvement projects really make a difference when it comes to selling a home. For instance,  upgrading the lights around a home by installing dimmer switches or even smart lights can help make the property stand out."
+  emoji: "💡"
+  posting_recommendation: "Show off the hardware or highlight the ease of making a small switch like this. It could be a weekend project!"
+  vertical: Professional Services
+  url: https://www.instagram.com/p/CLXFCb0prmR/
+
+- name: Pet-friendly homes
+  description: "After spending so much time of the past year inside, people are extra attached to their pets. Making upgrades to accomodate fuzzy, four-legged family members (pet wash stations, fenced-in yards, etc) can make your home more attractive to potential buyers."
+  emoji: "🐱"
+  posting_recommendation: "Teach your audience how to make their homes pet friendly by highlighting the ideas (or others) in the description."
+  vertical: Professional Services
+
+- name: Virtual home staging
+  description: "Depending on the number of rooms in the house, virtual home staging can be a more cost-effective solution than traditional staging. Essentially, a graphic designer uses high-resolution images of the empty rooms and decorates each space digitally. The result is computer-generated fascimiles of what the home could look like -- perfect for people who are browsing homes digitally. It costs about $100 per photo, as opposed to the traditional price of $560 - $2,100 per home."
+  emoji: "🛋"
+  posting_recommendation: "Lots of folks don't even know this is an option! Create content to spread the word."
+  vertical: Professional Services
+  url: https://www.homeadvisor.com/r/home-staging-statistics/
+
+
+# June 7
+
 - name: New construction
   description: "Since inventory in the housing market is low, more buyers may be turning to new construction as a solution. Basically, this term refers to buying a house before it is complete or built. This process comes with its own set of complications, like securing permits, finding contractors, and more.  Also, as a result, the buyer may have more influence on what the finished product looks like."
   emoji: 🔨
   vertical: Professional Services
 
 - name: Fourth of July Planning
-  description: "It may be more than a month away, but the Fourth of July is a big consumer holiday many businesses begin preparing for weeks in advance. When thinking about how to plan in advance for your customer, consider things like live music tickets, dinner reservations, boat rentals, catering orders, and more seasonal items that may take advance notice."
+  description: "Fourth of July is a big consumer holiday many businesses begin preparing for weeks in advance. When thinking about how to plan in advance for your customer, consider things like live music tickets, dinner reservations, boat rentals, catering orders, and more seasonal items that may take advance notice."
   emoji: 🎆
   vertical: General
 
@@ -113,21 +179,6 @@
   url: https://msh-success.atlassian.net/wiki/spaces/KnowledgeBase/pages/2186543188/Pride+Month+2021
 
 
-- name: Birthday of the US Army
-  description: "The U.S. Army was founded on 14 June 1775 and is celebrated every year on this day."
-  emoji: 🇺🇸
-  posting_recommendation: "Many home services customers offer discounts and special promotions for active service members and veterans."
-  day: Monday
-  date: June 14
-  vertical: Home Services
-
-- name: International Sushi Day
-  description: ""
-  emoji: 🍣
-  day: Friday
-  date: June 18
-  vertical: General
-
 - name: National HVAC Tech Day
   description: "Founded in 2016 by HVAC company ARS/Rescue Rooter, this day is to show appreciation for all HVAC technicians in the industry. #HVACTech"
   emoji: 💨
@@ -224,15 +275,6 @@
   date: June
   vertical: Home Services
   subvertical: Gardening Landscaping
-
-- name: National Garden Week
-  description: "National Garden Week takes place the first full week in June every year. Gardens provide fresh fruits and vegetables, beautify neighborhoods and communities and provide social and physical activities throughout the year. #NationalGardenWeek"
-  emoji: 💐
-  posting_recommendation: "When posting about National Garden Week, consider the hard work many people put into their gardens last year and how they can continue the upkeep this season. Consumers may celebrate with an update to their home's landscaping or much-needed maintenance."
-  day: June 1-7
-  vertical: Home Services
-  subvertical: Gardening Landscaping
-  url: https://www.gardenclub.org/national-garden-week#:~:text=National%20Garden%20Week%3A%20June%206%2D12%2C%202021
 
 - name: Summer heat
   description: "With summer ramping up, so do outside temperatures. Between May and June we see a sizeable increase in average temperature in areas that have typical summers. This means the need for potential emergency repairs, filter changes, and finding ways to keep homes cool without breaking the bank."
