@@ -42,9 +42,9 @@
         var hashtag = $(this).data('hashtag');
         copyToClipboard(hashtag);
         var chloe = this;
-        $(chloe).find('u').addClass('copy-copied').text("copied!");
+        $(chloe).addClass('copy-copied').text("copied!");
         setTimeout(function(){
-          $(chloe).find('u').removeClass('copy-copied').text("copy");
+          $(chloe).removeClass('copy-copied').text("copy");
         }, 2000);
 
         return false;
