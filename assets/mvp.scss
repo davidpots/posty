@@ -498,6 +498,7 @@ html {
           &:hover {
             box-shadow: 0 2px 16px rgba(0,0,0,0.08);
           }
+          overflow-y: hidden;
         }
         .tile-carousel-item--topic .tile-carousel-item--topic--heading {
           font-size: 16px;
@@ -508,6 +509,10 @@ html {
         .tile-carousel-item--topic .tile-carousel-item--topic--description {
           font-size: 14px;
           color: #09757A;
+          text-overflow: ellipsis;
+          a {
+            font-weight: bold; color: inherit;
+          }
         }
 
 

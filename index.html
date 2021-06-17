@@ -2,14 +2,11 @@
 layout: mvp
 permalink: "/"
 ---
-{% assign week19 = site.data.mvpv3 | where: "week","19" %}
-{% assign week20 = site.data.mvpv3 | where: "week","20" %}
-{% assign week21 = site.data.mvpv3 | where: "week","21" %}
-{% assign week22 = site.data.mvpv3 | where: "week","22" %}
-{% assign week23 = site.data.mvpv3 | where: "week","23" %}
-{% assign week24 = site.data.mvpv3 | where: "week","24" %}
-{% assign week25 = site.data.mvpv3 | where: "week","25" %}
-{% assign week26 = site.data.mvpv3 | where: "week","26" %}
+
+{% assign week24 = site.data.dates | where: "week","24" %}
+{% assign week25 = site.data.dates | where: "week","25" %}
+{% assign week26 = site.data.dates | where: "week","26" %}
+{% assign week27 = site.data.dates | where: "week","27" %}
 
 <h1>Content Depot</h1>
 <p class="subhead">A list of upcoming holidays, topics, and prompts to help inspire your social posts.</p>
@@ -39,8 +36,8 @@ permalink: "/"
     <article>
       <div class="secondary date_range">
         <div class="date-ribbon">
-          <h3>This Week</h3>
-          <h4>May 16–22</h4>
+          <h3>Next Week</h3>
+          <h4>Jun 20–26</h4>
         </div>
       </div>
       <div class="primary tile-wrapper">
@@ -52,20 +49,15 @@ permalink: "/"
             <span class="tile--carousel-prev"></span><span class="tile--carousel-next"></span>
           </div>
           <div class="tile--carousel-wrapper">
-            <!-- loop -->
+            <!-- Start: topic loop -->
+            {% assign topics_general = site.data.topics | where: "vertical", "General" %}
+            {% for topic in topics_general %}
             <div class="tile-carousel-item tile-carousel-item--topic">
-              <div class="tile-carousel-item--topic--heading">Summertime Sadness</div>
-              <div class="tile-carousel-item--topic--description">This is the season to play the Lana Del Rey song on repeat, and wonder what she's singing about in that particular song.</div>
+              <div class="tile-carousel-item--topic--heading">{{topic.name}}</div>
+              <div class="tile-carousel-item--topic--description">{{topic.description}} {% if topic.url %}<a href="{{topic.url}}">Learn more &raquo;</a>{% endif %}</div>
             </div>
-            <div class="tile-carousel-item tile-carousel-item--topic">
-              <div class="tile-carousel-item--topic--heading">Summertime Sadness</div>
-              <div class="tile-carousel-item--topic--description">This is the season to play the Lana Del Rey song on repeat, and wonder what she's singing about in that particular song.</div>
-            </div>
-            <div class="tile-carousel-item tile-carousel-item--topic">
-              <div class="tile-carousel-item--topic--heading">Summertime Sadness</div>
-              <div class="tile-carousel-item--topic--description">This is the season to play the Lana Del Rey song on repeat, and wonder what she's singing about in that particular song.</div>
-            </div>
-            <!-- END loop -->
+            {% endfor %}
+            <!-- End: topic loop -->
           </div>
         </div>
 
@@ -77,21 +69,26 @@ permalink: "/"
             <span class="tile--carousel-prev"></span><span class="tile--carousel-next"></span>
           </div>
           <div class="tile--carousel-wrapper">
+
+
+            <!-- Start: hashtag loop -->
+            {% assign hashtags_general = site.data.hashtags | where: "vertical", "General" %}
+            {% for hashtag in hashtags_general %}
             <div class="tile-carousel-item tile-carousel-item--topic">
-              <div class="tile-carousel-item--topic--heading">#FirstDayOfSummer <a data-hashtag="#FirstDayOfSummer" class="copy-button copy-hashtag tile--hashtag-copy" href="#">copy</a></div>
-              <div class="tile-carousel-item--topic--description">June 21 marks the official first day of summer.</div>
+              <div class="tile-carousel-item--topic--heading">#{{hashtag.name}} <a data-hashtag="#{{hashtag.name}}" class="copy-button copy-hashtag tile--hashtag-copy" href="#">copy</a></div>
+              <div class="tile-carousel-item--topic--description">{{hashtag.description}}</div>
             </div>
-            <div class="tile-carousel-item tile-carousel-item--topic">
-              <div class="tile-carousel-item--topic--heading">#EndAlzheimers <a data-hashtag="#EndAlzheimers" class="copy-button copy-hashtag tile--hashtag-copy" href="#">copy</a></div>
-              <div class="tile-carousel-item--topic--description">June is Alzheimer's and Brain Awareness Month. Worldwide, 50 million people are living with Alzheimer's and other dementias. In June, the Alzheimer's Association raises awareness through the color purple and sharing stories.</div>
-            </div>
+            {% endfor %}
+            <!-- End: hashtag loop -->
+
+
           </div>
         </div>
 
 
         <div class="tile-minivan">
           <h3 class="tile-minivan--heading">Dates of Interest</h3>
-          {% for date in week20 %}
+          {% for date in week24 %}
           <div class="tile">
             <div class="tile--icon"><img src="/assets/images/emojis/{{date.icon}}.png" /></div>
             <div class="tile--body">
@@ -123,15 +120,15 @@ permalink: "/"
     <article>
       <div class="secondary date_range">
         <div class="date-ribbon">
-          <h3>Next Week</h3>
-          <h4>May 23–29</h4>
+          <h4>Week of</h4>
+          <h3>Jun 27 - Jul 3</h3>
         </div>
       </div>
       <div class="primary tile-wrapper">
 
         <div class="tile-minivan">
           <h3 class="tile-minivan--heading">Dates of Interest</h3>
-        {% for date in week21 %}
+        {% for date in week25 %}
         <div class="tile">
           <div class="tile--icon"><img src="/assets/images/emojis/{{date.icon}}.png" /></div>
           <div class="tile--body">
@@ -164,14 +161,14 @@ permalink: "/"
       <div class="secondary date_range">
         <div class="date-ribbon">
           <h4>Week of</h4>
-          <h3>May 30</h3>
+          <h3>Jul 4 - 10</h3>
         </div>
       </div>
       <div class="primary tile-wrapper">
 
         <div class="tile-minivan">
           <h3 class="tile-minivan--heading">Dates of Interest</h3>
-        {% for date in week22 %}
+        {% for date in week26 %}
         <div class="tile">
           <div class="tile--icon"><img src="/assets/images/emojis/{{date.icon}}.png" /></div>
           <div class="tile--body">
@@ -204,13 +201,13 @@ permalink: "/"
       <div class="secondary date_range">
         <div class="date-ribbon">
           <h4>Week of</h4>
-          <h3>June 6</h3>
+          <h3>Jun 17-23</h3>
         </div>
       </div>
       <div class="primary tile-wrapper">
         <div class="tile-minivan">
           <h3 class="tile-minivan--heading">Dates of Interest</h3>
-        {% for date in week23 %}
+        {% for date in week27 %}
         <div class="tile">
           <div class="tile--icon"><img src="/assets/images/emojis/{{date.icon}}.png" /></div>
           <div class="tile--body">
