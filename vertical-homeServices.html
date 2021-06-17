@@ -1,6 +1,6 @@
 ---
 layout: mvp
-permalink: "/verticals/professional-services"
+permalink: "/verticals/home-services"
 ---
 
 <h1>Content Depot</h1>
@@ -48,7 +48,7 @@ permalink: "/verticals/professional-services"
           </div>
           <div class="tile--carousel-wrapper">
             <!-- Start: topic loop -->
-            {% assign topics_general = site.data.topics | where: "vertical", "Professional Services" %}
+            {% assign topics_general = site.data.topics | where: "vertical", "Home Services" %}
             {% for topic in topics_general %}
             <div class="tile-carousel-item tile-carousel-item--topic">
               <div class="tile-carousel-item--topic--heading">{{topic.name}}</div>
@@ -70,7 +70,7 @@ permalink: "/verticals/professional-services"
 
 
             <!-- Start: hashtag loop -->
-            {% assign hashtags_general = site.data.hashtags | where: "vertical", "Professional Services" %}
+            {% assign hashtags_general = site.data.hashtags | where: "vertical", "Home Services" %}
             {% for hashtag in hashtags_general %}
             <div class="tile-carousel-item tile-carousel-item--topic">
               <div class="tile-carousel-item--topic--heading">#{{hashtag.name}} <a data-hashtag="#{{hashtag.name}}" class="copy-button copy-hashtag tile--hashtag-copy" href="#">copy</a></div>
@@ -88,7 +88,7 @@ permalink: "/verticals/professional-services"
           <h3 class="tile-minivan--heading">Common Words & Phrases</h3>
 
             <!-- Start: hashtag loop -->
-            {% assign phrases = site.data.phrases | where: "vertical", "Professional Services" %}
+            {% assign phrases = site.data.phrases | where: "vertical", "Home Services" %}
             {% for phrase in phrases %}
 
               <div class="tile">

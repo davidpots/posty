@@ -200,6 +200,16 @@ html {
   .tile .tile--body {
     padding-left: 48px;
   }
+  .tile .tile--phrase.tile--body {
+    padding-left: 8px;
+  }
+  .tile .tile--phrase.tile--body .tile--title {
+    margin: 6px 0;
+  }
+  .tile .tile--phrase.tile--body .tile--details {
+    top: 14px;
+  }
+
 
 
 
@@ -1170,4 +1180,62 @@ html {
     }
     .tile-body .tile-item .tile-item--link a {
       color: #FFC83A;
+    }
+
+// Verticals page layout
+
+.verticals-wrapper {
+
+}
+.verticals-sidebar {
+  width: 270px;
+  min-height: 100px;
+  margin-right: 24px;
+  margin-top: 30px;
+  float: left;
+}
+.verticals-main-content {
+  width: 600px;
+  float: left;
+}
+
+// vertical sidebar
+
+.verticals-sidebar ul {
+      margin: 0;
+      padding: 0;
+      list-style: none;
+    }
+    .verticals-sidebar ul li { }
+    .verticals-sidebar ul li > a {
+
+      display: block;
+      color: #09757A;
+      text-decoration: none;
+      padding: 3px 5px;
+      border-radius: 3px;
+      font-weight: 600;
+
+      margin-top: 1px;
+      margin-bottom: 2px;
+      &:hover {
+        text-decoration: underline;
+        // color: $color-accent;
+      }
+    }
+    .verticals-sidebar ul li li > a {
+      font-weight: 400;
+      font-size: 14px;
+      margin-left: 12px;
+      margin-top: 1px;
+      margin-bottom: 2px;
+      &:hover {
+
+      }
+    }
+    .verticals-sidebar a.active,
+    .verticals-sidebar a.active:hover {
+      background: #D8EFEF;
+      color: #09757A;
+      border-radius: 4px;
     }

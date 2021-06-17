@@ -1,6 +1,7 @@
 ---
 layout: mvp
-permalink: "/verticals/professional-services"
+permalink: "/verticals/home-services/gardening-landscaping"
+subvertical: Gardening Landscaping
 ---
 
 <h1>Content Depot</h1>
@@ -48,13 +49,23 @@ permalink: "/verticals/professional-services"
           </div>
           <div class="tile--carousel-wrapper">
             <!-- Start: topic loop -->
-            {% assign topics_general = site.data.topics | where: "vertical", "Professional Services" %}
-            {% for topic in topics_general %}
-            <div class="tile-carousel-item tile-carousel-item--topic">
-              <div class="tile-carousel-item--topic--heading">{{topic.name}}</div>
-              <div class="tile-carousel-item--topic--description">{{topic.description}} {% if topic.url %}<a href="{{topic.url}}">Learn more &raquo;</a>{% endif %}</div>
-            </div>
+            {% assign noMatches = true %}
+            {% for topic in site.data.topics %}
+              {% assign tsubvs = topic | split: "," %}
+              {% for subv in tsubvs %}
+                {% if subv contains page.subvertical %}
+                  {% assign noMatches = false %}
+                  <div class="tile-carousel-item tile-carousel-item--topic">
+                    <div class="tile-carousel-item--topic--heading">{{topic.name}}</div>
+                    <div class="tile-carousel-item--topic--description">{{topic.description}} {% if topic.url %}<a href="{{topic.url}}">Learn more &raquo;</a>{% endif %}</div>
+                  </div>
+                {% endif %}
+              {% endfor %}
             {% endfor %}
+
+            {% if noMatches == true %}
+              <p style="font-size: 14px; margin-left: 21px">No matches found for "{{page.subvertical}}"</p>
+            {% endif %}
             <!-- End: topic loop -->
           </div>
         </div>
@@ -70,13 +81,25 @@ permalink: "/verticals/professional-services"
 
 
             <!-- Start: hashtag loop -->
-            {% assign hashtags_general = site.data.hashtags | where: "vertical", "Professional Services" %}
-            {% for hashtag in hashtags_general %}
-            <div class="tile-carousel-item tile-carousel-item--topic">
-              <div class="tile-carousel-item--topic--heading">#{{hashtag.name}} <a data-hashtag="#{{hashtag.name}}" class="copy-button copy-hashtag tile--hashtag-copy" href="#">copy</a></div>
-              <div class="tile-carousel-item--topic--description">{{hashtag.description}}</div>
-            </div>
+            {% assign noMatches = true %}
+            {% for hashtag in site.data.hashtags %}
+              {% assign hsubvs = hashtag | split: "," %}
+              {% for subv in hsubvs %}
+                {% if subv contains page.subvertical %}
+                  {% assign noMatches = false %}
+
+                  <div class="tile-carousel-item tile-carousel-item--topic">
+                    <div class="tile-carousel-item--topic--heading">#{{hashtag.name}} <a data-hashtag="#{{hashtag.name}}" class="copy-button copy-hashtag tile--hashtag-copy" href="#">copy</a></div>
+                    <div class="tile-carousel-item--topic--description">{{hashtag.description}}</div>
+                  </div>
+
+                {% endif %}
+              {% endfor %}
             {% endfor %}
+
+            {% if noMatches == true %}
+              <p style="font-size: 14px; margin-left: 21px">No matches found for "{{page.subvertical}}"</p>
+            {% endif %}
             <!-- End: hashtag loop -->
 
 
@@ -87,21 +110,30 @@ permalink: "/verticals/professional-services"
         <div class="tile-minivan">
           <h3 class="tile-minivan--heading">Common Words & Phrases</h3>
 
-            <!-- Start: hashtag loop -->
-            {% assign phrases = site.data.phrases | where: "vertical", "Professional Services" %}
-            {% for phrase in phrases %}
+            {% assign noMatches = true %}
+            {% for phrase in site.data.phrases %}
+              {% assign psubvs = phrase | split: "," %}
+              {% for subv in psubvs %}
+                {% if subv contains page.subvertical %}
+                  {% assign noMatches = false %}
 
-              <div class="tile">
-                <div class="tile--phrase tile--body">
-                  <p class="tile--details"><a href="">Details</a></p>
-                  <h3 class="tile--title">{{phrase.name}}</h3>
-                  <div class="tile--expandedContent">
-                    <p class="tile--description">{{phrase.description}}</p>
+                  <div class="tile">
+                    <div class="tile--phrase tile--body">
+                      <p class="tile--details"><a href="">Details</a></p>
+                      <h3 class="tile--title">{{phrase.name}}</h3>
+                      <div class="tile--expandedContent">
+                        <p class="tile--description">{{phrase.description}}</p>
+                      </div>
+                    </div>
                   </div>
-                </div>
-              </div>
 
+                {% endif %}
+              {% endfor %}
             {% endfor %}
+
+            {% if noMatches == true %}
+              <p style="font-size: 14px;">No matches found for "{{page.subvertical}}"</p>
+            {% endif %}
 
         </div>
       </div>
