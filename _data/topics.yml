@@ -83,36 +83,6 @@
   emoji: 🎆
   vertical: General
 
-
-
-- name: National Selfie Day
-  description: "Grab your phone or camera, National Selfie Day is just what it sounds like!"
-  emoji: 📸
-  posting_recommendation: "Use this day to encourage past happy clients to post a real-estate related selfie. You can ask them to share a shot of them using their favorite room/feature of the house they currently live in (kitchens, outdoors, etc). This would be a great one to highlight if it's about time for some audience-participation content."
-  day: June 21
-  vertical: Professional Services
-
-- name: National Selfie Day
-  description: "Grab your phone or camera, National Selfie Day is just what it sounds like!"
-  emoji: "📸"
-  posting_recommendation: "Ask followers to snap a selfie at the business, restaurant, or even with their pet. Be sure to tailor the engagement question to be relevant to the customer's products or services."
-  day: June 21
-  vertical: General
-
-- name: Summer Solstice
-  description: "June 21 is the longest day of the year."
-  emoji: "🌞"
-  posting_recommendation: "This is another opportunity to encourage some interaction and audience engagement. Ask your audience how they plan to make the best of those extra few hours of sunshine!"
-  day: June 21
-  vertical: Professional Services
-
-- name: Summer Solstice
-  description: "June 21 is the longest day of the year."
-  emoji: "🌞"
-  posting_recommendation: "This is an opportunity to encourage interaction and audience engagement. Ask your audience how they plan to make the best of those extra few hours of sunshine, promote dining on the patio, or give tips on how to use those extra few minutes of sunshine."
-  day: June 21
-  vertical: General
-
 - name: Above Asking Price
   description: "The asking price for a home is the amount of money that the seller wishes to receive for their property. Due to lower inventory and higher demand, nearly every home sold during the pandemic went into a multiple-offer situation. Thus, a majority of recent buyers have had to pay over the asking price for their new home purchases. This particularly impacted first-time home buyers and millenials, who tended to have lower budgets."
   emoji: "💰"
@@ -147,14 +117,6 @@
   vertical: Professional Services
   url: realtor.com/videos/video-these-landscaping-trends-will-be-hot-this-summer/8302c422-ed18-480f-b791-1712b60cc4c1/
 
-
-
-- name: Summer vacation
-  description: "School's out - wheeee! Families will be spending more time together -- maybe travelling, or maybe entertaining each other at home. This would be a great chance to highlight local attractions in your clients' communities (for fun day trips), or post family-friendly craft ideas or recipes."
-  emoji: ⛱
-  posting_recommendation: "Highlight the areas your clients sell/buy houses in by calling attention to local things or places people can do/visit with their families."
-  vertical: Professional Services
-
 - name: Summer housing market update
   description: "July is typically the last big push for sellers before the slower season starts in August. Due to the lower inventory and higher prices of homes this year, we may not see as big of a dip as previous years."
   emoji: 🏠
@@ -168,30 +130,6 @@
   posting_recommendation: "If posting about the Tour de France, be sure to make a clear connection to your customer. Does your Realtor work in or near a community that values the outdoors or outdoor activities? Maybe there's even tourism drawn to the area for that exact reason.  The Tour de France allows a fun, tongue-in-cheek way to highlight local bike routes, bike shops, or bike repair businesses."
   day: June 26 - July 18
   vertical: General
-
-- name: Pride Month
-  description: "Pride Month is celebrated every June in tribute to those involved in the Stonewall Riots and is a month-long celebration of lesbian, gay, bisexual, transgender, queer, intersex, non-binary, and questioning people to promote self-affirmation, dignity, community, and equality rights. Over time, several other queer identities have come to light and been embraced under the wider acronym of the LGBTQIA+ umbrella, and intersectional discussions of Pride that acknowledge queer identities regarding gender, race, disability, and more have been especially encouraged. Pride Month is celebrated in different cities with parades, festivals, and other events. With COVID-19 still being a worldwide concern, it's likely that many parades and events will be altered, cancelled, or held online.  See posting recommendations for guidelines. "
-  emoji: 🏳️‍🌈
-  posting_recommendation: "Only post celebratory Pride Month content if requested or if your customer has a clear focus/identity as a queer business. Since Pride Month can potentially be considered a political statement or stance on a social issue, be cautious with what and how you post. Additionally, we don't want to suggest Pride Month events may be happening at a business if COVID-19 is preventing them from fruition. See link for full guidelines."
-  day: Entire Month
-  date: June
-  vertical: General
-  url: https://msh-success.atlassian.net/wiki/spaces/KnowledgeBase/pages/2186543188/Pride+Month+2021
-
-
-- name: National HVAC Tech Day
-  description: "Founded in 2016 by HVAC company ARS/Rescue Rooter, this day is to show appreciation for all HVAC technicians in the industry. #HVACTech"
-  emoji: 💨
-  day: Tuesday
-  date: June 22
-  vertical: Home Services
-  subvertical: HVAC
-
-- name: Tornado season
-  description: "Though tornadoes can form at any time of year in some places, May and June are typically the peak months. Texas and Oklahoma are two of the states with the highest number of tornadoes per year."
-  emoji: 🌪
-  posting_recommendation: "Tornadoes and other severe weather can cause a wide range of potential issues for homes and businesses.  Do any of your customers offer emergency repair services?"
-  vertical: Home Services
 
 - name: 3D Printed Homes
   description: "3D printed homes are gaining popularity as they become more easily available in cities across the country. They can typically be built quickly and at a lower price than a traditional home. "
@@ -266,24 +204,6 @@
   posting_recommendation: "If curbside pick-up is offered by any of your customers, be sure to promote that aspect of the business as a CTA in your content."
   vertical: General
 
-
-- name: National Rose Month
-  description: "June is National Rose Month. With over 150 different species throughout North America, roses are in peak bloom in June. They are a hardy plant that can be added to any landscape. #NationalRoseMonth"
-  emoji: 🌹
-  posting_recommendation: "Landscaping really kicks it up a notch as gardens come in full bloom. Consider educating followers on the care and keeping of different varieties of roses."
-  day: Entire Month
-  date: June
-  vertical: Home Services
-  subvertical: Gardening Landscaping
-
-- name: Summer heat
-  description: "With summer ramping up, so do outside temperatures. Between May and June we see a sizeable increase in average temperature in areas that have typical summers. This means the need for potential emergency repairs, filter changes, and finding ways to keep homes cool without breaking the bank."
-  emoji: 🥵
-  day: Entire Month
-  date: June
-  vertical: Home Services
-  subvertical: HVAC
-
 - name: Custom-built homes
   description: "With real estate prices in many areas going up, some people are considering custom-built homes. For many, the long-term cost savings of buying a new home are more attractive than maintaining an older home."
   emoji: 🗜
@@ -303,14 +223,6 @@
   posting_recommendation: "Most roofing or handyman companies can safely and effectively clear gutters prior to unpredictable weather."
   vertical: Home Services
   subvertical: Roofing
-
-- name: Roadtrip Season
-  description: "End of May through June marks the beginning of roadtrip season. Auto businesses lean into vacation specials, oil changes, tire specials, rental vehicles, and more. RV and Camper sales were up a drastic amount in 2020 — while we may not see new purchases as high as last year, we're bound to see camper makeovers and a need to make traveling and working on the road easier for the whole family. #CamperRenovation #CamperLife #RoadTrippin"
-  emoji: 🛣
-  day: May–June
-  posting_recommendation: "Lean into prepping the family vehicle for long car rides. Ideas for entertaining littles in the car, car-approved snacks, and tips for roadside emergencies work great during this season. When posting for RV or Camper customers, consider small space hacks or tips for bringing work on the road. Showcasing local spots to visit for a long weekends help followers plan obtainable vacations without any huge commitments."
-  vertical: General
-
 
 - name: Housing Market
   description: "The spring & summer months are typically the busiest time of the year for real estate professional. Homeowners looking to sell may be finishing up renovations or looking for agents to get their houses on the market. Scoping out rental properties is common during this time of year, too. People use these months as an opportunity to check out new neighborhoods and parks, too -- the warmer weather makes strolls, walks, and other realty recon more enjoyable."
@@ -345,12 +257,6 @@
   vertical: Home Services
   subvertical: Pest Control
 
-- name: Booming Housing Market
-  description: "Spring is typically the best time to prep for the busy real estate market ahead (March - June). A few things folks do to prepare: renovate the backyard, tackle spring cleaning and decluttering (the first step to staging a home), explore areas for potential rental properties."
-  emoji: 📈
-  day: Entire Month
-  date: May – June
-  vertical: Professional Services
 
 - name: Remodeling Tip
   description: "Remodeling a home isn't for the faint of heart. It's recommended to budget a 10% cushion into your project if you're living in the home while remodeling and 30% if you plan to live elsewhere to account for delays or mishaps during construction."
@@ -389,19 +295,8 @@ Replacement windows - 89.6%"
   vertical: Professional Services
   url: https://www.hgtv.com/lifestyle/real-estate/top-home-updates-that-pay-off-pictures
 
-- name: Spring Home Maintenance List
-  description: "Just a few things to add to a homeowners to-do list: Test smoke and carbon monoxide detectors, clean out humidifiers, clear out gutters and downspouts, clean garbage disposal, purge closets and drop off clothing donations, clean shower curtain and replace liners, buy indoor plants to freshen the air, wash window frames and wipe down screens, clean grill and propane tank, plant fresh flowers outside, put out your spring decor."
-  emoji: 🧹
-  vertical: Professional Services
-
-- name: Spring housing market
-  description: "Spring is typically the best time to prep for the busy real estate marekt ahead (March - June). A few things folks do to prepare: renovate the backyard, tackle spring cleaning and decluttering (the first step to staging a home), explore areas for potential rental properties."
-  emoji: 🏡
-  day: Seasonal
-  vertical: Professional Services
-
 - name: Backyard Projects
-  description: "Spring is the best time to start backyard projects like pool installations or new landscaping before summer. #backyardreno"
+  description: "Maintaining yards and outdoor spaces during the Summer can be daunting. Many look for inspiration on how to keep their spaces fresh and pest free all season long. #backyardreno"
   emoji: 🌳
   day: Seasonal
   vertical: Professional Services
@@ -434,16 +329,6 @@ Replacement windows - 89.6%"
   posting_recommendation: "This content compliments posts about decluttering and improving the appeal of a home before it goes on the market."
   day: Trending
   vertical: Professional Services
-
-
-- name: Spring Maintenance
-  description: "For many, A/C systems will click on for the first time since last summer. Scheduling routine maintenance can prevent pricey fixes down the road. Tasks often include: testing and cleaning the blower fan, checking the level of coolant in the cooling system, and testing the system’s thermostat and operation."
-  emoji: 🔧
-  posting_recommendation: "Try creating content about tips on signs of A/C trouble or promoting routine maintenance checks."
-  day: Seasonal
-  vertical: Home Services
-  subvertical: HVAC
-  url: https://msh-success.atlassian.net/wiki/spaces/KnowledgeBase/pages/499351835/HVAC+Heating+Ventilation+and+Air+Conditioning#HVAC(Heating,Ventilation,andAirConditioning)-TypicalServicesProvided
 
 
 - name: Summer Prep
@@ -523,14 +408,6 @@ Replacement windows - 89.6%"
   subvertical: Gardening Landscaping
   url: https://msh-success.atlassian.net/wiki/spaces/KnowledgeBase/pages/499287083/Outdoor+Lighting
 
-- name: Tricky Trees
-  description: "After a season of winter weather and storms, folks begin to realize problem areas in their own backyard. Trees leaning dangerously close to the house, trees that have fallen over the last few months, or tree that need to be trimmed to keep residents safe are all top mind for new and tenured home owners."
-  emoji: 🌴
-  day: Seasonal
-  vertical: Home Services
-  subvertical: Gardening Landscaping
-  url: https://msh-success.atlassian.net/wiki/spaces/KnowledgeBase/pages/499188478/Tree+Care
-
 - name: Home Staging
   description: "Staging a home can drastically improve the rate at which it sells. It's important to keep in mind those carpets that have been walked on for over a decade or the rug under the dining table that doesn't get a deep clean all the time. Carpet cleaning is a great way to remove dust, dirt, build-up, and improve the air quality in a home."
   emoji: 🧹
@@ -607,13 +484,6 @@ Replacement windows - 89.6%"
   vertical: Home Services
   subvertical: Carpentry
 
-- name: Spring Housing Market
-  description: "Spring is typically the best time to prep for the busy real estate marekt ahead (March - June). A few things folks do to prepare: renovate the backyard, tackle spring cleaning and decluttering (the first step to staging a home), explore areas for potential rental properties."
-  emoji: 🏡
-  day: Entire Month
-  date: May
-  vertical: General
-
 - name: Backyard Projects
   description: "Maintaining yards and outdoor spaces during the Summer can be daunting. Many look for inspiration on how to keep their spaces fresh and pest free all season long."
   posting_recommendation: "Springboard ideas to get you started: Dream garden inspo, patio furniture updates, easy pest control, and tool organization."
@@ -626,8 +496,8 @@ Replacement windows - 89.6%"
   description: "Spring is the best time to start backyard projects like pool installations or new landscaping before summer. #backyardreno"
   posting_recommendation: "Springboard ideas to get you started: Dream garden inspo, patio furniture updates, easy pest control, and tool organization."
   emoji: 🌷
-  day: Entire Month
-  date: June
+  day:
+  date:
   vertical: Home Services
   subvertical: Gardening Landscaping
 
@@ -660,14 +530,6 @@ Replacement windows - 89.6%"
   description: "Loungewear may still reign supreme, but people are planning for future events. Weddings, vacations, casual get-togethers are top-of-mind for many."
   emoji: "🎀"
   posting_recommendation: "How can your customer help those planning for their first events post-quarantine? Think eretail or businesses in the wedding industry."
-  day: Trending
-  date:
-  vertical: General
-
-- name: Wedding Season
-  description: "June is typically considered peak wedding season. Couples will be finalizing details and arranging the final touches of their big day. Many potential wedding guests are already thinking about what they'll wear and how they'll travel to venues. The industry is seeing many rescheduled wedding due to Covid-19 and leading to some being downsized or changed before the event."
-  emoji: "👰"
-  posting_recommendation: "A few things to consider this season: The rise in micro weddings (under 50 people), wedding gifts, dress cleaning/tailoring, video venue tours, photography sessions, and catering events/tastings."
   day: Trending
   date:
   vertical: General
@@ -719,14 +581,6 @@ Replacement windows - 89.6%"
   day: Trending
   date:
   vertical: General
-
-- name: End of the School Year
-  description: "The end of the school year symbolically kicks off the summer season for many families in the US. Timing varies across country."
-  emoji: 🏫
-  posting_recommendation: "Prep for summer vacations, summer camps, swimming lessons, and outdoor activities kicks off early-mid may. Businesses tend to lean into start of summer specials and promotions to capitalize on the need for new summer clothing, activities, and travel."
-  day: Trending
-  vertical: General
-
 
 - name: Home offices
   description: "Looks like remote work is a permanent, accessible solution for many! Home offices are going to be a priority for home buyers."

@@ -62,11 +62,6 @@
   description: "This phrase refers to the the number of days from the date when the property is listed on the MLS to to the date when the seller has signed a contract with the buyer for the sale of the property. Typically, this number is lower in the spring than the winter, since homes tend to sell faster in the warmer months."
   vertical: Professional Services
 
-- name: June bugs
-  description: "The term \"June bug\" can refer to a number of different species of beetles. The name is derived from the fact that they typically emerge towards the beginning of summer. They are harmless to people and animals but because they are attracted to light, they can be a big nuisance at night. Many pest control companies offer services related to June bug control."
-  vertical: Home Services
-  subvertical: Pest Control
-
 - name: Sump pump
   description: "A sump pump moves water from the areas surrounding a house's foundation. The main purpose of a sump pump is to pump and send water away from the house, to a place where it can cause less problems — usually a city storm drain. Properly working sump pumps are integral for homes in areas that get a lot of rain or are near sources of water."
   vertical: Home Services
